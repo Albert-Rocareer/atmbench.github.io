@@ -231,4 +231,65 @@ Two deterministic screens, then one pre-registered answer pass.
 
 **Also tried today and not adopted** (list questions, one pre-registered pass each): the relevance map by Qwen3.8 Flash on the adopted list configuration (list recall 79.5 vs 80.2; at the adopted prior depth the reduce input is nine-tenths prior, so the map's cleanliness barely changes it; $0.18 after caching), and the reduce step at medium reasoning effort (77.1 vs 80.2; $1.30). Spend for the whole day's work, adopted and not: $9.75.
 
-**Open-ended questions, screened and not changed (15:38-15:51 UTC).** The same map-only screen on the 514 open-ended questions (adopted pool, ten-item batches): Claude Haiku 5.5 keeps exactly the same gold items as DeepSeek V4.1 Flash (609 of 670 in the pool; every in-pool gold item on 448 questions for both) while keeping more distractors (3.28 vs 2.97 per question), so the pre-registered gate for an answer pass was not met and no open-ended pass was run ($1.96 for the screen). The open-ended answers and judgments in this row are still those of the 2026-10-27 frontier pass. Spend for the day including this screen: $11.71.
+**Open-ended questions, screened and not changed (15:38-15:51 UTC).** The same map-only screen on the 514 open-ended questions (adopted pool, ten-item batches): Claude Haiku 5.5 keeps exactly the same gold items as DeepSeek V4.1 Flash (609 of 670 in the pool; every in-pool gold item on 448 questions for both) while keeping more distractors (3.28 vs 2.97 per question), so the pre-registered gate for an answer pass was not met and no open-ended pass was run ($1.96 for the screen). The open-ended answers and judgments in this row are still those of the 2026-10-24 run (GPT-5.4 mini reduce; see the next section). *(Corrected 2026-11-14: this sentence previously named the 2026-10-27 frontier pass, which was not adopted for any question type.)* Spend for the day including this screen: $11.71.
+
+## Which run each part of the QS 80.69 answer set comes from
+
+The row's answer set was assembled per question type from three runs; nothing else contributes an answer or a judgment.
+Every run used the same sanitized item text (memory cards and visual descriptions of 2026-10-23/24), the frozen
+never-abstain answer prompt, GPT-5.4 mini at reasoning effort minimal for the reduce step, and the top-25 items of its pool.
+
+| question type | questions | source run (UTC) | pool | relevance map | rank prior | post-processing | scored by |
+|---|---|---|---|---|---|---|---|
+| number | 360 | 2026-10-29 15:10-15:40, the pre-registered number pass | Qwen3-Embedding-4B fusion (bge-m3 rerank list weight 1.5) | Claude Haiku 5.5, batches of ten | none | deterministic formatter | official deterministic scorer (`em`) |
+| list_recall | 139 | 2026-10-29 09:07-09:31, run 2 | the same Qwen3-Embedding-4B fusion | DeepSeek V4.1 Flash, all 25 in one call | top-10 added to the reduce input | ids kept only if in the pool | official deterministic scorer (Jaccard) |
+| open_end | 514 | 2026-10-24, finished about 10:07, the sanitized full run | bge-m3 rerank list fused with the rewrite's lexical list (RRF k = 10) | DeepSeek V4.1 Flash, batches of ten | none | none | gpt-5-mini judge, one pass on 2026-10-24 |
+
+The 2026-10-27 frontier pass (GPT-5.4 reduce, QS 78.14) contributes nothing to this set: its open-ended score (78.4)
+differs from the row's (77.8), which is the 2026-10-24 run's.
+
+## Benchmark-tuned: what was selected on which questions
+
+ATM-Bench has no development split, and every choice below was made by looking at results on the same 1,013
+questions the row reports. The 196-question hash subset (`sha1(id) % 1013 < 200`) is part of the reported set.
+Several choices also used the gold evidence ids, through recall against them, map statistics against them or
+gold-evidence ("Oracle") runs. The answer prompts never saw gold ids or answers, but the configuration they sit in
+was selected with them. The row reports the best configuration found after about 18 full-set answer passes (on all
+1,013 questions or on one or two question types), so it overstates what a fresh run of the same pipeline should be
+expected to score.
+
+| component as used in the row | alternatives compared | questions | evidence the choice used | when |
+|---|---|---|---|---|
+| first stage: MediaFind memory search, lexical mode (bge-m3 + BM25) | product rerank mode; date anchoring | full set, hash subset | recall against gold ids | 10-19 |
+| memory cards in the item text | plain captions | full set | recall against gold ids (R@10 80.6 → 85.1); QS | 10-20 |
+| whole-item bge-reranker-v2-m3 over the top-50 | no rerank; in-product rerank; a second rerank of the fused list | full set, hash subset | recall against gold ids; QS 74.38 → 75.12 | 10-20 |
+| visual descriptions in the item text | cards only | full set | QS 75.12 → 77.04 | 10-20 |
+| question rewrite, RRF k = 10 with the reranked list | reranked list alone | full set | recall against gold ids; QS 77.04 → 77.34 | 10-20 |
+| map-reduce over the top-25, DeepSeek V4.1 Flash map in batches of ten, GPT-5.4 mini reduce at minimal effort | other reduce models and efforts, map-only answers | hash subset, full set | QS with two judge passes each; gold-evidence Oracle runs | 10-19, 10-20 |
+| prompt wording | (examples taken from benchmark questions removed on 10-23, see above) | full set | failures read on the full set before sanitization | 10-18 to 10-20 |
+| never-abstain answer prompt (B) | abstaining prompt (A) | hash subset | QS, one judge pass each | 10-24 |
+| GPT-5.4 mini kept as the reduce model | GPT-5.4 frontier pass (78.14, not adopted) | hash subset, full set | gold-evidence Oracle on the subset; QS | 10-26 |
+| no rank prior, pool depth 25, no second opinion, top-100 first stage, 160-word chunks | R1 pool 50 (77.57), R2 prior for all types (78.05), R3 second opinion (78.29), R4 gated switch (78.23), R5 deeper first stage, chunking variants | full set, hash subset | QS; recall against gold ids; map statistics against gold ids | 10-26 to 10-28 |
+| rank prior for list questions only, depth 10 | prior for every type; depths 0-25 | full set (routing rule), hash subset (depth) | per-type QS of the R2 full run; deterministic list scores of the subset's 30 list questions | 10-29 |
+| Qwen3-Embedding-4B ranking fused with the bge-m3 rerank list at weight 1.5 | other embedders; equal weight; weight 2.0 | full set (gate), hash subset (weight) | recall against gold ids | 10-28, 10-29 |
+| one-call relevance map for list questions | batches of ten; a 40-item pool | hash subset, full set | map statistics against gold ids; subset QS; three full passes | 10-29 |
+| deterministic number formatter | none | full set | the official scorer's code, read against the number answers it had marked wrong | 10-29 |
+| Claude Haiku 5.5 map and the Qwen3-Embedding-4B pool for number questions | DeepSeek map; Qwen3.8 Flash map; the old pool | full set | map statistics against gold ids on all 360 number questions; two full number passes (302 not adopted, 306 adopted) | 10-29 |
+| list and open-ended questions left as they were | Qwen3-Reranker-4B, Qwen3.8 Flash map and medium reduce effort for lists; Haiku map for open-ended questions | full set | deterministic list scores; map statistics against gold ids | 10-29 |
+
+Adoption rule used throughout: a change replaced the row only if it beat it by more than 0.3 QS on the full set.
+That rule is itself a selection on the reported questions.
+
+## Status of the QS 80.69 answer files (2026-11-14)
+
+The predicted answers, the gpt-5-mini judge output and the request cache behind the 80.69 set were kept in a local
+cache directory that was deleted on 2026-11-08, together with the rest of that machine's evaluation cache. There is
+no backup, so the exact prediction file cannot be published or hashed, and it will not be reconstructed. What
+survives is published here: the per-question scores and top-25 ids in `docs/mediafind-hosted-llms-atmbench.json`,
+and this note.
+
+The row's numbers are therefore to be replaced by one end-to-end re-run of the configuration above, frozen as
+documented in this note, with no setting changed. The re-run regenerates the LLM-written item text (timeline,
+cards, visual descriptions, rewrites), so it is a fresh sample of the same pipeline rather than a copy of the
+2026-10 run. Its prediction file with SHA-256, the judge output, the evaluator revision and command, and the
+harness will be published with it, and the row will carry its score whether that is higher or lower than 80.69.
