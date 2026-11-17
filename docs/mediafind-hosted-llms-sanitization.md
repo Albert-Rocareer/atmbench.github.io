@@ -5,6 +5,11 @@ Every fact a prompt states about the person must be traceable to the memory corp
 location metadata), and the answer-prompt variant must be chosen on a fixed hash subset before the full run.
 The unsanitized files are kept beside the pipeline as `*.unsanitized.py` for diffing.
 
+**Row status (2026-11-17).** The row shows QS 77.85 / R@10 90.51, from one end-to-end re-run of the frozen
+configuration, judged once; its files are published (last section). The sections in between record how that
+configuration was chosen. The QS 80.69 they end with belonged to the answer set assembled during selection, whose
+files were lost.
+
 ## Changes, file by file
 
 **`trips_extract.py` (email → trip/event timeline)**
@@ -293,3 +298,57 @@ documented in this note, with no setting changed. The re-run regenerates the LLM
 cards, visual descriptions, rewrites), so it is a fresh sample of the same pipeline rather than a copy of the
 2026-10 run. Its prediction file with SHA-256, the judge output, the evaluator revision and command, and the
 harness will be published with it, and the row will carry its score whether that is higher or lower than 80.69.
+
+## The frozen re-run (2026-11-15 to 2026-11-17): QS 77.85
+
+One end-to-end run of the configuration in the table above, with no setting changed, under conditions written down
+before it started (one run; repeats only for a missing or incomplete stage; one judge pass; the score reported either
+way). It regenerated everything an LLM writes: the trip timeline, the memory cards, the visual descriptions, the
+three rewrite sets and the answers.
+
+| answer set | QS | number | list_recall | open_end | R@1 | R@5 | R@10 | R@25 |
+|---|---|---|---|---|---|---|---|---|
+| frozen re-run (judged 2026-11-17, 06:56-07:13 UTC) | **77.85** | 83.06 | 75.29 | 74.90 | 53.74 | 85.19 | 90.51 | 94.69 |
+| answer set assembled during selection (2026-10-29) | 80.69 | 85.00 | 80.15 | 77.82 | 55.96 | 85.23 | 90.73 | 94.84 |
+
+1,013 predictions, 0 empty, 0 answer failures, 0 judge failures; the 514 open-ended judgments were all new and none was
+retried. Per-type figures are the official evaluator's `atm` summary; retrieval is measured on the ranking each type's
+answers were drawn from.
+
+**Files.**
+- `docs/mediafind-hosted-llms/predictions.jsonl`: the judged prediction file, byte for byte, SHA-256
+  `5a88d4ea3283cac116b2243e484a956ea9cc7b1240ade149619d71d86a053a32`.
+- `docs/mediafind-hosted-llms/judge/`: the evaluator's output directory as written (every open-ended judgment with the
+  judge's explanation and raw response, and the deterministic scores); `docs/mediafind-hosted-llms/SHA256SUMS` hashes
+  each file.
+- `docs/mediafind-hosted-llms-atmbench.json`: regenerated from that output and the re-run's ranking.
+- Harness: [neurallab-dev/atmbench-mediafind at tag `rerun-2026-11-17`](https://github.com/neurallab-dev/atmbench-mediafind/tree/rerun-2026-11-17):
+  the driver `harness/rerun_frozen.sh`, the pre-registration `REGISTRATION.md`, how the harness was rebuilt from the
+  October logs (`RECONSTRUCTION.md`), and the run record with its logs (`rerun-2026-11-17/RERUN.md`). The release of the
+  same name holds every ranking, the three rewrite sets, the regenerated item text and the per-type answer files.
+
+**Pins.** Dataset `Jingbiao/ATM-Bench` at `78e826dc07e97466b2f54443831ef9a83ab8b27c` (question file SHA-256
+`ab6eaa9df62fb4162e0f5eecd98768a7e3ae721e32d2db2cf227ff41e3295762`; the judge read a byte-identical copy). Evaluator
+`JingbiaoMei/ATM-Bench` at `ef4e5dff1a47ec71213a06e359f02753defa8fb1`, run as
+`python memqa/utils/evaluator/evaluate_qa.py --ground-truth atm/atm-bench.json --predictions ans/mediafind-hosted-llms-rerun.jsonl --output-dir ans/mediafind-hosted-llms-rerun.eval --metrics em atm --judge-provider openai --judge-model openai/gpt-5-mini --judge-reasoning-effort minimal --max-workers 6`
+with `OPENAI_BASE_URL=https://openrouter.ai/api/v1` (`harness/judge.sh`); that prediction file is `predictions.jsonl`
+here and that output directory is `judge/`. First-stage ranking: MediaFind `6c783997` (bge-m3 stages) and
+`bfacc365` (Qwen3-Embedding-4B stages); that repository is private, so its rankings are published instead.
+
+**What was repeated, and why.** On 2026-11-15 the OpenRouter account ran out of credits during the GPT-5.4 rewrite set:
+366 of 1,013 rewrites failed and fell back to the original question. The Qwen3-Embedding-4B ranking of that set and
+the two answer pools built on it then ran on the incomplete set, and the three answer stages ran with nearly every call
+failing, before the driver stopped. None of those outputs was judged or used. The driver's balance check had
+read the API key's spending limit instead of the account's credits; it was fixed, and it now also aborts on any failed
+rewrite. On 2026-11-17 the missing 366 rewrites were requested and every later stage ran again; calls that had
+succeeded on 2026-11-15 (647 rewrites, 17 open-ended relevance-map calls) came from the request cache, and a failed
+call is never cached. Cost: $16.59 on OpenRouter.
+
+**Reading the gap.** Retrieval reproduces within 0.3 points at R@5, R@10 and R@25 although the item text was written
+afresh (R@1 is 2.2 lower), so the 2.84-point gap is in answering. The number setting was adopted because its pass
+scored 306 of 360 (302 on the earlier pool); this run scored 299. The list setting was adopted after full passes of
+77.3, 80.2 and 76.7, as the 80.2 one; this run scored 75.3. The open-ended answers came from a run judged 77.8, and
+three other full open-ended passes on nearby settings were judged 76.1, 74.9 and 77.0; this run was judged 74.9, the
+bottom of that range. A fresh draw of a setting adopted for its high score is expected to land lower, and one run
+cannot separate that from ordinary generation and judge variance; no second run was made, so there is no choice
+between draws. The row carries 77.85.
