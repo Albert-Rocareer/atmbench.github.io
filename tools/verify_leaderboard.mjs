@@ -103,6 +103,25 @@ function validateDeliveryStats(name, split) {
   close(split.delivered_k_mean, mean, `${name}: delivered_k_mean`, 0.005);
 }
 
+function validateJudgeUsage(name, block) {
+  if (!block.judge_usage_log) return;
+  const logPath = path.join(root, block.judge_usage_log);
+  assert(existsSync(logPath), `${name}: judge usage log missing`);
+  let prompt = 0, cached = 0, completion = 0;
+  for (const line of readFileSync(logPath, 'utf8').split('\n')) {
+    if (!line.trim()) continue;
+    const usage = JSON.parse(line).usage;
+    prompt += usage.prompt_tokens;
+    cached += usage.prompt_tokens_details.cached_tokens;
+    completion += usage.completion_tokens;
+  }
+  close(block.judge_input_tokens, prompt, `${name}: judge input tokens`);
+  close(block.judge_cached_input_tokens, cached, `${name}: judge cached input tokens`);
+  close(block.judge_output_tokens, completion, `${name}: judge output tokens`);
+  close(block.judge_total_tokens, prompt + completion, `${name}: judge total tokens`);
+  close(block.judge_cost_usd, (cached * 0.025 + (prompt - cached) * 0.25 + completion * 2.00) / 1e6, `${name}: judge cost usd`, 5e-7);
+}
+
 const mainMemexa = row(main, 'Memexa v2');
 const hardMemexa = row(hard, 'Memexa v2');
 const recall = row(main, 'RE-call');
@@ -153,6 +172,8 @@ validateSplit('Rolling-Memory Main evidence', rmSummary.splits?.main, 1013);
 validateSplit('Rolling-Memory Hard evidence', rmSummary.splits?.hard, 31);
 validateDeliveryStats('Rolling-Memory Main evidence', rmSummary.splits.main);
 validateDeliveryStats('Rolling-Memory Hard evidence', rmSummary.splits.hard);
+validateJudgeUsage('Rolling-Memory Main evidence', rmSummary.protocol.main_token_usage);
+validateJudgeUsage('Rolling-Memory Hard evidence', rmSummary.protocol.hard_token_usage);
 close(rmSummary.splits.main.qs_percent, 72.79584022427062, 'Rolling-Memory Main QS');
 close(rmSummary.splits.hard.qs_percent, 29.209587060630703, 'Rolling-Memory Hard QS');
 
@@ -166,6 +187,8 @@ validateSplit('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits?.main, 1
 validateSplit('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits?.hard, 31);
 validateDeliveryStats('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits.main);
 validateDeliveryStats('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits.hard);
+validateJudgeUsage('Rolling-Memory Qwen Main evidence', rmQwenSummary.protocol.main_token_usage);
+validateJudgeUsage('Rolling-Memory Qwen Hard evidence', rmQwenSummary.protocol.hard_token_usage);
 close(rmQwenSummary.splits.main.qs_percent, 58.35299120096751, 'Rolling-Memory Qwen Main QS');
 close(rmQwenSummary.splits.hard.qs_percent, 19.854070660522275, 'Rolling-Memory Qwen Hard QS');
 
