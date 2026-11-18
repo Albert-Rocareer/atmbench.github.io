@@ -6,12 +6,16 @@ on:
       - 'leaderboard.html'
       - 'static/js/atm_hard_rows.js'
       - 'docs/memexa-v2-rejudge.json'
+      - 'docs/rolling-memory-zhao.json'
+      - 'docs/rolling-memory-zhao-qwen3vl8b.json'
       - 'tools/verify_leaderboard.mjs'
   pull_request:
     paths:
       - 'leaderboard.html'
       - 'static/js/atm_hard_rows.js'
       - 'docs/memexa-v2-rejudge.json'
+      - 'docs/rolling-memory-zhao.json'
+      - 'docs/rolling-memory-zhao-qwen3vl8b.json'
       - 'tools/verify_leaderboard.mjs'
 
 jobs:
