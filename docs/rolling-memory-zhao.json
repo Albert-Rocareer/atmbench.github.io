@@ -51,6 +51,13 @@
       "cost_usd_uncached_list": 2.663928,
       "cost_usd_with_cache": 0.612479,
       "judge_calls": 514,
+      "judge_usage_log": "docs/rolling-memory/zhao/judge-requests-main-1013.jsonl",
+      "judge_input_tokens": 270197,
+      "judge_cached_input_tokens": 0,
+      "judge_output_tokens": 31462,
+      "judge_total_tokens": 301659,
+      "judge_cost_usd": 0.130473,
+      "judge_usage_note": "Measured in a dedicated instrumented pass over the identical frozen judge inputs (prompts rebuilt from the published verdict fields; every input fingerprint verified to match). The published verdicts and QS are the submission run's.",
       "request_log": "docs/rolling-memory/zhao/requests-main-1013.jsonl"
     },
     "hard_token_usage": {
@@ -66,6 +73,13 @@
       "cost_usd_uncached_list": 0.158994,
       "cost_usd_with_cache": 0.046646,
       "judge_calls": 13,
+      "judge_usage_log": "docs/rolling-memory/zhao/judge-requests-hard-31.jsonl",
+      "judge_input_tokens": 7753,
+      "judge_cached_input_tokens": 0,
+      "judge_output_tokens": 922,
+      "judge_total_tokens": 8675,
+      "judge_cost_usd": 0.003782,
+      "judge_usage_note": "Measured in a dedicated instrumented pass over the identical frozen judge inputs (prompts rebuilt from the published verdict fields; every input fingerprint verified to match). The published verdicts and QS are the submission run's.",
       "request_log": "docs/rolling-memory/zhao/requests-hard-31.jsonl"
     },
     "answer_failures": 0,
