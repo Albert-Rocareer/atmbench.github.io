@@ -126,6 +126,49 @@ const hardEvidence = validateSplit('Hard evidence', summary.splits?.hard, 31);
 close(summary.splits.main.qs_percent, 76.68170920885629, 'summary Main QS');
 close(summary.splits.hard.qs_percent, 63.56886840757808, 'summary Hard QS');
 
+const rmEvidencePath = path.join(root, 'docs', 'rolling-memory-zhao.json');
+assert(existsSync(rmEvidencePath), 'Rolling-Memory evidence missing');
+const rmSummary = JSON.parse(readFileSync(rmEvidencePath, 'utf8'));
+assert(rmSummary.schema_version === 1, `unsupported Rolling-Memory evidence schema ${rmSummary.schema_version}`);
+assert(rmSummary.judge_model === 'gpt-5-mini', `Rolling-Memory judge model must be gpt-5-mini, got ${rmSummary.judge_model}`);
+assert(rmSummary.status === 'complete', `Rolling-Memory judge status must be complete, got ${rmSummary.status}`);
+validateSplit('Rolling-Memory Main evidence', rmSummary.splits?.main, 1013);
+validateSplit('Rolling-Memory Hard evidence', rmSummary.splits?.hard, 31);
+close(rmSummary.splits.main.qs_percent, 72.79584022427062, 'Rolling-Memory Main QS');
+close(rmSummary.splits.hard.qs_percent, 29.209587060630703, 'Rolling-Memory Hard QS');
+
+const rmQwenEvidencePath = path.join(root, 'docs', 'rolling-memory-zhao-qwen3vl8b.json');
+assert(existsSync(rmQwenEvidencePath), 'Rolling-Memory Qwen3-VL-8B evidence missing');
+const rmQwenSummary = JSON.parse(readFileSync(rmQwenEvidencePath, 'utf8'));
+assert(rmQwenSummary.schema_version === 1, `unsupported Rolling-Memory Qwen evidence schema ${rmQwenSummary.schema_version}`);
+assert(rmQwenSummary.judge_model === 'gpt-5-mini', `Rolling-Memory Qwen judge model must be gpt-5-mini, got ${rmQwenSummary.judge_model}`);
+assert(rmQwenSummary.status === 'complete', `Rolling-Memory Qwen judge status must be complete, got ${rmQwenSummary.status}`);
+validateSplit('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits?.main, 1013);
+validateSplit('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits?.hard, 31);
+close(rmQwenSummary.splits.main.qs_percent, 58.35299120096751, 'Rolling-Memory Qwen Main QS');
+close(rmQwenSummary.splits.hard.qs_percent, 19.854070660522275, 'Rolling-Memory Qwen Hard QS');
+
+const mainRMRows = main.rows.filter(r => r.harness === 'Rolling-Memory');
+const hardRMRows = hard.rows.filter(r => r.harness === 'Rolling-Memory');
+assert(mainRMRows.length === 2 && hardRMRows.length === 2, 'Expected two Rolling-Memory rows (DeepSeek-V4.1-flash and Qwen3-VL-8B-Instruct)');
+const mainRM = mainRMRows.find(r => r.answer_model === 'DeepSeek-V4.1-flash');
+const hardRM = hardRMRows.find(r => r.model === 'DeepSeek-V4.1-flash');
+const mainRMQwen = mainRMRows.find(r => r.answer_model === 'Qwen3-VL-8B-Instruct');
+const hardRMQwen = hardRMRows.find(r => r.model === 'Qwen3-VL-8B-Instruct');
+assert(mainRM && hardRM && mainRMQwen && hardRMQwen, 'Rolling-Memory rows by answer model missing');
+close(mainRM.qs, 72.80, 'Main Rolling-Memory (DeepSeek) QS', 1e-9);
+close(mainRM.recall, 82.85, 'Main Rolling-Memory (DeepSeek) Recall@10', 1e-9);
+close(hardRM.qs, 29.21, 'Hard Rolling-Memory (DeepSeek) QS', 1e-9);
+close(hardRM.recall, 52.43, 'Hard Rolling-Memory (DeepSeek) Recall@10', 1e-9);
+close(hardRM.total_tokens, 0.528920, 'Hard Rolling-Memory (DeepSeek) Total Tokens (M)', 1e-9);
+close(hardRM.cost_usd, 0.046646, 'Hard Rolling-Memory (DeepSeek) Cost (USD)', 1e-9);
+close(mainRMQwen.qs, 58.35, 'Main Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
+close(mainRMQwen.recall, 82.85, 'Main Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
+close(hardRMQwen.qs, 19.85, 'Hard Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
+close(hardRMQwen.recall, 52.43, 'Hard Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
+close(hardRMQwen.total_tokens, 0.219268, 'Hard Rolling-Memory (Qwen3-VL-8B) Total Tokens (M)', 1e-9);
+close(hardRMQwen.cost_usd, 0.040289, 'Hard Rolling-Memory (Qwen3-VL-8B) Cost (USD)', 1e-9);
+
 console.log(JSON.stringify({
   ok: true,
   main_rows: main.rows.length,
