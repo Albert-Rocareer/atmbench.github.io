@@ -51,8 +51,6 @@
       "cost_usd_uncached_list": 2.663928,
       "cost_usd_with_cache": 0.612479,
       "judge_calls": 514,
-      "judge_total_tokens": 294452,
-      "judge_cost_usd": 0.121645,
       "request_log": "docs/rolling-memory/zhao/requests-main-1013.jsonl"
     },
     "hard_token_usage": {
@@ -68,8 +66,6 @@
       "cost_usd_uncached_list": 0.158994,
       "cost_usd_with_cache": 0.046646,
       "judge_calls": 13,
-      "judge_total_tokens": 8667,
-      "judge_cost_usd": 0.003863,
       "request_log": "docs/rolling-memory/zhao/requests-hard-31.jsonl"
     },
     "answer_failures": 0,
