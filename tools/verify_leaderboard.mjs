@@ -86,6 +86,23 @@ function validateSplit(name, split, expectedQuestions) {
   return { questions: expectedQuestions, mean: split.qs_percent, by_type: Object.fromEntries(byType) };
 }
 
+function validateDeliveryStats(name, split) {
+  const declared = ['delivered_k_min', 'delivered_k_max', 'delivered_k_median', 'delivered_k_mean'];
+  if (!declared.some(key => typeof split[key] === 'number')) return;
+  const delivered = split.scores.map((entry, index) => {
+    assert(typeof entry.delivered_k === 'number' && Number.isFinite(entry.delivered_k), `${name}: score ${index} missing delivered_k`);
+    return entry.delivered_k;
+  });
+  const sorted = [...delivered].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  const median = sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+  const mean = delivered.reduce((sum, k) => sum + k, 0) / delivered.length;
+  close(split.delivered_k_min, sorted[0], `${name}: delivered_k_min`);
+  close(split.delivered_k_max, sorted[sorted.length - 1], `${name}: delivered_k_max`);
+  close(split.delivered_k_median, median, `${name}: delivered_k_median`);
+  close(split.delivered_k_mean, mean, `${name}: delivered_k_mean`, 0.005);
+}
+
 const mainMemexa = row(main, 'Memexa v2');
 const hardMemexa = row(hard, 'Memexa v2');
 const recall = row(main, 'RE-call');
@@ -134,6 +151,8 @@ assert(rmSummary.judge_model === 'gpt-5-mini', `Rolling-Memory judge model must 
 assert(rmSummary.status === 'complete', `Rolling-Memory judge status must be complete, got ${rmSummary.status}`);
 validateSplit('Rolling-Memory Main evidence', rmSummary.splits?.main, 1013);
 validateSplit('Rolling-Memory Hard evidence', rmSummary.splits?.hard, 31);
+validateDeliveryStats('Rolling-Memory Main evidence', rmSummary.splits.main);
+validateDeliveryStats('Rolling-Memory Hard evidence', rmSummary.splits.hard);
 close(rmSummary.splits.main.qs_percent, 72.79584022427062, 'Rolling-Memory Main QS');
 close(rmSummary.splits.hard.qs_percent, 29.209587060630703, 'Rolling-Memory Hard QS');
 
@@ -145,6 +164,8 @@ assert(rmQwenSummary.judge_model === 'gpt-5-mini', `Rolling-Memory Qwen judge mo
 assert(rmQwenSummary.status === 'complete', `Rolling-Memory Qwen judge status must be complete, got ${rmQwenSummary.status}`);
 validateSplit('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits?.main, 1013);
 validateSplit('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits?.hard, 31);
+validateDeliveryStats('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits.main);
+validateDeliveryStats('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits.hard);
 close(rmQwenSummary.splits.main.qs_percent, 58.35299120096751, 'Rolling-Memory Qwen Main QS');
 close(rmQwenSummary.splits.hard.qs_percent, 19.854070660522275, 'Rolling-Memory Qwen Hard QS');
 

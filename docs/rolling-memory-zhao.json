@@ -22,7 +22,7 @@
       "reasoning_effort": "low"
     },
     "delivery_window": "0-64 (default smart adaptive window; configurable in 0-16, 0-32, 0-64)",
-    "context": "Smart adaptive 0-64 delivery window: candidates are ranked by intrinsic physical information energy E(u) (Nats), and all prefix items satisfying E(u_k) >= E(u_1)/e within a 64,000-character budget (0 <= K <= 64, no minimum floor) are passed to the answer model. Main-1013 passes 1 to 64 items (median 13, mean 16.71; 449 single-fact questions receive <10 items); Hard-31 passes 2 to 46 items (median 30, mean 26.90). The cutoff depends strictly on the query and candidate energy distribution and never depends on the answers or the gold evidence.",
+    "context": "Smart adaptive 0-64 delivery window: candidates are ranked by intrinsic physical information energy E(u) (Nats), and all prefix items satisfying E(u_k) >= E(u_1)/e within a 64,000-character budget (0 <= K <= 64, no minimum floor) are passed to the answer model. Main-1013 passes 1 to 64 items (median 13, mean 16.51; 449 single-fact questions receive <10 items); Hard-31 passes 2 to 46 items (median 28, mean 26.48). The cutoff depends strictly on the query and candidate energy distribution and never depends on the answers or the gold evidence.",
     "retrieval_cutoff": 10,
     "retrieval_depth": 64,
     "judge_model": "gpt-5-mini",
