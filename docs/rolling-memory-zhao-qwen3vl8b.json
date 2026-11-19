@@ -33,6 +33,8 @@
       "config_sha1": "a7126e059ce6745e84453f1fc1dd183656479807"
     },
     "corpus_sha256": "c9c4cc55dd3be147638121765b5dc7b8321a5e292b90909b68ae7fe8a57ee3a7",
+    "index_time_hr": 0.004,
+    "index_time_note": "Shared engine ingest measured on the 11,034-item corpus; the Qwen answer run reuses the same ingest path.",
     "main_predictions_json_sha256": "283ec0dfac88b79404ad211c36e1748cf19169fef01dd5a98d72a9379bcb5dd5",
     "hard_predictions_json_sha256": "3a97642c5d1fd6c2328fdf7a3fa68b1200cb79bbe4de0d28e23c82e38c4eabbc",
     "answer_failures": 0,
