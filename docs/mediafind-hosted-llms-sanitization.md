@@ -352,3 +352,11 @@ three other full open-ended passes on nearby settings were judged 76.1, 74.9 and
 bottom of that range. A fresh draw of a setting adopted for its high score is expected to land lower, and one run
 cannot separate that from ordinary generation and judge variance; no second run was made, so there is no choice
 between draws. The row carries 77.85.
+
+**After the re-run: one answer-model screen, nothing changed (2026-11-20).** A screen planned in writing and pushed
+before its first call tried three other answer models (GPT-6.2 Astra, Claude Opus 5.5, GPT-6.2 Sol) on the 96
+open-ended questions of the same hash subset, with everything upstream of the answer step replayed from the re-run.
+The best scored 80.21 against the re-run's 78.12 on those questions, short of the plan's 3-point bar for going any
+further, so no full run was made and the row stays at 77.85. Plan, results and logs:
+[`screening-2026-11-20/`](https://github.com/neurallab-dev/atmbench-mediafind/tree/5523a45e18137ca716af473b8b9a256ce18326e9/screening-2026-11-20)
+($8.48 on OpenRouter).
