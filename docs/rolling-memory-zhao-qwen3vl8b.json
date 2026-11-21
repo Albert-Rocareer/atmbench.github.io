@@ -44,51 +44,51 @@
     "main_token_usage": {
       "index_llm_tokens": 0,
       "retrieval_llm_tokens": 0,
-      "prompt_tokens": 4617360,
-      "completion_tokens": 14006,
-      "total_tokens": 4631366,
-      "total_tokens_millions": 4.631366,
-      "cost_usd_api_equivalent": 0.838688,
+      "prompt_tokens": 5528895,
+      "completion_tokens": 15303,
+      "total_tokens": 5544198,
+      "total_tokens_millions": 5.544198,
+      "cost_usd_api_equivalent": 1.003465,
       "local_cost_usd": 0.0,
       "cached_prompt_tokens": 0,
-      "cached_prompt_note": "Local llama.cpp run; no KV-cache credit is claimed. Prompt tokens are a re-tokenization of exactly the published delivered evidence with the same Qwen tokenizer.",
+      "cached_prompt_note": "Local llama.cpp run; no KV-cache credit is claimed. Token counts are the llama.cpp server's own per-request counters from the published llama-server timing log (1,044 requests: Hard 31 + Main 1,013): prompt_tokens = prompt-eval tokens, completion_tokens = eval (generation) tokens. The earlier re-tokenization counted only the engine's adaptive delivered prefix plus the parsed answer, so it understated the real prompt, which carries the full top-10 evidence list (baseline K=10).",
       "judge_calls": 514,
       "judge_usage_log": "docs/rolling-memory/zhao-qwen3vl8b/judge-requests-main-1013.jsonl",
-      "judge_input_tokens": 197115,
+      "judge_input_tokens": 270386,
       "judge_cached_input_tokens": 0,
-      "judge_output_tokens": 24338,
-      "judge_total_tokens": 221453,
-      "judge_cost_usd": 0.097955,
-      "judge_usage_note": "Same instrumented judge pass that produced the published verdicts (per-call request/response/usage logs published).",
+      "judge_output_tokens": 31810,
+      "judge_total_tokens": 302196,
+      "judge_cost_usd": 0.1312165,
+      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
       "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-main-1013.jsonl"
     },
     "hard_token_usage": {
       "index_llm_tokens": 0,
       "retrieval_llm_tokens": 0,
-      "prompt_tokens": 204167,
-      "completion_tokens": 1313,
-      "total_tokens": 205480,
-      "total_tokens_millions": 0.20548,
-      "cost_usd_api_equivalent": 0.037459,
+      "prompt_tokens": 205969,
+      "completion_tokens": 2280,
+      "total_tokens": 208249,
+      "total_tokens_millions": 0.208249,
+      "cost_usd_api_equivalent": 0.038306,
       "local_cost_usd": 0.0,
       "cached_prompt_tokens": 0,
-      "cached_prompt_note": "Local llama.cpp run; no KV-cache credit is claimed. Prompt tokens are a re-tokenization of exactly the published delivered evidence with the same Qwen tokenizer.",
+      "cached_prompt_note": "Local llama.cpp run; no KV-cache credit is claimed. Token counts are the llama.cpp server's own per-request counters from the published llama-server timing log (1,044 requests: Hard 31 + Main 1,013): prompt_tokens = prompt-eval tokens, completion_tokens = eval (generation) tokens. The earlier re-tokenization counted only the engine's adaptive delivered prefix plus the parsed answer, so it understated the real prompt, which carries the full top-10 evidence list (baseline K=10).",
       "judge_calls": 13,
       "judge_usage_log": "docs/rolling-memory/zhao-qwen3vl8b/judge-requests-hard-31.jsonl",
       "judge_input_tokens": 7562,
       "judge_cached_input_tokens": 0,
-      "judge_output_tokens": 954,
-      "judge_total_tokens": 8516,
-      "judge_cost_usd": 0.003798,
-      "judge_usage_note": "Same instrumented judge pass that produced the published verdicts (per-call request/response/usage logs published).",
+      "judge_output_tokens": 1013,
+      "judge_total_tokens": 8575,
+      "judge_cost_usd": 0.0039165,
+      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
       "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-hard-31.jsonl"
     },
-    "run_selection": "Single uninterrupted cold run across all 31 Hard and 1,013 Main questions (0 cached answers, 0 cached judges); per-question token counts published in docs/rolling-memory/zhao-qwen3vl8b/requests-{hard-31,main-1013}.jsonl."
+    "run_selection": "Single uninterrupted cold answer run across all 31 Hard and 1,013 Main questions (0 cached answers). Judge verdicts come from one full instrumented pass (527 calls); every verdict has a logged judge call. Per-question answer token counts are the llama.cpp server's own counters in docs/rolling-memory/zhao-qwen3vl8b/llama-server-timing-log.txt."
   },
   "splits": {
     "main": {
       "questions": 1013,
-      "qs_percent": 57.681717755755265,
+      "qs_percent": 57.28685102327748,
       "recall_at_1": 48.2396700042307,
       "recall_at_5": 73.67613876745168,
       "recall_at_10": 82.76774941631803,
@@ -102,15 +102,15 @@
       "per_type": {
         "list_recall": {
           "questions": 139,
-          "qs_percent": 42.67323803295026
+          "qs_percent": 42.673238032950266
         },
         "number": {
           "questions": 360,
-          "qs_percent": 67.77777777777779
+          "qs_percent": 67.77777777777777
         },
         "open_end": {
           "questions": 514,
-          "qs_percent": 54.6692607003891
+          "qs_percent": 53.89105058365759
         }
       },
       "scores": [
@@ -3267,7 +3267,7 @@
         {
           "id": "a41b4d13-c160-4059-86b2-03baafd133c3",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "20231217_144440",
@@ -4617,7 +4617,7 @@
         {
           "id": "f1241732-10fe-4665-832e-d911352b0e2b",
           "qtype": "open_end",
-          "score": 0.0,
+          "score": 1.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "20250429_133249",
@@ -5007,7 +5007,7 @@
         {
           "id": "e9d158f8-d54a-4d8f-8caa-5db74533eb9d",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 4,
           "retrieved_top10": [
             "20221122_155458",
@@ -6357,7 +6357,7 @@
         {
           "id": "ad6c44aa-ad29-40ae-8166-208b05a4412f",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 5,
           "retrieved_top10": [
             "20221204_111813",
@@ -10257,7 +10257,7 @@
         {
           "id": "0d511b05-363a-4820-8889-7aacb02169fb",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "email202410220007",
@@ -11337,7 +11337,7 @@
         {
           "id": "56fa9ad4-7e66-44e3-8f1e-3dd8f8887c56",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 5,
           "retrieved_top10": [
             "20230127_194458",
@@ -12957,7 +12957,7 @@
         {
           "id": "c144724e-8771-4eb9-b4eb-9e5c91305aef",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 3,
           "retrieved_top10": [
             "email202404050003",
@@ -14487,7 +14487,7 @@
         {
           "id": "5994feb3-379a-48aa-9c42-9faef1f11586",
           "qtype": "open_end",
-          "score": 0.0,
+          "score": 1.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "20220705_202014",
@@ -16407,7 +16407,7 @@
         {
           "id": "172f0fc0-7efd-4712-b346-17530cb7df6c",
           "qtype": "open_end",
-          "score": 0.0,
+          "score": 1.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "20240609_173543",
@@ -23157,7 +23157,7 @@
         {
           "id": "09cb1732-7205-4236-b878-17a804b5a014",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 7,
           "retrieved_top10": [
             "20230322_161504",
@@ -24297,7 +24297,7 @@
         {
           "id": "6877e24a-d40b-4c03-8c5c-49d842abe25e",
           "qtype": "open_end",
-          "score": 0.0,
+          "score": 1.0,
           "delivered_k": 10,
           "retrieved_top10": [
             "20221026_173325",
@@ -25197,7 +25197,7 @@
         {
           "id": "9d332d3e-99cf-4bc3-a74e-fdb995192fc1",
           "qtype": "open_end",
-          "score": 1.0,
+          "score": 0.0,
           "delivered_k": 1,
           "retrieved_top10": [
             "email202204110001",
@@ -30504,7 +30504,8 @@
             "20231211_171218"
           ]
         }
-      ]
+      ],
+      "delivered_k_note": "delivered_k is the engine's adaptive delivery prefix (1-10). The answer prompt for this row carries the top-10 evidence list (the 8B baseline's K=10); the server prompt-eval counts in the timing log confirm the full top-10 list was sent."
     },
     "hard": {
       "questions": 31,
@@ -30522,11 +30523,11 @@
       "per_type": {
         "list_recall": {
           "questions": 12,
-          "qs_percent": 34.62301587301588
+          "qs_percent": 34.62301587301587
         },
         "number": {
           "questions": 6,
-          "qs_percent": 16.666666666666664
+          "qs_percent": 16.666666666666668
         },
         "open_end": {
           "questions": 13,
@@ -31464,7 +31465,8 @@
             "20241119_160906"
           ]
         }
-      ]
+      ],
+      "delivered_k_note": "delivered_k is the engine's adaptive delivery prefix (1-10). The answer prompt for this row carries the top-10 evidence list (the 8B baseline's K=10); the server prompt-eval counts in the timing log confirm the full top-10 list was sent."
     }
   }
 }
