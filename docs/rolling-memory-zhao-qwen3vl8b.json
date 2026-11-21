@@ -60,7 +60,8 @@
       "judge_total_tokens": 302196,
       "judge_cost_usd": 0.1312165,
       "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
-      "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-main-1013.jsonl"
+      "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-main-1013.jsonl",
+      "request_log_note": "Per-question re-tokenization of the engine's adaptive delivered prefix plus the parsed answer; retained as a cross-check, not the system-token basis (see cached_prompt_note)."
     },
     "hard_token_usage": {
       "index_llm_tokens": 0,
@@ -81,9 +82,11 @@
       "judge_total_tokens": 8575,
       "judge_cost_usd": 0.0039165,
       "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
-      "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-hard-31.jsonl"
+      "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-hard-31.jsonl",
+      "request_log_note": "Per-question re-tokenization of the engine's adaptive delivered prefix plus the parsed answer; retained as a cross-check, not the system-token basis (see cached_prompt_note)."
     },
-    "run_selection": "Single uninterrupted cold answer run across all 31 Hard and 1,013 Main questions (0 cached answers). Judge verdicts come from one full instrumented pass (527 calls); every verdict has a logged judge call. Per-question answer token counts are the llama.cpp server's own counters in docs/rolling-memory/zhao-qwen3vl8b/llama-server-timing-log.txt."
+    "run_selection": "Single uninterrupted cold answer run across all 31 Hard and 1,013 Main questions (0 cached answers). Judge verdicts come from one full instrumented pass (527 calls); every verdict has a logged judge call. Per-question answer token counts are the llama.cpp server's own counters in docs/rolling-memory/zhao-qwen3vl8b/llama-server-timing-log.txt.",
+    "run_log_note": "The main-1013 section of run-log.txt is the captured stdout tail from 920/1013; the hard-31 section is complete. All per-question artifacts and summaries are complete."
   },
   "splits": {
     "main": {
@@ -71026,7 +71029,8 @@
         }
       ],
       "delivered_k_note": "delivered_k is the engine's adaptive delivery prefix (1-10). The answer prompt for this row carries the top-10 evidence list (the 8B baseline's K=10); the server prompt-eval counts in the timing log confirm the full top-10 list was sent.",
-      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix (K=10). R@50 is measured on the official retrieval-only top-50 list (same engine and corpus, deterministic); the answer prompt still carries only the top-10 prefix."
+      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix (K=10). R@50 is measured on the official retrieval-only top-50 list (same engine and corpus, deterministic); the answer prompt still carries only the top-10 prefix.",
+      "answer_prompt_k": 10
     },
     "hard": {
       "questions": 31,
@@ -73228,7 +73232,8 @@
         }
       ],
       "delivered_k_note": "delivered_k is the engine's adaptive delivery prefix (1-10). The answer prompt for this row carries the top-10 evidence list (the 8B baseline's K=10); the server prompt-eval counts in the timing log confirm the full top-10 list was sent.",
-      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix (K=10). R@50 is measured on the official retrieval-only top-50 list (same engine and corpus, deterministic); the answer prompt still carries only the top-10 prefix."
+      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix (K=10). R@50 is measured on the official retrieval-only top-50 list (same engine and corpus, deterministic); the answer prompt still carries only the top-10 prefix.",
+      "answer_prompt_k": 10
     }
   }
 }

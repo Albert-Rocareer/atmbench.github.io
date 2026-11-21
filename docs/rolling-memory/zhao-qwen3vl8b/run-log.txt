@@ -24,7 +24,7 @@
   scope                u10-mem-eval-atmbench-local-plain-20261121t041727z-0231
 结果目录：<RUN_DIR>/out-hard
 
---- main-1013 CLI run log ---
+--- main-1013 CLI run log (captured stdout tail; the stream head before 920/1013 was not retained) ---
 [atm-eval] 920/1013 R@10=1.000 R@50=1.000
 [atm-eval] 940/1013 R@10=0.000 R@50=0.000
 [atm-eval] 960/1013 R@10=1.000 R@50=1.000
