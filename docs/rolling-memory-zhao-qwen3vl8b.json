@@ -59,7 +59,7 @@
       "judge_output_tokens": 31810,
       "judge_total_tokens": 302196,
       "judge_cost_usd": 0.1312165,
-      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
+      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, the parsed response body and the sha256 of the raw response bytes; the raw byte stream itself is not retained. Usage counters are the server-reported usage.",
       "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-main-1013.jsonl",
       "request_log_note": "Per-question re-tokenization of the engine's adaptive delivered prefix plus the parsed answer; retained as a cross-check, not the system-token basis (see cached_prompt_note)."
     },
@@ -81,7 +81,7 @@
       "judge_output_tokens": 1013,
       "judge_total_tokens": 8575,
       "judge_cost_usd": 0.0039165,
-      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, raw response, sha256 hashes and usage counters.",
+      "judge_usage_note": "Single full instrumented judge pass (2026-11-22): every published verdict has one logged call with the exact request, the parsed response body and the sha256 of the raw response bytes; the raw byte stream itself is not retained. Usage counters are the server-reported usage.",
       "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-hard-31.jsonl",
       "request_log_note": "Per-question re-tokenization of the engine's adaptive delivered prefix plus the parsed answer; retained as a cross-check, not the system-token basis (see cached_prompt_note)."
     },
