@@ -5,7 +5,7 @@
  },
  {
   "id": "c2d9d893-99d1-4482-99dc-085b074ea099",
-  "answer": "red cheesecake"
+  "answer": "cheesecake"
  },
  {
   "id": "0120cf15-4165-4195-aca8-175773c28585",
@@ -233,7 +233,7 @@
  },
  {
   "id": "9121042a-8347-4f32-bcb7-0fae7aaacb65",
-  "answer": "2024-07-29"
+  "answer": "2023-08-04"
  },
  {
   "id": "523c38f4-7fb5-4c85-906b-2882f93225c2",
@@ -261,7 +261,7 @@
  },
  {
   "id": "c2d11022-ba77-4078-ab6c-7744b61312e0",
-  "answer": "3.3 TB/second, roughly double A100"
+  "answer": "3.3 TB/second, roughly double A100's 1.5 TB/second"
  },
  {
   "id": "22fcb9f0-2840-4dbb-bf87-7aa91c17509b",
@@ -309,7 +309,7 @@
  },
  {
   "id": "47af5324-36a1-4690-a84a-d674b6829f3e",
-  "answer": "20240928_181135,20240928_181349,20240928_181347"
+  "answer": "20240928_181135,20240928_181347"
  },
  {
   "id": "598860c8-6030-432d-9050-51a78ba79a18",
@@ -317,7 +317,7 @@
  },
  {
   "id": "5c8a09f7-5a37-4614-850e-28444f2bd224",
-  "answer": "13 days"
+  "answer": "8 days"
  },
  {
   "id": "4d0ff63b-8cb2-4df5-a274-2cb42da9cd1c",
@@ -329,7 +329,7 @@
  },
  {
   "id": "8b731d51-53cf-4f86-a68f-f430728be568",
-  "answer": "20240222_092308,20240222_092257,20240222_091117,20240222_083750,20240222_092402"
+  "answer": "20240222_092308,20240222_092257"
  },
  {
   "id": "96906b1e-beb9-4b0b-b9bd-fc006a5d0344",
@@ -365,7 +365,7 @@
  },
  {
   "id": "71d882e5-f1d1-4a45-a74b-bee2920c812c",
-  "answer": "Unknown"
+  "answer": "black tie and gown"
  },
  {
   "id": "f8e2807d-017b-4044-9461-c5ab1a2e4fec",
@@ -425,7 +425,7 @@
  },
  {
   "id": "612bd5cb-b6ea-4fab-b386-5e7bba648f6a",
-  "answer": "Peterhouse (University of Cambridge), Trumpington Street, Newnham, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB2 1RD, United Kingdom"
+  "answer": "Peterhouse, University of Cambridge, Trumpington Street, Newnham, Cambridge, Cambridgeshire, CB2 1RD, United Kingdom"
  },
  {
   "id": "abf7a235-f587-4537-b89a-f3c8d65e7def",
@@ -453,7 +453,7 @@
  },
  {
   "id": "7fbd6bb2-6538-477a-ac20-b996598cc215",
-  "answer": "You must check in online at least two hours before your flight, which departs on May 3rd at 20:05. This is to avoid a €55 airport check-in fee. You can do this through the Ryanair app."
+  "answer": "At least two hours before the flight, which departs on May 3rd at 20:05, so by 18:05 on May 3rd."
  },
  {
   "id": "3d413f9f-690e-4676-ac45-ad31b2d21d88",
@@ -493,7 +493,7 @@
  },
  {
   "id": "cf2e548c-d359-4cb6-9af3-9769406c79a7",
-  "answer": "April 28, 2025"
+  "answer": "April 28th"
  },
  {
   "id": "2789b230-61db-4e91-af77-75b0d839288b",
@@ -533,7 +533,7 @@
  },
  {
   "id": "52c34419-7d26-40aa-9177-b3b04b65ea58",
-  "answer": "20231210_125807"
+  "answer": "Time To First Token (TTFT), Time Per Output Token (TPOT)"
  },
  {
   "id": "83dfd6c5-e056-4a43-a972-fddabd30fd5d",
@@ -565,7 +565,7 @@
  },
  {
   "id": "f0a58ca8-0f90-4923-92c3-932556ec2cc7",
-  "answer": "July 10th"
+  "answer": "July 10th, 2025"
  },
  {
   "id": "b65b2ed5-3d39-4437-af05-2dbe38a19168",
@@ -581,7 +581,7 @@
  },
  {
   "id": "22ecba76-6dcc-48ca-b148-c57bd2c07cd8",
-  "answer": "The first meal you had in Santiago was a Galician seafood meal, including octopus and shrimp, served at a restaurant located at 24, Rúa do Franco, A Poza de Bar, O Ensanche, Santiago de Compostela, Santiago, A Coruña, Galicia, 15700, Spain. This is evidenced by Evidence 1 and Evidence 4, which both describe the meal and its location.\n\nAnswer: 20241021_201854, 20241021_201326"
+  "answer": "The first meal you had in Santiago was a Galician seafood meal, including octopus and shrimp, served at a restaurant located at 24, Rúa do Franco, A Poza de Bar, O Ensanche, Santiago de Compostela, Santiago, A Coruña, Galicia, 15700, Spain. This is evidenced by Evidence 1 and Evidence 4, which both describe the meal and its location. Evidence 6 also references a cheese and cured meat platter at the same location, but since it is described as being served \"at the end of a long, sun-drenched day,\" it is likely not the first meal. Evidence 2 and Evidence 9 describe a butcher shop and restaurant display, respectively, but do not indicate the first meal. Evidence 3, 5, 8, and 10 describe locations and scenes but not meals. Evidence 7 is unrelated to meals. Therefore, the first meal was the seafood dish described in Evidence 1 and Evidence 4.\n\n20241021_201854, 20241021_201326"
  },
  {
   "id": "10edfe51-1bdc-4f35-a55b-e9e774c07197",
@@ -597,7 +597,7 @@
  },
  {
   "id": "fe40eb23-0481-4262-938f-c6069e64c411",
-  "answer": "20230420_144500"
+  "answer": "20240615_132025"
  },
  {
   "id": "f1241732-10fe-4665-832e-d911352b0e2b",
@@ -633,7 +633,7 @@
  },
  {
   "id": "0f1e19ba-fcb2-419c-9796-b2461e90f15a",
-  "answer": "20230904_124510,20230904_124507,20230906_144717,20220619_130634"
+  "answer": "3,4,7,8"
  },
  {
   "id": "85fc0c59-55e8-45ed-b677-e29355f5a70d",
@@ -645,7 +645,7 @@
  },
  {
   "id": "e228dad1-991e-438e-b01b-3044d688c5f9",
-  "answer": "2024-07-08 to 2024-07-11"
+  "answer": "Unknown"
  },
  {
   "id": "dae9191d-66ce-41e7-9736-9b9885192a41",
@@ -657,7 +657,7 @@
  },
  {
   "id": "0c5bd996-9441-467d-bd55-cb0526c5d510",
-  "answer": "20250501_164704"
+  "answer": "The Aboriginal flag was hanging from the top of the Sydney Harbour Bridge."
  },
  {
   "id": "2b90f5fe-e614-4bd4-a26b-60329cd8b640",
@@ -701,7 +701,7 @@
  },
  {
   "id": "93703c8a-7c40-46a9-9ef8-45521f02107b",
-  "answer": "DisCoM-KD: Cross-Modal Knowledge Distillation via Disentanglement"
+  "answer": "DisCoM-KD: Cross-Modal Knowledge Distillation via Disentanglement and Adversarial Learning"
  },
  {
   "id": "cc7ac922-e059-4bf7-b789-fcda05cdfa7e",
@@ -741,7 +741,7 @@
  },
  {
   "id": "6d5dde88-0e86-453a-9a35-467426b121f3",
-  "answer": "20220620_131646,20220620_131700,20220620_130907"
+  "answer": "20220620_130907"
  },
  {
   "id": "7f24569b-3dad-48e6-a37b-a585e883544c",
@@ -761,7 +761,7 @@
  },
  {
   "id": "feb49ce8-7458-4506-836d-31140a71948a",
-  "answer": "February 1st from 3 pm to 5:30 pm"
+  "answer": "February 1st from 3pm to 5:30pm"
  },
  {
   "id": "1c909632-fa91-488f-b531-6b4c8e5c6123",
@@ -805,7 +805,7 @@
  },
  {
   "id": "a33da3c8-bb0b-4917-9818-ab2e2a94099b",
-  "answer": "2025-01-09, 2024-07-01, 2023-01-26, 2024-08-03"
+  "answer": "2025-01-09, 2024-07-01, 2023-01-26, 2023-02-06"
  },
  {
   "id": "81d3a88b-2239-427b-9ced-e71279fb8a35",
@@ -817,7 +817,7 @@
  },
  {
   "id": "6888deb1-2289-403f-a769-858451f0cb99",
-  "answer": "Tuesday, October 25th, at 7 pm at the Panton Arms"
+  "answer": "Tuesday, October 25th, 7 pm at the Panton Arms"
  },
  {
   "id": "e2ffb71f-c267-4cf6-843d-0d772826d56c",
@@ -833,7 +833,7 @@
  },
  {
   "id": "ad6c44aa-ad29-40ae-8166-208b05a4412f",
-  "answer": "20221204_111813"
+  "answer": "King's College, Newnham, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB2 1ST, United Kingdom"
  },
  {
   "id": "d1583d12-90bb-4683-8a17-c62d3c7a4e8b",
@@ -857,7 +857,7 @@
  },
  {
   "id": "266257a0-4fcb-4f07-837c-b0c22b9f1d3f",
-  "answer": "The train was delayed because a derailed train caused the disruption."
+  "answer": "A derailed train"
  },
  {
   "id": "a7d042b8-b1c6-4f3b-a20d-2cccdbb6926e",
@@ -865,11 +865,11 @@
  },
  {
   "id": "6a42c286-9862-43a9-bd7c-a96646d31976",
-  "answer": "50GB"
+  "answer": "Unknown"
  },
  {
   "id": "360bc576-a6b8-4e54-aab4-df4cea577dec",
-  "answer": "20元"
+  "answer": "20 yuan per kilo"
  },
  {
   "id": "60822a10-2647-44d4-b462-7dd467dcea27",
@@ -881,7 +881,7 @@
  },
  {
   "id": "1d853198-9354-44a8-bcd7-fbe954939272",
-  "answer": "20230717_183804"
+  "answer": "Evidence 2"
  },
  {
   "id": "7df5c18f-bf3b-4e60-9954-0c12fd87e672",
@@ -917,7 +917,7 @@
  },
  {
   "id": "1ed7c917-7c05-4e5a-b43e-3c602e70daf2",
-  "answer": "20220620_135217"
+  "answer": "4, St Andrew Square, New Town, New Town/Broughton, City of Edinburgh, Scotland, EH2 2BD, United Kingdom"
  },
  {
   "id": "6f419747-e89d-423e-8333-9018567449ad",
@@ -969,7 +969,7 @@
  },
  {
   "id": "0f2b55c7-47c6-4dbb-88bf-5d59d51cfd36",
-  "answer": "£44.03"
+  "answer": "Unknown"
  },
  {
   "id": "71582c85-dbc5-4460-b549-66d323ec362a",
@@ -1005,7 +1005,7 @@
  },
  {
   "id": "8779bf76-bdfe-424e-b41c-0f8f3ed645ab",
-  "answer": "March 13, 2023, at 14:00-15:00"
+  "answer": "March 13, 2023"
  },
  {
   "id": "d8fdb682-a385-44c0-9630-57ea7573c4e2",
@@ -1021,11 +1021,11 @@
  },
  {
   "id": "c7f7a36d-036c-4fa9-a162-7b167f6ec33d",
-  "answer": "Sunday, October 30th, from 2pm onwards"
+  "answer": "Sunday, October 30th, 2022"
  },
  {
   "id": "9b7cf030-733b-41b9-b022-605eeb625af9",
-  "answer": "Monday, February 21, 2022"
+  "answer": "February 7, 2022"
  },
  {
   "id": "5293f3c1-dc18-4285-98ea-54a3bca7a92c",
@@ -1033,7 +1033,7 @@
  },
  {
   "id": "40c56794-fb1d-422e-85e3-019d314b4218",
-  "answer": "2023-12-10"
+  "answer": "2023-12-01"
  },
  {
   "id": "af0fbb2c-73f4-4473-b18e-be392e3dd6cf",
@@ -1085,7 +1085,7 @@
  },
  {
   "id": "eb116017-2b4d-414c-aeec-46928bdeb000",
-  "answer": "June 20th, 23:00"
+  "answer": "June 20th, 2025, at 23:00"
  },
  {
   "id": "74455ca5-e246-480e-b84c-92bc7c564d09",
@@ -1161,7 +1161,7 @@
  },
  {
   "id": "0c45bd73-f049-43ab-9a56-de6171587c1d",
-  "answer": "November 10th, 2024"
+  "answer": "2024-11-10"
  },
  {
   "id": "c2fdfef1-0f63-4299-bdb6-9e1cb087c446",
@@ -1185,7 +1185,7 @@
  },
  {
   "id": "30e061d1-7432-4e38-8e2d-505e0216f8ca",
-  "answer": "The place you visited is \"The Fantastic World of the Portuguese Sardine\" in Vila Nova de Gaia, Porto, Portugal. The name of the place is \"The Fantastic World of the Portuguese Sardine,\" and it is located at 122, Avenida de Diogo Leite, Santa Marinha, Santa Marinha e São Pedro da Afurada, Vila Nova de Gaia, Porto, 4400-175, Portugal. The evidence shows a vibrant display of sardine tins, with a 2025-themed red chair and a large wall of canned sardines, indicating it is a festive food hall or exhibit. The location and name are clearly mentioned in Evidence 1 and Evidence 7.\n\nThe answer is: The Fantastic World of the Portuguese Sardine, located at 122, Avenida de Diogo Leite, Santa Marinha, Santa Marinha e São Pedro da Afurada, Vila Nova de Gaia, Porto, 4400-175, Portugal."
+  "answer": "The place you visited, full of sardine tins, is located at 122, Avenida de Diogo Leite, Santa Marinha, Santa Marinha e São Pedro da Afurada, Vila Nova de Gaia, Porto, 4400-175, Portugal. The name of the place is \"The Fantastic World of the Portuguese Sardine,\" as indicated in the evidence.\n\nEvidence IDs: 20250225_155748, 20250225_160122, 20250225_155805, 20250225_155748, 20250225_155805"
  },
  {
   "id": "c57b0d5d-dbae-4f8d-93b8-b269582baabb",
@@ -1201,7 +1201,7 @@
  },
  {
   "id": "d75c8238-9cd2-49f0-9277-8b8a4e565bb7",
-  "answer": "Evidence 5"
+  "answer": "Unknown"
  },
  {
   "id": "4d36db6b-f445-49ca-bfb6-e7857c7e42fc",
@@ -1297,7 +1297,7 @@
  },
  {
   "id": "b191ff34-7dbf-4460-8734-3f3dcd495c85",
-  "answer": "Unknown"
+  "answer": "23-Nov-24"
  },
  {
   "id": "34500f55-b48c-426b-ab81-3da374cb5660",
@@ -1405,7 +1405,7 @@
  },
  {
   "id": "bbea91ea-f39b-404b-9997-7e6ee59a9e74",
-  "answer": "CamSIS, CHRIS, CUFS, Research Dashboard, X5, and University DNS"
+  "answer": "CamSIS, CHRIS, CUFS, Research dashboard, X5, and University DNS"
  },
  {
   "id": "075bdbb9-9a06-41a3-9d35-bb28e687ac41",
@@ -1441,7 +1441,7 @@
  },
  {
   "id": "890bd306-2032-4719-8cab-0333976e9b24",
-  "answer": "19:00"
+  "answer": "19:05"
  },
  {
   "id": "4ea08a4b-53ee-4e5a-a460-de017e506ecb",
@@ -1473,7 +1473,7 @@
  },
  {
   "id": "30c795e6-15aa-499b-93f8-628ad3756882",
-  "answer": "Due to venue confirmation issues."
+  "answer": "venue confirmation issues"
  },
  {
   "id": "46335cb8-ba58-4f98-9a92-aa970b0ee3c5",
@@ -1497,7 +1497,7 @@
  },
  {
   "id": "56fa9ad4-7e66-44e3-8f1e-3dd8f8887c56",
-  "answer": "The occasion was the BA Dinner for Burn's Night, held on Friday, 27th January 2023, at Trinity College, Cambridge, England. The location was The Hall, Tribunal, Newnham, Cambridge, Cambridgeshire, CB2 1TQ, United Kingdom. The menu featured the Trinity College crest and included dishes such as Haggis, Neeps & Tatties, Scottish Beef Feather Blade, and Cranachan.\n\nEvidence IDs: 20230127_194458, 20230127_194453"
+  "answer": "The occasion was the BA Dinner for Burn's Night, held at Trinity College, Cambridge, on Friday, 27th January 2023. The menu featured Scottish Beef Feather Blade, Cranachan, and wines from Italy and Argentina, and included the Trinity College crest. The event took place at The Hall, Tribunal, Newnham, Cambridge, Cambridgeshire, England, CB2 1TQ."
  },
  {
   "id": "4c4a696d-19db-438f-b12c-dd8ed24ae04e",
@@ -1533,7 +1533,7 @@
  },
  {
   "id": "dd6f1b67-aaa6-4f1a-b7a3-122793fb439e",
-  "answer": "20240818_112341"
+  "answer": "20240818_110212,20240818_112331,20240818_110330,20240818_110229,20240818_110215,20240818_110334"
  },
  {
   "id": "8f660e2b-9ba5-4a34-a7b7-34f02370973a",
@@ -1573,7 +1573,7 @@
  },
  {
   "id": "5ea687e8-89b0-4356-a625-6dac9f6dedea",
-  "answer": "George Square, Merchant City, Glasgow, Scotland, United Kingdom"
+  "answer": "George Square, Merchant City, Glasgow, Glasgow City, Scotland, G2 1DR, United Kingdom"
  },
  {
   "id": "428bcbb9-6fb4-4524-b4e2-c47fb5f08667",
@@ -1685,7 +1685,7 @@
  },
  {
   "id": "46024501-fb00-49bd-be9e-70d9ee9b5968",
-  "answer": "2022-11-22"
+  "answer": "Unknown"
  },
  {
   "id": "b77c4ac3-f933-44ce-92a1-10939d313b86",
@@ -1805,7 +1805,7 @@
  },
  {
   "id": "d8bd88dc-097d-445a-aa86-a3713ca18bd1",
-  "answer": "The motivation for the first paper on hateful memes, as detailed in the provided evidence, is outlined in **Evidence 7 (image)**, which shows a research poster titled *\"Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning.\"* The poster explicitly states:\n\n> **MOTIVATION**  \n> Two major limitations of the previous systems:  \n> (1) Poor performance on confounder memes, i.e. memes differ in either text or image. The representation of these memes are similar in previous systems as shown below.  \n> (2) Unseen domain of hateful memes requires retraining of the whole system.\n\nThis directly addresses the motivation behind the paper: to overcome the limitations of existing systems in handling confounder memes (memes differing in text or image) and the need for retraining when encountering new domains of hateful memes.\n\nThus, the working motivation is:\n\n> **To address two major limitations of previous systems: (1) poor performance on confounder memes (memes differing in text or image), and (2) the need to retrain the entire system for unseen domains of hateful memes.**\n\nThis is the only evidence that explicitly details the motivation of the first paper."
+  "answer": "The motivation for the first paper on hateful memes, as discussed in the evidence, is outlined in Evidence 7 (image), which states:\n\n> Two major limitations of the previous systems:\n> (1) Poor performance on confounder memes, i.e. memes differ in either text or image. The representation of these memes are similar in previous systems as shown below.\n> (2) Unseen domain of hateful memes requires retraining of the whole system.\n\nThis is the working discussed during the motivation conversation.\n\n**Answer: Evidence 7**"
  },
  {
   "id": "e736bee8-630f-49f5-b7ad-4fc18a95ef49",
@@ -1845,7 +1845,7 @@
  },
  {
   "id": "11e6f486-386c-4c42-afbc-b3b3f5ed639d",
-  "answer": "November 7th at 6 pm at Selwyn College"
+  "answer": "November 7, 2022, at 6 pm, Selwyn College Auditorium"
  },
  {
   "id": "bfdf71b8-3ccd-40e4-9a98-404fa95a5ad5",
@@ -1873,7 +1873,7 @@
  },
  {
   "id": "58bb5779-4a8e-4af9-859f-7520fe2b517a",
-  "answer": "908g"
+  "answer": "Unknown"
  },
  {
   "id": "8e937f0e-fdc2-419a-8d1e-441ff8dd4aaa",
@@ -1997,7 +1997,7 @@
  },
  {
   "id": "bddf2d37-ae9a-4e88-aa65-11477b3ac94c",
-  "answer": "20220623_133125, 20220623_133121, 20220623_133212"
+  "answer": "Evidence 1, Evidence 2, Evidence 3"
  },
  {
   "id": "f21ef5c2-db83-4f3e-b9ea-b6edb50c6d46",
@@ -2021,7 +2021,7 @@
  },
  {
   "id": "6e54d932-6f62-415a-96f3-c677b7b14b64",
-  "answer": "20220620_143426"
+  "answer": "20220620_144719"
  },
  {
   "id": "5ddf2fdb-4465-4fd3-8ded-7be291926c07",
@@ -2081,7 +2081,7 @@
  },
  {
   "id": "f6724758-0dee-4333-8269-a0cf09dc1295",
-  "answer": "£10 per session, totaling £30 for three sessions"
+  "answer": "£10 per session"
  },
  {
   "id": "8a54d178-cb1a-40b9-8d19-6d099fc0219d",
@@ -2093,7 +2093,7 @@
  },
  {
   "id": "bcc0961b-b050-46f2-ba21-89d16b5dd6b9",
-  "answer": "Unknown"
+  "answer": "July 17, 2023"
  },
  {
   "id": "b95f7b72-4e82-458e-9d7b-dbaf2133c045",
@@ -2113,7 +2113,7 @@
  },
  {
   "id": "1e644e18-6645-43fa-bb0c-156d88692427",
-  "answer": "25, Copthall Avenue, Moorgate, City of London, Greater London, England, EC2R 7BP, United Kingdom"
+  "answer": "Unknown"
  },
  {
   "id": "d9e3e64c-0649-41a4-bbba-c4f50febb8d5",
@@ -2125,7 +2125,7 @@
  },
  {
   "id": "885525ee-e6f6-49cd-a368-ddacefc6e8bc",
-  "answer": "20220619_201857,20220619_201944,20220619_201838,20220619_185435,20220619_185502,20220619_201733,20220619_185442,20220619_185842,20220619_201744,20220619_190352"
+  "answer": "Queen's Drive, Willowbrae, Northfield/Willowbrae, City of Edinburgh, Scotland, EH8 8HT, United Kingdom"
  },
  {
   "id": "b6aa7d82-13b5-4fa6-954a-1f939f4ec62e",
@@ -2229,7 +2229,7 @@
  },
  {
   "id": "8bf1af9a-2849-41b3-9052-ef923c22d155",
-  "answer": "Unknown"
+  "answer": "June 16th"
  },
  {
   "id": "f2467c3e-d75a-40f9-8ed9-3cfcd16acbb5",
@@ -2305,7 +2305,7 @@
  },
  {
   "id": "fc4ba55a-77d4-4842-93d9-098887230bb3",
-  "answer": "April 23, 2025"
+  "answer": "5 April 2023"
  },
  {
   "id": "a3bc657e-1c1a-4de8-9c62-175c84ab95ca",
@@ -2317,7 +2317,7 @@
  },
  {
   "id": "2d8032e9-8216-4974-9a04-749a24c24800",
-  "answer": "Sennheiser HD800S"
+  "answer": "Sennheiser HD 25 DJ headphones"
  },
  {
   "id": "3bdc0d79-261f-4ea5-bdca-c1b4ca7bb88e",
@@ -2417,7 +2417,7 @@
  },
  {
   "id": "ad2ffa99-6fd2-4428-ae6d-8936594a4e62",
-  "answer": "Blandford Square Car Park, Grainger Town, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 4HZ, United Kingdom"
+  "answer": "Grainger Town, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 7JG, United Kingdom"
  },
  {
   "id": "768410e5-4a2e-4ac0-9dec-1c496409e7a1",
@@ -2457,7 +2457,7 @@
  },
  {
   "id": "a8a49ba2-1537-4501-8fa7-50d9968365ce",
-  "answer": "2022-06-26"
+  "answer": "June 26, 2022"
  },
  {
   "id": "f10e0f3e-bdb9-4111-b571-7d02536eb211",
@@ -2485,7 +2485,7 @@
  },
  {
   "id": "3a73ae96-eb80-4c76-81bb-4707ce396082",
-  "answer": "500.00 Euro"
+  "answer": "Unknown"
  },
  {
   "id": "fcf30769-b59c-490d-959d-6c5e9776da1d",
@@ -2541,7 +2541,7 @@
  },
  {
   "id": "94142dce-5d04-4502-ba5e-f131be5b9269",
-  "answer": "S. Spirito snc, 325, Viale Monza, Municipio 2, Milan, Lombardy, 20126, Italy"
+  "answer": "S. Spirito snc, Milan, Italy"
  },
  {
   "id": "eadcb57e-ec30-4af9-b5ae-a0c80b2cbf0f",
@@ -2553,7 +2553,7 @@
  },
  {
   "id": "4c52cb3b-0402-4f99-9a1c-3845222f5742",
-  "answer": "£89.97 for 3 nights, so £29.99 per day."
+  "answer": "£89.97 for 3 nights → £29.99 per day"
  },
  {
   "id": "e2b62b96-b418-450f-b290-2cb7064b2fef",
@@ -2605,7 +2605,7 @@
  },
  {
   "id": "c4f28cdf-3abc-44dd-8a78-235fa624e456",
-  "answer": "2023-03-12, Buns & Buns, Covent Garden, London"
+  "answer": "20230312_174517,20230312_174514"
  },
  {
   "id": "bc0420ca-d640-4bb7-9215-f6ea67564ac4",
@@ -2613,7 +2613,7 @@
  },
  {
   "id": "f4325ae1-76e4-46b5-8860-c9619ce1ea66",
-  "answer": "Evidence 3"
+  "answer": "St Michael's Mount"
  },
  {
   "id": "a1d7662a-60db-4e2a-86fb-0d0901be22c5",
@@ -2769,7 +2769,7 @@
  },
  {
   "id": "cd3567b2-2994-4653-adbf-0c2c2424786a",
-  "answer": "70 Baht"
+  "answer": "70"
  },
  {
   "id": "9673a5a9-67f1-42fc-bd22-f9f4b4b9824e",
@@ -2801,7 +2801,7 @@
  },
  {
   "id": "4cb7e408-bccd-4510-904c-60f26cd203a4",
-  "answer": "July 15, 2022"
+  "answer": "July 15"
  },
  {
   "id": "2f75e1c9-5be6-41b9-b04e-41edac3047d2",
@@ -2837,7 +2837,7 @@
  },
  {
   "id": "270b06d4-c3de-4f6f-83de-f39669d67c1e",
-  "answer": "20220621_135834,20220621_141404"
+  "answer": "2022-06-21 14:14:05"
  },
  {
   "id": "9c743de2-1a56-4469-934f-5c22ed735af5",
@@ -2961,7 +2961,7 @@
  },
  {
   "id": "1e847371-9767-431c-9bb9-d7130ba00697",
-  "answer": "SIHOO Ergonomic Office Chair"
+  "answer": "SIHOO Ergonomic Office Chair Mesh Desk Chair"
  },
  {
   "id": "8de86b03-09c5-4d5f-a0fb-0eb51acefe31",
@@ -3069,7 +3069,7 @@
  },
  {
   "id": "200dcd3f-7392-46ed-bda1-5163fb4856e2",
-  "answer": "Triban RC 120 road bike"
+  "answer": "Triban RC 120"
  },
  {
   "id": "09cb1732-7205-4236-b878-17a804b5a014",
@@ -3077,7 +3077,7 @@
  },
  {
   "id": "58bbe2ae-13e1-4932-9e50-18f04110b1aa",
-  "answer": "Venison Wellington"
+  "answer": "Crab dumpling, Red lentil dumpling, Venison Wellington, Chocolate and chestnut fondant"
  },
  {
   "id": "0abadaa5-c3c6-4e06-932e-14a660f0e999",
@@ -3273,7 +3273,7 @@
  },
  {
   "id": "9a638edf-f307-4563-b0a8-8713d40b4b9d",
-  "answer": "20220603_200413"
+  "answer": "Unknown"
  },
  {
   "id": "93def806-a378-465a-aa3f-4dff0adff031",
@@ -3281,7 +3281,7 @@
  },
  {
   "id": "d8aa224e-9c50-44b2-93f7-cf983cb844dc",
-  "answer": "2024-07-30"
+  "answer": "2024-07-30 15:50:18"
  },
  {
   "id": "017443ed-8585-4932-8fc3-5aabfefd5b0d",
@@ -3297,7 +3297,7 @@
  },
  {
   "id": "3a990385-ae14-4b1d-a457-21612e6a6082",
-  "answer": "1 July 2024"
+  "answer": "Monday, 1 July 2024"
  },
  {
   "id": "60c7ef37-80fc-4f1d-a3cc-593c011a4973",
@@ -3349,7 +3349,7 @@
  },
  {
   "id": "8193bb81-b391-43a3-b208-508c5ccc80cd",
-  "answer": "Evidence 1, Evidence 5"
+  "answer": "Evidence 1, Evidence 5, Evidence 10"
  },
  {
   "id": "93fe9c46-adf4-4803-8968-e35523e0bd8a",
@@ -3409,7 +3409,7 @@
  },
  {
   "id": "07c18f1c-3317-492a-8a5d-cf3c4dc0ec83",
-  "answer": "20221118_200221"
+  "answer": "20220619_190417"
  },
  {
   "id": "612789c5-5e8a-436a-8d88-b6f23f80be64",
@@ -3425,7 +3425,7 @@
  },
  {
   "id": "d2beb429-0a4e-4f20-a3f9-2047937630fe",
-  "answer": "Unknown"
+  "answer": "20221217_132817"
  },
  {
   "id": "877a0636-3aa1-4093-8b1d-64b79a40c7c6",
@@ -3525,7 +3525,7 @@
  },
  {
   "id": "9d1984a5-8904-453e-be3c-b3915940f54c",
-  "answer": "2022-06-02"
+  "answer": "Thursday 2nd June 2022"
  },
  {
   "id": "5aa36085-8b55-43ba-9b18-8d028f7464c4",
@@ -3561,7 +3561,7 @@
  },
  {
   "id": "99c02b0b-d6b9-4898-9b95-62b4e6f5681c",
-  "answer": "The burrata cheese was enjoyed at a restaurant called \"mediterranea\" located in the City Life Shopping District, Via Anna Castelli Ferrieri, Tre Torri, Municipio 8 di Milano, Milan, Lombardy, 20145, Italy. This is inferred from Evidence 1, which shows a Caprese salad with burrata cheese at this location, and Evidence 2, which confirms the restaurant's name \"mediterranea\" and its location. The timestamp in Evidence 1 (2024-10-01) aligns with the ECCV 2024 conference period, as indicated by the ECCV posters in other evidence (e.g., Evidence 4, 8, 9).\n\nAnswer: mediterranea, City Life Shopping District, Via Anna Castelli Ferrieri, Tre Torri, Municipio 8 di Milano, Milan, Lombardy, 20145, Italy"
+  "answer": "The burrata cheese was enjoyed at a restaurant named \"mediterranea\" located in the City Life Shopping District, Via Anna Castelli Ferrieri, Tre Torri, Municipio 8 di Milano, Milan, Lombardy, 20145, Italy. This is inferred from Evidence 1, which shows a Caprese salad with burrata cheese at this location, and Evidence 2, which confirms the restaurant's name \"mediterranea\" from the menu visible in the image. The timestamps in the evidence (2024-10-01) align with the ECCV 2024 conference period, and the location is within Milan, Italy, where ECCV 2024 was held.\n\nThe restaurant is \"mediterranea\" and its location is City Life Shopping District, Via Anna Castelli Ferrieri, Tre Torri, Municipio 8 di Milano, Milan, Lombardy, 20145, Italy."
  },
  {
   "id": "26b00df4-a5bc-40f0-9e04-4d694bab7e3a",
@@ -3569,7 +3569,7 @@
  },
  {
   "id": "f98ca920-74d6-4eef-805a-65ca4c9c2d47",
-  "answer": "cilantro, cucumber, bean sprouts"
+  "answer": "cilantro"
  },
  {
   "id": "66f52978-9b03-41fd-a3a4-2436fe4996a4",
@@ -3601,7 +3601,7 @@
  },
  {
   "id": "0b1b9e49-d92f-4234-9cb6-16c31ff149cf",
-  "answer": "5:30-7:00 PM in the Davidson Room, Whittle Building, Gisborne Court"
+  "answer": "Tuesday, October 18th, from 5:30-7:00 PM in the Davidson Room, Whittle Building, Gisborne Court."
  },
  {
   "id": "dd385f75-d8e6-4b5b-94de-1b38669a87ca",
@@ -3629,7 +3629,7 @@
  },
  {
   "id": "114ca023-5f81-4e98-8fd8-3cc4433201a3",
-  "answer": "Wednesday, April 27th, 2022"
+  "answer": "Wednesday, April 27th"
  },
  {
   "id": "247f09ca-ada0-47db-963c-408d7d1f052e",
@@ -3653,7 +3653,7 @@
  },
  {
   "id": "bf1b0849-c334-478f-8ca7-f9f131cf52a5",
-  "answer": "April 3rd to April 11th"
+  "answer": "April 3 to April 11"
  },
  {
   "id": "b7ff00e3-6bf7-420e-ad15-4201758a836d",
@@ -3669,7 +3669,7 @@
  },
  {
   "id": "6faeffe4-3aef-46b2-837d-b7da74612cce",
-  "answer": "July 10th"
+  "answer": "July 10th, 2025"
  },
  {
   "id": "248c7e21-526f-4944-a210-3f6bdeb1f598",
@@ -3677,7 +3677,7 @@
  },
  {
   "id": "fcdb1de2-192f-44fb-8c0e-0f778f7a7ccf",
-  "answer": "The context of the presentation on \"Truth by disagreement\" was a conference session at the Ernest N. Morial Convention Center in New Orleans, Louisiana, on December 12, 2023. The slide, sourced from a paper by Aroyo, L., & Welty, C. (2014), titled \"The Three Sides of CrowdTruth,\" discussed assessing data reliability through rater disagreement. The presentation was part of a broader discussion on CrowdTruth, emphasizing that disagreement can be a signal of data quality and complexity, particularly in human annotation tasks. The Google logo was visible, indicating possible sponsorship or affiliation. The slide's design featured abstract geometric shapes in green, blue, and orange, and the ambient lighting was dim, suggesting an early morning session with an engaged audience. The presentation was part of a series exploring the nuances of human interpretation, disagreement, and data reliability in crowdsourced environments."
+  "answer": "The context of the presentation on \"Truth by disagreement\" was a conference session at the Ernest N. Morial Convention Center in New Orleans on December 12, 2023. The slide, sourced from a paper by Aroyo, L., & Welty, C. (2014), discussed \"an approach of distributional truth for assessing reliability of data by harnessing rater disagreement.\" The presentation was part of a broader discussion on CrowdTruth, focusing on how disagreement among raters can be leveraged to improve data reliability and understanding in human-computer interaction and AI systems. The Google logo was visible, indicating possible sponsorship or affiliation. The slide design featured abstract geometric shapes in green, blue, and orange, and the ambient lighting was dim, suggesting an early morning session with an engaged audience. The presentation was part of a series of talks on human interpretation, safety evaluation, and the role of disagreement in data annotation tasks."
  },
  {
   "id": "0eecd1cf-ff54-4433-95ee-3b7e512e935f",
@@ -3729,7 +3729,7 @@
  },
  {
   "id": "aee3db7e-c652-456d-a17e-8dda777cfe5e",
-  "answer": "April 11-12, April 20-22, April 21"
+  "answer": "April 11-12, April 20-22"
  },
  {
   "id": "87912fee-d6d4-4487-a6cd-636daafe8d99",
@@ -3829,7 +3829,7 @@
  },
  {
   "id": "6ef2d8ab-bdd5-4133-a078-6a9668da1abc",
-  "answer": "20240731_210028,20240731_204152,20240731_204158,20240731_205937,20240801_175359"
+  "answer": "20240731_210028,20240731_204152,20240731_204158,20240731_205937,20240731_163826,20240801_175359"
  },
  {
   "id": "11d2c718-78cd-47ea-89b1-b2e6058ecb23",
@@ -3841,7 +3841,7 @@
  },
  {
   "id": "b6a2c63d-2938-47e3-8cc7-d43986399206",
-  "answer": "OMFC Patch, Rowland Close, Lower Wolvercote, Wolvercote, Oxford, Oxfordshire, England"
+  "answer": "OMFC Patch, Rowland Close, Lower Wolvercote, Wolvercote, Oxford, Oxfordshire, England, OX2 8PF, United Kingdom"
  },
  {
   "id": "99756dc5-3509-4cbd-b068-057dea667dab",
@@ -3949,7 +3949,7 @@
  },
  {
   "id": "772a6e3c-0a9b-4def-ab97-551b51d41456",
-  "answer": "20230329_164647,20230329_155908,20230329_155922,20230329_142302,20230329_164652,20230329_164746,20230329_142030,20230329_165017,20230329_142018,20230329_140207"
+  "answer": "20230329_164647,20230329_155908,20230329_155922,20230329_142302,20230329_164652,20230329_164746,20230329_142030,20230329_165017,20230329_140207,20230329_142018"
  },
  {
   "id": "604043a6-d6db-4744-b3aa-d5f0a313a7ac",
@@ -3969,7 +3969,7 @@
  },
  {
   "id": "f3a57df4-11a2-46b9-bd34-f44470445910",
-  "answer": "If you want to bring additional guests to the formal hall, you must ensure that each person is limited to two guests. If you need more than two, you may need to cancel the extra ticket or find another College member to host the additional guest. For special occasions, a web-based form for Group Dining Permits may be available via the intranet."
+  "answer": "If you want to bring additional guests to the formal hall, you must ensure that you are booking within the limit of two guests per person. If you need more than two guests, you may need to either cancel the extra ticket or find another College member to host the additional guest. For special occasions, a web-based application process for Group Dining Permits may be available via the intranet. Additionally, due to staffing shortages, temporary changes may apply, such as requiring 10 or more bookings for dinner and suspending group dining permits. Always check the Upay system for availability and confirm your booking by the deadline (11:00 AM the day before)."
  },
  {
   "id": "fd91fe65-c65d-4dc0-bd2d-569e70c2c594",
@@ -3997,7 +3997,7 @@
  },
  {
   "id": "f2b7f207-b3e3-4f37-be12-2dc00e23c967",
-  "answer": "Unknown"
+  "answer": "2023-03-17, Concourse B, Terminal 03 Departure, Dubai International Airport, Dubai, United Arab Emirates"
  },
  {
   "id": "8f7717e3-fef1-40a5-9185-5e7ab198151e",
@@ -4013,7 +4013,7 @@
  },
  {
   "id": "fa6ae31a-052e-4983-8a7c-1fdf211ab553",
-  "answer": "August 22nd to 24th"
+  "answer": "August 22nd to 24th, 2022"
  },
  {
   "id": "21cfa781-266a-436e-a422-23f3a0db8b3a",

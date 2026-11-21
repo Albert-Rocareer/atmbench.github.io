@@ -189,8 +189,8 @@ validateDeliveryStats('Rolling-Memory Qwen Main evidence', rmQwenSummary.splits.
 validateDeliveryStats('Rolling-Memory Qwen Hard evidence', rmQwenSummary.splits.hard);
 validateJudgeUsage('Rolling-Memory Qwen Main evidence', rmQwenSummary.protocol.main_token_usage);
 validateJudgeUsage('Rolling-Memory Qwen Hard evidence', rmQwenSummary.protocol.hard_token_usage);
-close(rmQwenSummary.splits.main.qs_percent, 58.35299120096751, 'Rolling-Memory Qwen Main QS');
-close(rmQwenSummary.splits.hard.qs_percent, 19.854070660522275, 'Rolling-Memory Qwen Hard QS');
+close(rmQwenSummary.splits.main.qs_percent, 57.68171775575527, 'Rolling-Memory Qwen Main QS');
+close(rmQwenSummary.splits.hard.qs_percent, 16.62826420890937, 'Rolling-Memory Qwen Hard QS');
 
 const mainRMRows = main.rows.filter(r => r.harness === 'Rolling-Memory');
 const hardRMRows = hard.rows.filter(r => r.harness === 'Rolling-Memory');
@@ -206,12 +206,12 @@ close(hardRM.qs, 35.52, 'Hard Rolling-Memory (DeepSeek) QS', 1e-9);
 close(hardRM.recall, 52.43, 'Hard Rolling-Memory (DeepSeek) Recall@10', 1e-9);
 close(hardRM.total_tokens, 1.014455, 'Hard Rolling-Memory (DeepSeek) Total Tokens (M)', 1e-9);
 close(hardRM.cost_usd, 0.044023, 'Hard Rolling-Memory (DeepSeek) Cost (USD)', 1e-9);
-close(mainRMQwen.qs, 58.35, 'Main Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
-close(mainRMQwen.recall, 82.85, 'Main Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
-close(hardRMQwen.qs, 19.85, 'Hard Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
+close(mainRMQwen.qs, 57.68, 'Main Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
+close(mainRMQwen.recall, 82.77, 'Main Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
+close(hardRMQwen.qs, 16.63, 'Hard Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
 close(hardRMQwen.recall, 52.43, 'Hard Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
-close(hardRMQwen.total_tokens, 0.219268, 'Hard Rolling-Memory (Qwen3-VL-8B) Total Tokens (M)', 1e-9);
-close(hardRMQwen.cost_usd, 0.040289, 'Hard Rolling-Memory (Qwen3-VL-8B) Cost (USD)', 1e-9);
+close(hardRMQwen.total_tokens, 0.205480, 'Hard Rolling-Memory (Qwen3-VL-8B) Total Tokens (M)', 1e-9);
+close(hardRMQwen.cost_usd, 0.037459, 'Hard Rolling-Memory (Qwen3-VL-8B) Cost (USD)', 1e-9);
 
 console.log(JSON.stringify({
   ok: true,
