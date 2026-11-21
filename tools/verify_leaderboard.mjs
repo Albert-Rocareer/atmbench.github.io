@@ -83,6 +83,13 @@ function validateSplit(name, split, expectedQuestions) {
     assert(summary.questions === expected.count, `${name}/${type}: question count mismatch`);
     close(summary.qs_percent, (expected.total / expected.count) * 100, `${name}/${type}: QS`);
   }
+  for (const [metric, field, depth] of [['recall_at_10', 'retrieved_top10', 10], ['recall_at_50', 'retrieved_top50', 50], ['recall_at_64', 'retrieved_top64', 64]]) {
+    if (typeof split[metric] !== 'number') continue;
+    for (const entry of split.scores) {
+      const ids = entry[field];
+      assert(Array.isArray(ids) && ids.length >= depth, `${name}: ${metric} is reported but ${field} has fewer than ${depth} ids (${entry.id})`);
+    }
+  }
   return { questions: expectedQuestions, mean: split.qs_percent, by_type: Object.fromEntries(byType) };
 }
 
