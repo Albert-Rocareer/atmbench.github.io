@@ -85,8 +85,9 @@
       "request_log": "docs/rolling-memory/zhao-qwen3vl8b/requests-hard-31.jsonl",
       "request_log_note": "Per-question re-tokenization of the engine's adaptive delivered prefix plus the parsed answer; retained as a cross-check, not the system-token basis (see cached_prompt_note)."
     },
-    "run_selection": "Single uninterrupted cold answer run across all 31 Hard and 1,013 Main questions (0 cached answers). Judge verdicts come from one full instrumented pass (527 calls); every verdict has a logged judge call. Per-question answer token counts are the llama.cpp server's own counters in docs/rolling-memory/zhao-qwen3vl8b/llama-server-timing-log.txt.",
-    "run_log_note": "The main-1013 section of run-log.txt is the captured stdout tail from 920/1013; the hard-31 section is complete. All per-question artifacts and summaries are complete."
+    "run_selection": "One uninterrupted cold answer run per split (Hard 31, Main 1,013); 0 reused answers. Judge verdicts come from one full instrumented pass (527 calls); every verdict has a logged judge call. Per-question answer token counts are the llama.cpp server own counters in docs/rolling-memory/zhao-qwen3vl8b/llama-server-timing-log.txt.",
+    "run_log_note": "The main-1013 section of run-log.txt is the captured stdout tail from 920/1013; the hard-31 section is complete. All per-question artifacts and summaries are complete.",
+    "answer_run_retrieval_depth": 10
   },
   "splits": {
     "main": {

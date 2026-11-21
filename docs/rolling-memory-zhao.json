@@ -13,7 +13,7 @@
   },
   "protocol": {
     "pipeline": "Official SGM corpus (11,034 items) ingested into an isolated local vault with zero LLM calls and zero vector embeddings. Retrieval uses our in-house deterministic Adaptive Self-Information Ranking engine (0-Vector, 0-LLM, no SQLite FTS5, no rank-index RRF) and is independent of the answer model. The default smart adaptive delivery window passes the prefix of ranked candidates satisfying E(u_k) >= E(u_1)/e, bounded by the 64-item cap alone (no character budget; a single record is already bounded at ingestion by the shared tokenz-r chunker). Items are rendered with the exact official MMRag item text formats and the exact official MMRAG SYSTEM and USER_TEXT prompts.",
-    "run_selection": "Single uninterrupted cold run across all 31 Hard and 1,013 Main questions (0 cached answers, 0 cached judges); per-request server usage logs published in docs/rolling-memory/zhao/requests-{hard-31,main-1013}.jsonl.",
+    "run_selection": "One uninterrupted cold answer run per split (Hard 31, Main 1,013); 0 reused answers; 0 cached judges; per-request server usage logs published in docs/rolling-memory/zhao/requests-{hard-31,main-1013}.jsonl.",
     "memory_mode": "processed_memory (fixed official 2B SGM)",
     "answer_model": "deepseek-flash (DeepSeek official API; DeepSeek-V4.1-flash family)",
     "answer_model_settings": {
