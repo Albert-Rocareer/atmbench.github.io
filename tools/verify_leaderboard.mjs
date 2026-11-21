@@ -234,8 +234,8 @@ close(hardRMQwen.qs, 16.63, 'Hard Rolling-Memory (Qwen3-VL-8B) QS', 1e-9);
 close(hardRMQwen.recall, 52.43, 'Hard Rolling-Memory (Qwen3-VL-8B) Recall@10', 1e-9);
 close(hardRMQwen.total_tokens, 0.208249, 'Hard Rolling-Memory (Qwen3-VL-8B) Total Tokens (M)', 1e-9);
 close(hardRMQwen.cost_usd, 0.038306, 'Hard Rolling-Memory (Qwen3-VL-8B) Cost (USD)', 1e-9);
-assert(mainRM.notes?.qs === '\u00b6' && mainRMQwen.notes?.qs === '\u00b6', 'Main Rolling-Memory footnote marker missing');
-assert(hardRM.notes?.qs === '\u00b6' && hardRM.notes?.cost_usd === '\u00b6', 'Hard Rolling-Memory footnote marker missing');
+assert(mainRM.notes?.qs === '\u00a4' && mainRMQwen.notes?.qs === '\u00a4', 'Main Rolling-Memory footnote marker missing');
+assert(hardRM.notes?.qs === '\u00a4' && hardRM.notes?.cost_usd === '\u00a4', 'Hard Rolling-Memory footnote marker missing');
 assert(html.includes('Rolling-Memory rows') || html.includes('Rolling-Memory 两行说明'), 'Rolling-Memory footnote text missing');
 assert(html.includes('docs/rolling-memory-zhao.json') && html.includes('docs/rolling-memory-zhao-qwen3vl8b.json'), 'Rolling-Memory evidence links missing');
 

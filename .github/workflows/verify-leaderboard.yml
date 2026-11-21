@@ -12,6 +12,8 @@ on:
       - 'docs/rolling-memory/zhao/judge-requests-hard-31.jsonl'
       - 'docs/rolling-memory/zhao-qwen3vl8b/judge-requests-main-1013.jsonl'
       - 'docs/rolling-memory/zhao-qwen3vl8b/judge-requests-hard-31.jsonl'
+      - 'docs/rolling-memory/zhao/**'
+      - 'docs/rolling-memory/zhao-qwen3vl8b/**'
       - 'tools/verify_leaderboard.mjs'
   pull_request:
     paths:
@@ -24,6 +26,8 @@ on:
       - 'docs/rolling-memory/zhao/judge-requests-hard-31.jsonl'
       - 'docs/rolling-memory/zhao-qwen3vl8b/judge-requests-main-1013.jsonl'
       - 'docs/rolling-memory/zhao-qwen3vl8b/judge-requests-hard-31.jsonl'
+      - 'docs/rolling-memory/zhao/**'
+      - 'docs/rolling-memory/zhao-qwen3vl8b/**'
       - 'tools/verify_leaderboard.mjs'
 
 jobs:
