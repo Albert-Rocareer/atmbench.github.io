@@ -1,11 +1,11 @@
 [
  {
   "id": "1defb7d5-aab4-4244-8b3c-971a36376b04",
-  "answer": "£632.13"
+  "answer": "799.74 GBP"
  },
  {
   "id": "c2d9d893-99d1-4482-99dc-085b074ea099",
-  "answer": "red cheesecake"
+  "answer": "Strawberry and elderflower fraisier"
  },
  {
   "id": "0120cf15-4165-4195-aca8-175773c28585",
@@ -17,7 +17,7 @@
  },
  {
   "id": "b964ad97-8c8e-4c9d-910e-68166511da4f",
-  "answer": "Decode; Time To First Token (TTFT) and Time Per Output Token (TPOT)."
+  "answer": "Decode is the bigger user-perceived latency bottleneck in generation. The two metrics introduced were Time To First Token (TTFT) and Time Per Output Token (TPOT)."
  },
  {
   "id": "0f49a8fe-59a7-4c8b-abf0-cb3ee6671db4",
@@ -25,7 +25,7 @@
  },
  {
   "id": "def045f1-23f5-496e-bee9-97bdf78ace83",
-  "answer": "花城汇中区, 珠江东路, Zhujiang New Town, Xiancun, Tianhe District, Guangzhou City, Guangdong Province, 510623, China"
+  "answer": "At 八合里 in 花城汇中区, Zhujiang New Town, Tianhe District, Guangzhou."
  },
  {
   "id": "abcd9ba4-1978-4c5e-83ed-20ee52d44064",
@@ -33,27 +33,27 @@
  },
  {
   "id": "4ede1703-60c0-4a9f-9733-09664b82f7ae",
-  "answer": "Feast Night Formal"
+  "answer": "Feast Night Formal at Downing College, University of Cambridge, on Monday 6 February 2023."
  },
  {
   "id": "23a4e35d-ec2f-479a-b269-46f9ae5fb5bf",
-  "answer": "G-A-Y"
+  "answer": "Dozo"
  },
  {
   "id": "e69ff709-ff26-4762-860a-620e5bc6fb35",
-  "answer": "Narrowcliff, Treninnick, Porth, Newquay, Cornwall, England"
+  "answer": "Narrowcliff, Treninnick, Porth, Newquay, Cornwall"
  },
  {
   "id": "ba3c77e1-a455-447f-b0c8-4053ae7604d7",
-  "answer": "2023-02-05"
+  "answer": "2023-02-05 19:07:40"
  },
  {
   "id": "4ce4bc3b-4fe6-4cee-b039-5bb1aa840da6",
-  "answer": "2023-04-29 13:38:32, 8, Brunswick Walk, Petersfield, Cambridge, Cambridgeshire, England, CB5 8DH, United Kingdom"
+  "answer": "2023-04-29 13:38:32 at 8, Brunswick Walk, Petersfield, Cambridge, Cambridgeshire, England, CB5 8DH, United Kingdom."
  },
  {
   "id": "3227e8e2-7397-4bbb-958e-13656a7af1e9",
-  "answer": "5 pm on Friday, May 6th"
+  "answer": "5 pm on Friday, May 6, 2022"
  },
  {
   "id": "be575c4e-121f-4df7-b613-2eff5390b8cb",
@@ -61,11 +61,11 @@
  },
  {
   "id": "988c300f-d262-4954-af22-faf0e667e766",
-  "answer": "2024-07-31"
+  "answer": "2024-07-30"
  },
  {
   "id": "95891f4f-696f-49a7-82d0-3d73aa0595e4",
-  "answer": "2025-06-04 11:32:47"
+  "answer": "2025-06-04"
  },
  {
   "id": "b1171fa9-3a7e-4230-9ea9-4263fda30bf2",
@@ -121,15 +121,15 @@
  },
  {
   "id": "34012998-4eac-464c-a020-6ed967d76016",
-  "answer": "2025-04-29 17:23:24"
+  "answer": "2025-04-29"
  },
  {
   "id": "ba0dde2d-6e3a-4796-bb7d-b05d4ad18bbd",
-  "answer": "February 24, 2022"
+  "answer": "February 24, 2022, at 16:00"
  },
  {
   "id": "03b5f724-cd73-4aaa-9105-11feebfd826d",
-  "answer": "Odd Fellows Hall, 534;536;538 Massachusetts Avenue, Central Square, Cambridge, Massachusetts, 02139, United States"
+  "answer": "Unknown"
  },
  {
   "id": "2ad6b62b-74ac-4e05-abe2-daa2216e40ce",
@@ -137,7 +137,7 @@
  },
  {
   "id": "3e4d50d3-a67e-4e07-9220-4017245254ed",
-  "answer": "£23.09 and £28.71 for guardians"
+  "answer": "£23.09 for non-drinking tickets and £28.71 for guardians."
  },
  {
   "id": "18222db7-89f4-4f73-8d5f-5e217da11148",
@@ -145,15 +145,15 @@
  },
  {
   "id": "b79d1892-f6f8-47c1-b407-f39c91a6bd78",
-  "answer": "Unknown"
+  "answer": "Park Avenue, Penbeagle, St. Ives, Cornwall, England"
  },
  {
   "id": "ef1744fa-2ed7-4291-922f-ed9a3ec60d72",
-  "answer": "13, London Road, Meadowbank, City of Edinburgh, Scotland, EH7 5TL"
+  "answer": "13 London Road, Meadowbank, Edinburgh, Scotland, EH7 5TL, United Kingdom"
  },
  {
   "id": "f37d8c46-65c5-4f09-a376-77db8a48f0dd",
-  "answer": "Wednesday 12th October, 5:30-7pm"
+  "answer": "Wednesday 12 October 2022, 5:30–7pm"
  },
  {
   "id": "bb7ebe7b-bb3c-4a7d-b4d0-2e46bfaf7e2e",
@@ -161,7 +161,7 @@
  },
  {
   "id": "cf6d66d4-038e-4418-8557-f91a63b86a95",
-  "answer": "76 GBP"
+  "answer": "£76"
  },
  {
   "id": "26ad398f-84e8-4043-8f5a-04eeb7c89db0",
@@ -169,7 +169,7 @@
  },
  {
   "id": "0b19fd81-f3da-4af0-b22c-50a5e2e2aa7d",
-  "answer": "4 days"
+  "answer": "3 days"
  },
  {
   "id": "e388993e-fac9-44a2-a83d-d6ee44be5ee8",
@@ -177,7 +177,7 @@
  },
  {
   "id": "3a26756b-dca6-46d3-961d-b470c2acaf94",
-  "answer": "May 15, 2023"
+  "answer": "May 15, 2023."
  },
  {
   "id": "574877aa-f22a-4c2d-936a-18ea5100e688",
@@ -209,7 +209,7 @@
  },
  {
   "id": "066697d5-986c-4be5-a23c-50853ac22230",
-  "answer": "2023-01-19 13:50:26"
+  "answer": "19 January 2023"
  },
  {
   "id": "94f41505-278d-456f-af3e-8b5055981930",
@@ -229,11 +229,11 @@
  },
  {
   "id": "ef591624-59de-4619-a072-d211d0db2687",
-  "answer": "Hilton Porto Gaia in Porto, Portugal"
+  "answer": "Hilton Porto Gaia, Porto, Portugal"
  },
  {
   "id": "9121042a-8347-4f32-bcb7-0fae7aaacb65",
-  "answer": "2024-07-29 11:43:27"
+  "answer": "2024-07-29"
  },
  {
   "id": "523c38f4-7fb5-4c85-906b-2882f93225c2",
@@ -245,7 +245,7 @@
  },
  {
   "id": "41dd6ad2-467f-4147-99d8-dc29765febc1",
-  "answer": "Kunming old street, Yongdao Street, Huguo Subdistrict, Wuhua, Wuhua District, Yunnan, 650034, China"
+  "answer": "Kunming old street, Yongdao Street, Huguo Subdistrict, Wuhua District, Yunnan, China"
  },
  {
   "id": "f9d6c854-b7fb-432f-83e4-ec39a99a5c7b",
@@ -261,11 +261,11 @@
  },
  {
   "id": "c2d11022-ba77-4078-ab6c-7744b61312e0",
-  "answer": "H100 memory bandwidth: 3.3 TB/second, roughly double A100's 1.5 TB/second."
+  "answer": "H100 memory bandwidth was 3.3 TB/second, roughly double the A100’s 1.5 TB/second."
  },
  {
   "id": "22fcb9f0-2840-4dbb-bf87-7aa91c17509b",
-  "answer": "20231214_114407"
+  "answer": "email202312150002"
  },
  {
   "id": "fa738ea7-7096-4d48-9bc7-dee6b9f39118",
@@ -277,7 +277,7 @@
  },
  {
   "id": "31fd116b-c07e-40b9-b541-5525f2897c11",
-  "answer": "2024-07-20"
+  "answer": "2024-07-20 18:10:20"
  },
  {
   "id": "e5d87669-69e8-4550-a9bd-da498315a86a",
@@ -317,7 +317,7 @@
  },
  {
   "id": "5c8a09f7-5a37-4614-850e-28444f2bd224",
-  "answer": "3 days"
+  "answer": "3 days (until March 11, 2022, at 4 PM UK time)."
  },
  {
   "id": "4d0ff63b-8cb2-4df5-a274-2cb42da9cd1c",
@@ -345,7 +345,7 @@
  },
  {
   "id": "bcf1e962-4d23-481c-998a-35a54bb6e420",
-  "answer": "1 to 3 Mbps; on most A380s, less than 1 Mbps."
+  "answer": "1 to 3 Mbps (less than 1 Mbps on most A380s)."
  },
  {
   "id": "f16ec35f-8216-4b1e-9902-d53696d627ed",
@@ -373,15 +373,15 @@
  },
  {
   "id": "7991e29f-f957-475b-a393-4af2f2234501",
-  "answer": "On 2022-05-21 at 17:28 at Kaura's, St Clements Street, St Clement's, East Oxford, Oxford, England."
+  "answer": "On 2022-05-21 at about 17:28, at Kaura's, St Clements Street, St Clement's, East Oxford, Oxford."
  },
  {
   "id": "d2f0f8cf-88d9-44e0-b54e-95f489d63076",
-  "answer": "Unknown"
+  "answer": "August 10, 2024"
  },
  {
   "id": "32080898-3548-4ec7-88a2-006d6c1d9f35",
-  "answer": "Unknown"
+  "answer": "Joshua Taylor Building, 59 Sidney Street, Petersfield, Cambridge, Cambridgeshire, England, CB2 3HX, United Kingdom"
  },
  {
   "id": "f406715d-747d-45d5-8577-fd6569f0acb5",
@@ -401,11 +401,11 @@
  },
  {
   "id": "15d8d083-08f1-4f3a-a4cb-b00aaf7608ab",
-  "answer": "2025-05-01 at 13:41:29 and 13:41:55"
+  "answer": "May 1, 2025 at 1:41 PM (2025-05-01 13:41:29)."
  },
  {
   "id": "394fb3a7-cffe-478c-8c97-656e59f60d08",
-  "answer": "20230418_135743, 20230418_135752, 20230418_135850, 20230418_195315, 20230418_195319, 20230418_195350"
+  "answer": "20230418_195315, 20230418_195319, 20230418_135850, 20230418_135743, 20230418_195350, 20230418_135752"
  },
  {
   "id": "71b0a71c-873c-4576-b432-2dd270937320",
@@ -425,7 +425,7 @@
  },
  {
   "id": "612bd5cb-b6ea-4fab-b386-5e7bba648f6a",
-  "answer": "Peterhouse (University of Cambridge), Trumpington Street, Newnham, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB2 1RD, United Kingdom"
+  "answer": "Peterhouse (University of Cambridge), Cambridge, England"
  },
  {
   "id": "abf7a235-f587-4537-b89a-f3c8d65e7def",
@@ -433,11 +433,11 @@
  },
  {
   "id": "aede2130-03d9-458c-a6c8-a170f6d35d0b",
-  "answer": "16:00 BST on August 15, 2024"
+  "answer": "16:00 BST on August 15, 2024."
  },
  {
   "id": "2995e608-1a8a-41ec-8d60-1ed4e2fbc381",
-  "answer": "February 24th"
+  "answer": "February 24th at 8:30 PM"
  },
  {
   "id": "591c6739-0b69-4be8-bdb4-b7ad09715d3d",
@@ -453,7 +453,7 @@
  },
  {
   "id": "7fbd6bb2-6538-477a-ac20-b996598cc215",
-  "answer": "At least two hours before departure, by 18:05 on May 3, 2025."
+  "answer": "By 18:05 on May 3, 2025 — at least two hours before the 20:05 departure."
  },
  {
   "id": "3d413f9f-690e-4676-ac45-ad31b2d21d88",
@@ -469,7 +469,7 @@
  },
  {
   "id": "394f00d6-43bc-428c-96e2-d68f7f8d4a65",
-  "answer": "2024-11-23 22:13:14"
+  "answer": "2024-11-23"
  },
  {
   "id": "f478cbba-02ad-4ca9-a094-319a8f1d5d37",
@@ -481,11 +481,11 @@
  },
  {
   "id": "789809a1-5507-453d-ab1c-0fd14c93d3d0",
-  "answer": "2023-12-15, George Bush Intercontinental Airport - Houston"
+  "answer": "December 15, 2023 — George Bush Intercontinental Airport, Houston, Texas."
  },
  {
   "id": "14b05052-2841-4bd3-b6e9-0e2c7e475c41",
-  "answer": "High Street, Holywell, City Centre, Oxford, Oxfordshire, England, OX1 4AU, United Kingdom"
+  "answer": "High Street, Holywell, City Centre, Oxford, Oxfordshire, England, United Kingdom"
  },
  {
   "id": "354dfbb9-433f-44f9-9608-fb94b39b3625",
@@ -501,15 +501,15 @@
  },
  {
   "id": "48596380-1835-4b0a-981b-7f97fb493ab9",
-  "answer": "Cambridge, New Orleans"
+  "answer": "New Orleans"
  },
  {
   "id": "16f41d89-6fa1-42ff-b0ae-c500fbcbd1ad",
-  "answer": "Waldorf Astoria Beijing, at Brasserie 1893 in Jinyu Hutong."
+  "answer": "Brasserie 1893 at the Waldorf Astoria Beijing"
  },
  {
   "id": "02f31bda-276c-4c90-80fe-5d14dfd0fa63",
-  "answer": "April 11th to April 14th"
+  "answer": "April 11th to April 14th."
  },
  {
   "id": "a46e8624-a67e-41bf-a962-d45d36272365",
@@ -517,7 +517,7 @@
  },
  {
   "id": "949de2f0-7a6e-465e-b873-51488ad1b776",
-  "answer": "Balqa, Jordan"
+  "answer": "Balqa, Jordan — specifically Shoonah Janoobiyah Sub-District, Shoonah Janoobiyah District."
  },
  {
   "id": "fc25ad71-83dd-4e9f-b6f1-632e600634c2",
@@ -529,7 +529,7 @@
  },
  {
   "id": "45dfb2ec-172c-40b2-a1d5-4c563d7675bc",
-  "answer": "According to Evidence 1, from the Tutorial Office between 10:00 a.m. and 12:00 p.m., and 2:00 p.m. and 4:00 p.m. According to Evidence 2, from the Porters Lodge on the day."
+  "answer": "For the June 29, 2022 ceremony: from the Tutorial Office between 10:00 a.m.–12:00 p.m. and 2:00 p.m.–4:00 p.m. For the May 24, 2025 ceremony: at the Porters Lodge on the day."
  },
  {
   "id": "52c34419-7d26-40aa-9177-b3b04b65ea58",
@@ -541,7 +541,7 @@
  },
  {
   "id": "7d9d59ea-d6b1-45cd-9332-5ecd61185532",
-  "answer": "Ramsis Street station in Luxor, Egypt"
+  "answer": "Ramsis Street, Luxor City, Luxor, Egypt"
  },
  {
   "id": "5e225365-8c14-49cb-a061-8a6300946fe6",
@@ -553,11 +553,11 @@
  },
  {
   "id": "a7caaf05-ff22-4d91-a694-68b7208cc4f0",
-  "answer": "24, Rúa do Franco, A Poza de Bar, O Ensanche, Santiago de Compostela, A Coruña, Galicia, Spain"
+  "answer": "Santiago de Compostela, Spain — at 24, Rúa do Franco, A Poza de Bar, O Ensanche."
  },
  {
   "id": "55af87fd-dd94-46df-8743-96b47666926b",
-  "answer": "Unknown"
+  "answer": "May 2, 2025"
  },
  {
   "id": "a6afce1d-2a2c-446f-a040-08009ccd538c",
@@ -565,7 +565,7 @@
  },
  {
   "id": "f0a58ca8-0f90-4923-92c3-932556ec2cc7",
-  "answer": "July 10th at 7:30 PM"
+  "answer": "July 10th, with pre-drinks at 6:45 PM and dinner at 7:30 PM."
  },
  {
   "id": "b65b2ed5-3d39-4437-af05-2dbe38a19168",
@@ -573,7 +573,7 @@
  },
  {
   "id": "81d60e8e-cdfb-422b-b186-c183f275f43a",
-  "answer": "Download the Whova app or access it online and sign up/log in with your registered event email; for ECAI 2024, use the code p7wwfk24mq for access."
+  "answer": "Download the Whova app and use access code **p7wwfk24mq**; log in with your registered email."
  },
  {
   "id": "fd096894-0910-4119-9587-cc416e0ba9d5",
@@ -581,7 +581,7 @@
  },
  {
   "id": "22ecba76-6dcc-48ca-b148-c57bd2c07cd8",
-  "answer": "Grilled octopus with creamy sauce and microgreens, at 50, Rúa do Franco, Santiago de Compostela, Spain."
+  "answer": "Grilled octopus with creamy sauce and microgreens, at a restaurant at 50 Rúa do Franco, Santiago de Compostela, Spain."
  },
  {
   "id": "10edfe51-1bdc-4f35-a55b-e9e774c07197",
@@ -593,7 +593,7 @@
  },
  {
   "id": "6d97017a-5efa-46e2-b89e-b97b2c547e08",
-  "answer": "Cidade Vella, Rúa de Aller Ulloa, A Raxeira, Vite, Santiago de Compostela, A Coruña, Galicia, 15704, Spain"
+  "answer": "Cidade Vella / Mercado de la Raxeira, Santiago de Compostela, Spain"
  },
  {
   "id": "fe40eb23-0481-4262-938f-c6069e64c411",
@@ -601,11 +601,11 @@
  },
  {
   "id": "f1241732-10fe-4665-832e-d911352b0e2b",
-  "answer": "Doyles, Sydney Fish Market waterfront, Pyrmont, Sydney"
+  "answer": "Doyles, Sydney Fish Market waterfront, Pyrmont, Sydney."
  },
  {
   "id": "e8f5bc6e-5758-4bd0-873b-e556a7e3c37f",
-  "answer": "2023-05-03"
+  "answer": "Unknown"
  },
  {
   "id": "748db3bd-5954-4d87-a362-cf848d13783c",
@@ -621,7 +621,7 @@
  },
  {
   "id": "706363f2-8069-4ce5-bf2a-2415d347b13f",
-  "answer": "Siam Kempinski"
+  "answer": "Siam Kempinski Hotel"
  },
  {
   "id": "a7a2ea24-2fec-4d1a-9e46-029ca6487838",
@@ -637,7 +637,7 @@
  },
  {
   "id": "85fc0c59-55e8-45ed-b677-e29355f5a70d",
-  "answer": "July 2-7, 2023, at Cambridge Judge Business School"
+  "answer": "July 2–7, 2023, at Cambridge Judge Business School."
  },
  {
   "id": "519f4d4d-38a8-45ad-95ec-6e37fc1af713",
@@ -645,7 +645,7 @@
  },
  {
   "id": "e228dad1-991e-438e-b01b-3044d688c5f9",
-  "answer": "July 8, 2024 – July 13, 2024"
+  "answer": "July 8–13, 2024"
  },
  {
   "id": "dae9191d-66ce-41e7-9736-9b9885192a41",
@@ -657,11 +657,11 @@
  },
  {
   "id": "0c5bd996-9441-467d-bd55-cb0526c5d510",
-  "answer": "Sydney Harbour Bridge"
+  "answer": "Top of the Sydney Harbour Bridge"
  },
  {
   "id": "2b90f5fe-e614-4bd4-a26b-60329cd8b640",
-  "answer": "جو بترول (JO Petrol)"
+  "answer": "JO Petrol"
  },
  {
   "id": "6731d2c8-f6dc-4993-b8ea-656745c27dfe",
@@ -669,11 +669,11 @@
  },
  {
   "id": "ebea8b3b-f2dc-468a-8ce6-7a9dbf1a7754",
-  "answer": "20221226_115855"
+  "answer": "20221226_115855,20221226_115913,20221226_130527,20221226_130302,20221226_131445"
  },
  {
   "id": "f57fa08e-4f96-4e9c-82c0-b22462b42617",
-  "answer": "2024-10-24 at 17:30"
+  "answer": "2024-10-24"
  },
  {
   "id": "8cb38f9f-0c99-40b3-9fbc-5160a14c49be",
@@ -685,11 +685,11 @@
  },
  {
   "id": "fead4e2f-769b-412f-8b4d-ef6c2978adbc",
-  "answer": "August 17, 2022"
+  "answer": "August 17, 2022."
  },
  {
   "id": "3b449cf4-570b-4759-b7b0-950a4d2d4967",
-  "answer": "192, High Street, Abbeyhill, Old Town, City of Edinburgh, Scotland, EH1 1RF, United Kingdom"
+  "answer": "High Street (the Royal Mile), Old Town, Edinburgh, Scotland — near Caffè Nero/Adam Smith statue."
  },
  {
   "id": "e20bd45c-9eeb-46da-8491-abfb5d4fa44a",
@@ -725,7 +725,7 @@
  },
  {
   "id": "68ba2c2f-6441-4e13-90e2-92834230c5e0",
-  "answer": "Friday, June 3rd, with pre-dinner drinks at 7:30 PM and dinner at 8 PM."
+  "answer": "Friday, June 3, 2022 — pre-dinner drinks at 7:30 PM, dinner at 8 PM."
  },
  {
   "id": "247060f3-c7b0-4e13-9280-8b7d2dcf8888",
@@ -737,11 +737,11 @@
  },
  {
   "id": "be47b42d-f8e4-4c3c-8bcc-246d9b0fee66",
-  "answer": "Milan"
+  "answer": "Milan, Italy"
  },
  {
   "id": "6d5dde88-0e86-453a-9a35-467426b121f3",
-  "answer": "20220620_131646, 20220620_131700"
+  "answer": "20220620_131646, 20220620_131700, 20220620_130907"
  },
  {
   "id": "7f24569b-3dad-48e6-a37b-a585e883544c",
@@ -749,7 +749,7 @@
  },
  {
   "id": "7b706c69-a649-4c2a-83ac-08a51ceb3e46",
-  "answer": "August 4, 2024"
+  "answer": "2024-07-29"
  },
  {
   "id": "aea86c9a-e023-40be-ae82-80350d4b9591",
@@ -757,11 +757,11 @@
  },
  {
   "id": "500f1059-8d20-4bd7-be43-32ef39bee511",
-  "answer": "20230905_144627, 20230905_152531, 20230905_152540, 20230905_152605, 20230905_153314, 20230905_153627"
+  "answer": "20230905_152605, 20230905_152540, 20230905_153627, 20230905_153314, 20230905_144627, 20230905_152531"
  },
  {
   "id": "feb49ce8-7458-4506-836d-31140a71948a",
-  "answer": "February 1st from 3pm to 5:30pm"
+  "answer": "Tuesday, February 1st, from 3pm to 5:30pm."
  },
  {
   "id": "1c909632-fa91-488f-b531-6b4c8e5c6123",
@@ -769,7 +769,7 @@
  },
  {
   "id": "91c1a0ee-3234-4493-8b59-2f267e8549c9",
-  "answer": "August 12, 2024, from 19:00-22:00"
+  "answer": "August 12, 2024, from 19:00–22:00"
  },
  {
   "id": "7edea36b-f564-4f2b-9c53-5b92b68e93fc",
@@ -785,7 +785,7 @@
  },
  {
   "id": "503fa788-e01d-4888-acb0-6c450ad2066c",
-  "answer": "20230904_155739,20230904_155742"
+  "answer": "20230904_155739, 20230904_155742, 20230904_160716, 20230904_160730"
  },
  {
   "id": "f0b61890-c8c3-44af-b1fd-119f3a3f0a80",
@@ -793,11 +793,11 @@
  },
  {
   "id": "c326e08b-7d04-4ae5-b6ad-14544d022b05",
-  "answer": "2022-06-19 at 12:12:57+00:00 (13:12:57 local time)"
+  "answer": "2022-06-19 12:12:28+00:00"
  },
  {
   "id": "361edb41-8b23-45a4-95e4-0cd3f60979c7",
-  "answer": "2024-04-07 13:55:46+00:00"
+  "answer": "On 2024-04-07 (around 13:55)."
  },
  {
   "id": "eeba8404-d8e6-4ef1-a026-f575b831c641",
@@ -817,7 +817,7 @@
  },
  {
   "id": "6888deb1-2289-403f-a769-858451f0cb99",
-  "answer": "Tuesday, October 25th at 7 pm at the Panton Arms"
+  "answer": "Tuesday, October 25th at 7 pm at the Panton Arms."
  },
  {
   "id": "e2ffb71f-c267-4cf6-843d-0d772826d56c",
@@ -833,7 +833,7 @@
  },
  {
   "id": "ad6c44aa-ad29-40ae-8166-208b05a4412f",
-  "answer": "King's College (University of Cambridge), King's Parade, Newnham, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB2 1ST, United Kingdom"
+  "answer": "King's College, Cambridge, England — in a shop window display."
  },
  {
   "id": "d1583d12-90bb-4683-8a17-c62d3c7a4e8b",
@@ -841,7 +841,7 @@
  },
  {
   "id": "18ffd5d6-93f4-49e8-87db-fd64ed8d2282",
-  "answer": "12, Sumner Place, The Boltons, Brompton, Royal Borough of Kensington and Chelsea, London, SW7 3EG"
+  "answer": "12 Sumner Place, The Boltons, Brompton, Royal Borough of Kensington and Chelsea, London, SW7 3EG, United Kingdom"
  },
  {
   "id": "7da82219-800f-4648-b562-1e8bdc393fe2",
@@ -857,7 +857,7 @@
  },
  {
   "id": "266257a0-4fcb-4f07-837c-b0c22b9f1d3f",
-  "answer": "Delayed by a derailed train."
+  "answer": "A derailed train."
  },
  {
   "id": "a7d042b8-b1c6-4f3b-a20d-2cccdbb6926e",
@@ -869,15 +869,15 @@
  },
  {
   "id": "360bc576-a6b8-4e54-aab4-df4cea577dec",
-  "answer": "20 yuan"
+  "answer": "20 yuan per kilo"
  },
  {
   "id": "60822a10-2647-44d4-b462-7dd467dcea27",
-  "answer": "Royal Border Bridge, Berwick-upon-Tweed, Northumberland, England"
+  "answer": "Royal Border Bridge, Berwick-upon-Tweed, Northumberland, England."
  },
  {
   "id": "cc76905b-01d0-4ff1-9be7-9b5adbf10cf8",
-  "answer": "BROTHERS 28 Mill Road, CB1 2AD"
+  "answer": "BROTHERS, 28 Mill Road, CB1 2AD (Evri Parcelshop)"
  },
  {
   "id": "1d853198-9354-44a8-bcd7-fbe954939272",
@@ -889,7 +889,7 @@
  },
  {
   "id": "4ff05e4b-39a2-46a6-850e-42c4010254f0",
-  "answer": "2023-11-14 at 7:30 PM"
+  "answer": "November 14, 2023, at 7:30 PM"
  },
  {
   "id": "8498bd8f-8dfa-42b8-8438-f03b8e21a7e6",
@@ -909,15 +909,15 @@
  },
  {
   "id": "b67c4008-c3f0-48a6-b8bf-ac6dd81d4573",
-  "answer": "About 70 minutes"
+  "answer": "About 70 minutes."
  },
  {
   "id": "2cffed75-83e7-4c5e-b63c-d82a1963acb1",
-  "answer": "20240808_150807, 20240808_150805"
+  "answer": "20240808_150807,20240808_150805"
  },
  {
   "id": "1ed7c917-7c05-4e5a-b43e-3c602e70daf2",
-  "answer": "4 St Andrew Square, New Town, Edinburgh, Scotland, EH2 2BD, United Kingdom"
+  "answer": "4 St Andrew Square, New Town, City of Edinburgh, Scotland, EH2 2BD, United Kingdom"
  },
  {
   "id": "6f419747-e89d-423e-8333-9018567449ad",
@@ -925,11 +925,11 @@
  },
  {
   "id": "77b8c96d-6524-489f-b707-204f7e063eae",
-  "answer": "8033 热水牛乳双拼波波"
+  "answer": "8033 hot milk tea (热水牛乳双拼波波)"
  },
  {
   "id": "01eec76c-462f-4579-9a7b-974da414a888",
-  "answer": "20240729_184422"
+  "answer": "20231215_141752"
  },
  {
   "id": "42debb5e-7838-4332-b16a-44462185bb88",
@@ -945,7 +945,7 @@
  },
  {
   "id": "55c1b61b-34d6-4db4-96d5-9e891f64a8bc",
-  "answer": "The Colonnades, Bishop's Bridge Road, Westbourne Green, Bayswater, London, Greater London, England, W2 6EW, United Kingdom"
+  "answer": "The Colonnades, Bishop's Bridge Road, Westbourne Green, Bayswater, London, England, W2 6EW, United Kingdom"
  },
  {
   "id": "7e5d78d4-988c-43cc-96b6-dfc41fce3fa7",
@@ -977,11 +977,11 @@
  },
  {
   "id": "5b62ca59-d348-4137-8e3d-ce6cf8ea9417",
-  "answer": "No significant change; maximum 64°C, minimum 54°C."
+  "answer": "Yes, it changed significantly (from 38.7°C to 29.2°C). Maximum: 38.7°C; minimum: 29.2°C."
  },
  {
   "id": "71f6ac4e-5534-4315-8d88-4fdf32fc4821",
-  "answer": "January 18, 2022, at 8:30 PM"
+  "answer": "January 18, 2022"
  },
  {
   "id": "a4224083-653f-4aaa-b4bc-488037437c12",
@@ -1005,7 +1005,7 @@
  },
  {
   "id": "8779bf76-bdfe-424e-b41c-0f8f3ed645ab",
-  "answer": "March 13, 2023, at 14:00–15:00"
+  "answer": "March 13, 2023, 14:00–15:00"
  },
  {
   "id": "d8fdb682-a385-44c0-9630-57ea7573c4e2",
@@ -1021,7 +1021,7 @@
  },
  {
   "id": "c7f7a36d-036c-4fa9-a162-7b167f6ec33d",
-  "answer": "Sunday, October 30th, from 2pm onwards"
+  "answer": "Sunday, October 30th, from 2pm onwards."
  },
  {
   "id": "9b7cf030-733b-41b9-b022-605eeb625af9",
@@ -1029,7 +1029,7 @@
  },
  {
   "id": "5293f3c1-dc18-4285-98ea-54a3bca7a92c",
-  "answer": "University of Toronto, Prince Arthur Avenue, Annex, University—Rosedale, Toronto, Ontario, Canada"
+  "answer": "At the University of Toronto on Prince Arthur Avenue (Annex), and at King’s College Road in University—Rosedale, Toronto."
  },
  {
   "id": "40c56794-fb1d-422e-85e3-019d314b4218",
@@ -1037,7 +1037,7 @@
  },
  {
   "id": "af0fbb2c-73f4-4473-b18e-be392e3dd6cf",
-  "answer": "2022-10-23 13:42:19+00:00"
+  "answer": "2022-10-23"
  },
  {
   "id": "6641ae56-9c5b-4644-ad3d-1dd55f702358",
@@ -1049,7 +1049,7 @@
  },
  {
   "id": "1b996345-8351-40ef-8a2f-6810cc55554d",
-  "answer": "The Rocks, Sydney CBD, Australia (7-27 Hickson Road), at a restaurant overlooking the Sydney Opera House."
+  "answer": "The Rocks, Sydney CBD, Australia — at a restaurant overlooking the Sydney Opera House."
  },
  {
   "id": "f66fc823-b507-4863-ac57-b92642027f9b",
@@ -1057,15 +1057,15 @@
  },
  {
   "id": "21d74b48-c419-40e9-a495-14895b3bfdb7",
-  "answer": "Taiping Street, Pozijie Subdistrict, Tianxin District, Changsha"
+  "answer": "Dingwangtai, Furong District, Hunan (a noodle shop) — Evidence 31 (2023-04-01 20:01:54)."
  },
  {
   "id": "f9255a21-dee0-4752-99c5-081fa6a76ba8",
-  "answer": "Peterhouse"
+  "answer": "Peterhouse (University of Cambridge)"
  },
  {
   "id": "5286866c-9912-4cec-bc53-e74e2feb5522",
-  "answer": "Fellows' Garden or the Tutorial Parlour if the weather is poor."
+  "answer": "Fellows' Garden, or the Tutorial Parlour if the weather is poor."
  },
  {
   "id": "beaa6789-a612-45f5-84bf-84cd7314a023",
@@ -1073,11 +1073,11 @@
  },
  {
   "id": "c9c8c865-06ec-40e9-adde-2d550daef001",
-  "answer": "Carbis Bay, St. Ives, Cornwall, England, United Kingdom"
+  "answer": "Carbis Bay, St. Ives, Cornwall, England"
  },
  {
   "id": "aac5d481-de6d-4224-8b8c-d68fa5abb9c0",
-  "answer": "2022-12-10"
+  "answer": "10 December 2022 (17:51–18:17)"
  },
  {
   "id": "76dd1a86-56c0-46c7-b2ff-2d6d950df601",
@@ -1085,7 +1085,7 @@
  },
  {
   "id": "eb116017-2b4d-414c-aeec-46928bdeb000",
-  "answer": "June 20th at 23:00"
+  "answer": "June 20th at 23:00."
  },
  {
   "id": "74455ca5-e246-480e-b84c-92bc7c564d09",
@@ -1105,11 +1105,11 @@
  },
  {
   "id": "1db0f24b-a44a-4133-98f4-af3df7211635",
-  "answer": "A golden-brown pastry (possibly a donut or small cake) topped with crushed raspberries and amber syrup."
+  "answer": "A golden-brown pastry (possibly a donut or small cake) topped with crushed raspberries and amber syrup (Evidence 2)."
  },
  {
   "id": "a4cae9ed-d23b-4959-9154-865544270245",
-  "answer": "July 17-27"
+  "answer": "July 17–27, 2024"
  },
  {
   "id": "52526cef-d72f-42f5-92a9-a89284dc9ebd",
@@ -1129,7 +1129,7 @@
  },
  {
   "id": "f93554db-453d-4ced-a0e2-5d946a9456d9",
-  "answer": "Unknown"
+  "answer": "Denon Home 550 Compact Sound Bar"
  },
  {
   "id": "b622ef04-2a97-4477-a779-51017c478cbc",
@@ -1141,7 +1141,7 @@
  },
  {
   "id": "f32a06c9-e20c-4f45-9d5a-aa438680c74d",
-  "answer": "October 21, 2022, from 2:00-3:00 pm in the CBL seminar room"
+  "answer": "October 21, 2022, from 2:00–3:00 pm in the CBL seminar room."
  },
  {
   "id": "762ed7c8-131c-4765-ac1c-2e38befb0164",
@@ -1149,15 +1149,15 @@
  },
  {
   "id": "03f6edc0-4646-4257-b999-6009b5afc1ab",
-  "answer": "On 2023-01-15 at about 2:49 PM, at 26 Newport Court, Chinatown, London, England (a café/Japanese restaurant)."
+  "answer": "2023-01-15, at 26 Newport Court, Chinatown, London (a café/Japanese restaurant)."
  },
  {
   "id": "15ebea38-1ac6-4abf-9244-777793bd8aa0",
-  "answer": "2023-05-07 15:18:07"
+  "answer": "2023-05-07"
  },
  {
   "id": "5d337fbc-cc74-43f2-932b-e5518e3452a9",
-  "answer": "2022-10-05"
+  "answer": "On 2022-10-05 at 14:29:49."
  },
  {
   "id": "0c45bd73-f049-43ab-9a56-de6171587c1d",
@@ -1185,7 +1185,7 @@
  },
  {
   "id": "30e061d1-7432-4e38-8e2d-505e0216f8ca",
-  "answer": "It is The Fantastic World of the Portuguese Sardine, located at 122, Avenida de Diogo Leite, Santa Marinha, Vila Nova de Gaia, Porto, Portugal."
+  "answer": "Vila Nova de Gaia, Porto, Portugal — “The Fantastic World of the Portuguese Sardine.”"
  },
  {
   "id": "c57b0d5d-dbae-4f8d-93b8-b269582baabb",
@@ -1197,7 +1197,7 @@
  },
  {
   "id": "ff928b30-87c8-4545-8fe3-4e1d9e4c4940",
-  "answer": "Sunday, October 30th at 12:00 PM."
+  "answer": "October 30, 2022 at 12:00 PM"
  },
  {
   "id": "d75c8238-9cd2-49f0-9277-8b8a4e565bb7",
@@ -1205,19 +1205,19 @@
  },
  {
   "id": "4d36db6b-f445-49ca-bfb6-e7857c7e42fc",
-  "answer": "Pier Road, Mollanbowie Estate, Balloch, West Dunbartonshire, Scotland, G83 8QX, United Kingdom"
+  "answer": "Pier Road, Mollanbowie Estate, Balloch, West Dunbartonshire, Scotland, United Kingdom"
  },
  {
   "id": "e4ae5e8b-c2f9-4a3a-af0e-63e4d50e760d",
-  "answer": "2022-06-21 12:03:57"
+  "answer": "2022-06-21 at 12:03:57"
  },
  {
   "id": "2b3e9785-b32d-47b7-81fe-060e44ac14ae",
-  "answer": "Heathrow Airport"
+  "answer": "Cairo International Airport"
  },
  {
   "id": "42de3970-ccd5-4d39-ade2-ce7af84ffdf0",
-  "answer": "Unknown"
+  "answer": "Every Thursday from 12:30 to 13:30 in the Hall."
  },
  {
   "id": "879acf42-4c5e-4606-949f-ecc3d1498b63",
@@ -1237,11 +1237,11 @@
  },
  {
   "id": "04018563-6800-413e-a011-5f761e35a2e7",
-  "answer": "March 1st at 4pm"
+  "answer": "March 1st at 4pm."
  },
  {
   "id": "3c3b7f0c-bc03-4f9c-88bd-231267a1b7f7",
-  "answer": "6 days, from September 29 to October 4, 2024."
+  "answer": "29 September–4 October 2024 (about 6 days)."
  },
  {
   "id": "3020b8f5-6fc6-4900-b57e-0d6889d8632c",
@@ -1257,15 +1257,15 @@
  },
  {
   "id": "8ccbc65b-a6a7-4217-b0e8-4a4b784fe9ee",
-  "answer": "Unknown"
+  "answer": "20230401_122824"
  },
  {
   "id": "9ea37b8e-3e37-46ef-96eb-9343f305e8a5",
-  "answer": "On 2022-05-07 at 13:58:01, at 58 Juxon Street, Jericho, Oxford, Oxfordshire, England."
+  "answer": "2022-05-07 at 58 Juxon Street, Jericho, Oxford, Oxfordshire, England, OX2 6DJ, United Kingdom."
  },
  {
   "id": "8f3c7a9f-9a40-47ad-97d9-90b8adc337fd",
-  "answer": "King's potato, charred broccoli heart"
+  "answer": "Grilled fish and grilled mushroom"
  },
  {
   "id": "4f1da716-e9a4-4486-8eed-70f77fc26257",
@@ -1297,15 +1297,15 @@
  },
  {
   "id": "b191ff34-7dbf-4460-8734-3f3dcd495c85",
-  "answer": "Unknown"
+  "answer": "2024-11-28"
  },
  {
   "id": "34500f55-b48c-426b-ab81-3da374cb5660",
-  "answer": "Sofitel Legend Winter Palace Hotel"
+  "answer": "St John's College"
  },
  {
   "id": "04b5eb8a-f963-4cfb-8d21-aa823db83988",
-  "answer": "Horsebox Coffee Co, Rose Lane, Holywell, City Centre, Oxford, Oxfordshire, England, OX1 4AZ, United Kingdom"
+  "answer": "Horsebox Coffee Co, Rose Lane, Holywell, City Centre, Oxford, Oxfordshire, England, United Kingdom"
  },
  {
   "id": "5f7356f2-8ce6-4a31-9612-9b53072815b4",
@@ -1321,7 +1321,7 @@
  },
  {
   "id": "2e5e73f1-764f-4b8b-85c2-50f645de52cf",
-  "answer": "20230131_152709,20240617_222800,20240322_182302,20230918_192037"
+  "answer": "20230131_152709"
  },
  {
   "id": "fb4820bd-1a6d-4cce-9211-51c6e2f5190a",
@@ -1341,7 +1341,7 @@
  },
  {
   "id": "d6f821ef-683c-49ed-b5c7-365327e3e904",
-  "answer": "1875, 1885"
+  "answer": "1875–1885"
  },
  {
   "id": "6f1910ca-f48c-4154-a20f-0f85103a8c9d",
@@ -1349,7 +1349,7 @@
  },
  {
   "id": "64f2aaf4-9106-4db5-96d5-8e2046d8b6e8",
-  "answer": "2025-02-28"
+  "answer": "28 February 2025"
  },
  {
   "id": "0d511b05-363a-4820-8889-7aacb02169fb",
@@ -1357,7 +1357,7 @@
  },
  {
   "id": "ff754b62-ea7e-476d-99b3-40884b873b0d",
-  "answer": "Wednesday, June 8, 2022, from 2-3 PM"
+  "answer": "6/8/2022"
  },
  {
   "id": "4a35661b-2f8e-419f-9c26-a22fd51d3afe",
@@ -1365,11 +1365,11 @@
  },
  {
   "id": "19828683-3038-42a3-ae55-b03a2322b1f2",
-  "answer": "Lian'an Station"
+  "answer": "临安站 (Lian'an Station)"
  },
  {
   "id": "89d9f49e-5507-47c2-adff-e79da5ad6c64",
-  "answer": "Keukenhof, Lisse, South Holland, Netherlands"
+  "answer": "Keukenhof, Lisse"
  },
  {
   "id": "e153a2c7-393e-4b51-beb0-89a590fbcc7e",
@@ -1377,11 +1377,11 @@
  },
  {
   "id": "2e0cfdf8-7f8b-4072-bad8-c3755af46144",
-  "answer": "3:05 - 3:25 pm CST, Hall.E"
+  "answer": "3:05–3:25 pm CST, Hall E, Ernest N. Morial Convention Center, New Orleans, Louisiana."
  },
  {
   "id": "406315cf-7edb-496b-b0fe-6bce1366da78",
-  "answer": "2023-01-21"
+  "answer": "January 21, 2023"
  },
  {
   "id": "6a96f94f-6da6-460b-8c86-8fdb87188d61",
@@ -1397,7 +1397,7 @@
  },
  {
   "id": "ce5d2629-ef1d-4934-9657-ae274ec960d5",
-  "answer": "Brewhemia, 1A Market Street, Abbeyhill, Old Town, City of Edinburgh, Scotland, EH1 1DE"
+  "answer": "Brewhemia, 1A Market Street, Edinburgh"
  },
  {
   "id": "95ef0ac3-a396-47d9-9d30-98fd67b827ae",
@@ -1409,7 +1409,7 @@
  },
  {
   "id": "075bdbb9-9a06-41a3-9d35-bb28e687ac41",
-  "answer": "250g and 500g (750g total)"
+  "answer": "250g of 740 MGO Manuka Honey and 500g of 540 MGO Manuka Honey."
  },
  {
   "id": "42d04c31-be78-4c9f-932f-96dcee5f8ffb",
@@ -1417,7 +1417,7 @@
  },
  {
   "id": "1ff11d74-0658-4644-91be-da719a440bef",
-  "answer": "Unknown"
+  "answer": "2022-06-22 18:24:28"
  },
  {
   "id": "1194285b-b812-4d69-b253-b4717752578c",
@@ -1437,7 +1437,7 @@
  },
  {
   "id": "0c32f6da-5721-4814-9c2b-dea48044fd61",
-  "answer": "Unknown"
+  "answer": "Blue2021"
  },
  {
   "id": "890bd306-2032-4719-8cab-0333976e9b24",
@@ -1453,7 +1453,7 @@
  },
  {
   "id": "1549c95e-6cfe-484a-96e2-535835bc38b1",
-  "answer": "Canada"
+  "answer": "Unknown"
  },
  {
   "id": "e100a5a9-5b7a-4b58-bfb7-f57293be0755",
@@ -1461,7 +1461,7 @@
  },
  {
   "id": "e118750e-d3dd-4a7c-98ea-520c01bb90a4",
-  "answer": "May 10th from 12:30 to 4:30"
+  "answer": "May 10th from 12:30 to 4:30 PM in the Engineering Library."
  },
  {
   "id": "f5338b02-45a5-4e31-bc4b-8a5ff27b1ed3",
@@ -1477,15 +1477,15 @@
  },
  {
   "id": "46335cb8-ba58-4f98-9a92-aa970b0ee3c5",
-  "answer": "4"
+  "answer": "6"
  },
  {
   "id": "dc3b8272-e79b-4aff-86d4-9240fa43c5d8",
-  "answer": "7-27, Hickson Road, The Rocks, Sydney CBD, Sydney, Australia"
+  "answer": "At a restaurant at 7-27 Hickson Road, The Rocks, Sydney CBD, overlooking the Sydney Opera House."
  },
  {
   "id": "a59828f3-f3ce-4f64-be0b-ed1f12a8f55f",
-  "answer": "A golden, crispy croquette"
+  "answer": "20230206_194526"
  },
  {
   "id": "e4cb3064-9fc7-45d0-b5b9-563ac8dd5c55",
@@ -1497,7 +1497,7 @@
  },
  {
   "id": "56fa9ad4-7e66-44e3-8f1e-3dd8f8887c56",
-  "answer": "A BA Dinner for Burn's Night, at Trinity College Dining Hall, Cambridge."
+  "answer": "BA Dinner for Burn’s Night at Trinity College, Cambridge — The Hall, Tribunal, Newnham, Cambridge."
  },
  {
   "id": "4c4a696d-19db-438f-b12c-dd8ed24ae04e",
@@ -1505,7 +1505,7 @@
  },
  {
   "id": "7448ada9-bc30-405f-b9db-64bd9dc892dc",
-  "answer": "Royal Border Bridge, West End Road, Tweedmouth, Spittal, Berwick-upon-Tweed, Northumberland, North East, England, TD15 2JE, United Kingdom"
+  "answer": "Royal Border Bridge, Tweedmouth, Berwick-upon-Tweed, Northumberland, England (TD15 2JE)."
  },
  {
   "id": "20b7b385-a48f-47fa-944a-c9f57512c441",
@@ -1533,7 +1533,7 @@
  },
  {
   "id": "dd6f1b67-aaa6-4f1a-b7a3-122793fb439e",
-  "answer": "20240818_112331, 20240818_110330, 20240818_110215, 20240818_110334"
+  "answer": "20240818_110215,20240818_110330,20240818_110334,20240818_112331"
  },
  {
   "id": "8f660e2b-9ba5-4a34-a7b7-34f02370973a",
@@ -1545,7 +1545,7 @@
  },
  {
   "id": "509f9091-1d7e-4af4-8838-a496ab98451d",
-  "answer": "Tesco; Tesco finest British Sirloin Joint"
+  "answer": "Tesco — Tesco Finest British Sirloin Joint"
  },
  {
   "id": "70cf3f03-d9d6-4677-b0ff-d4b4eec7fe66",
@@ -1557,11 +1557,11 @@
  },
  {
   "id": "ccbd767c-1d6a-4730-8679-3de71fa5c784",
-  "answer": "5pm on Friday, February 4, 2022"
+  "answer": "5 pm on Friday, February 4, 2022."
  },
  {
   "id": "2a7af042-b704-450b-9c46-7dffdb0ad806",
-  "answer": "20240806_195517"
+  "answer": "20240806_195517,20240806_200114"
  },
  {
   "id": "25f8b886-dfb4-49df-8b31-b22cefac4e2a",
@@ -1569,11 +1569,11 @@
  },
  {
   "id": "814fa178-76b0-4720-9587-e0035a688057",
-  "answer": "4 PM on June 24"
+  "answer": "By 4 PM on June 24, 2022."
  },
  {
   "id": "5ea687e8-89b0-4356-a625-6dac9f6dedea",
-  "answer": "George Square, Merchant City, Glasgow, Scotland, United Kingdom"
+  "answer": "George Square, Merchant City, Glasgow, Scotland"
  },
  {
   "id": "428bcbb9-6fb4-4524-b4e2-c47fb5f08667",
@@ -1585,7 +1585,7 @@
  },
  {
   "id": "953fad7c-e32c-4a78-b20f-53587115b18a",
-  "answer": "2022-05-07 at Observatory Street, North Oxford, Oxfordshire, England"
+  "answer": "2022-05-07, Observatory Street in North Oxford, Oxford, England."
  },
  {
   "id": "d5925c98-377b-4bf6-b6ec-f3b66f68a2de",
@@ -1605,7 +1605,7 @@
  },
  {
   "id": "e13e4be3-89d5-41ae-b06c-018232207a8c",
-  "answer": "Port of Southampton, Southern Road, Hill, Southampton, England, SO15 1HA, United Kingdom"
+  "answer": "Port of Southampton, Southern Road, Southampton, England, SO15 1HA, United Kingdom"
  },
  {
   "id": "87e472c3-fa05-428e-9972-bbd0fe23b4a9",
@@ -1617,7 +1617,7 @@
  },
  {
   "id": "4fc7f139-71b5-4f57-88ae-c5fe2bb47ebd",
-  "answer": "2 hours and 23 minutes"
+  "answer": "Approximately 2 hours and 23 minutes."
  },
  {
   "id": "41a66e1d-ada7-401a-8113-9c321b88088d",
@@ -1625,11 +1625,11 @@
  },
  {
   "id": "3d8e1592-a6e6-4eaf-b2a6-43064d88c3a5",
-  "answer": "1:17 PM - 2:17 PM"
+  "answer": "13:17–14:17"
  },
  {
   "id": "f728549c-388a-4a36-9ac1-a1b50a8cf744",
-  "answer": "July 10th and 11th, 2025, from 1:00 pm to 4:30 pm"
+  "answer": "July 10th and 11th, 2025, from 1:00 pm to 4:30 pm."
  },
  {
   "id": "0375b593-1e1a-437f-8810-8de002e4710f",
@@ -1637,11 +1637,11 @@
  },
  {
   "id": "ebb857a6-ea9c-4cc1-8d30-15c772ce4dbb",
-  "answer": "Edgeway Road, Old Marston, Oxford, Oxfordshire, England, OX3 0HG, United Kingdom"
+  "answer": "Edgeway Road, Old Marston, Oxford, Oxfordshire, England, United Kingdom"
  },
  {
   "id": "2312ccea-1fc6-4d77-9352-b5ff964c0649",
-  "answer": "20230416_114842, 20230417_133726, 20230418_121232, 20230419_130151, 20230419_130159"
+  "answer": "20230416_114842,20230417_133726,20230418_121232,20230419_130151,20230419_130159"
  },
  {
   "id": "0832724c-d042-4c45-8d40-5a1cac0fd75d",
@@ -1657,7 +1657,7 @@
  },
  {
   "id": "a5be6410-a028-4134-963e-9c58adedba12",
-  "answer": "20220619_175604"
+  "answer": "2022-06-19 at 17:56:04 — Cakestand, The Prom, Westbank, Portobello, City of Edinburgh, Scotland, EH15 1DT, United Kingdom (Evidence 1; also Evidence 10)."
  },
  {
   "id": "214c55ad-0ab4-4ff8-b6ab-3dc0e794fc8a",
@@ -1693,15 +1693,15 @@
  },
  {
   "id": "a6b8e3b8-7d1e-4318-84a8-a7f7ec1a8a09",
-  "answer": "June 21-23 at 2 pm"
+  "answer": "June 21–23 at 2 pm"
  },
  {
   "id": "bbec34c1-1e8a-49b9-93fb-c3a88674c1fb",
-  "answer": "Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning"
+  "answer": "\"Improving Hateful Meme Detection through Retrieval-Guided Contrastive Learning\""
  },
  {
   "id": "4eb1fd11-4599-4c59-9a2f-f212dc436c9f",
-  "answer": "September 23 to 25, 2022"
+  "answer": "September 23–25, 2022"
  },
  {
   "id": "50fe879d-4c81-48e6-908f-e6d639064b84",
@@ -1709,7 +1709,7 @@
  },
  {
   "id": "5a8b3f32-6a43-470c-ae7c-1350513fbe17",
-  "answer": "2022-06-20 12:52:40"
+  "answer": "2022-06-20 at 12:52:40"
  },
  {
   "id": "c144724e-8771-4eb9-b4eb-9e5c91305aef",
@@ -1737,7 +1737,7 @@
  },
  {
   "id": "f51e6ba6-5c05-4e3a-b48b-87d5058db583",
-  "answer": "2022-05-06 20:35:56; Ship Street, Oxford, Oxfordshire, England, United Kingdom (near Saxon Tower, Cornmarket Street, OX1 3JE)."
+  "answer": "2022-05-06; Ship Street in Oxford, England — near Saxon Tower, Cornmarket Street, St Thomas', City Centre, Oxford, Oxfordshire, OX1 3JE, United Kingdom."
  },
  {
   "id": "e1fb0f9f-54f3-4bb6-9c79-676b5250a03d",
@@ -1749,7 +1749,7 @@
  },
  {
   "id": "882c26e9-5ce6-4e5d-96bb-d037a9735f56",
-  "answer": "University of Portsmouth Area, Queens Grove, Southsea, Portsmouth, England, PO5 3HH, United Kingdom"
+  "answer": "Queens Grove, Southsea, Portsmouth, England"
  },
  {
   "id": "d1002ea1-7c60-4a4a-ba43-868033ecbb81",
@@ -1757,11 +1757,11 @@
  },
  {
   "id": "0c2e6555-4697-433f-9c8c-f4dcc61de4dc",
-  "answer": "Sunday, 8 May at 6pm"
+  "answer": "Sunday, 8 May at 6pm."
  },
  {
   "id": "e5a0757a-1348-4e30-ac20-2369a59d541f",
-  "answer": "Medley Footbridge, Medley, Oxford, Oxfordshire, England, OX2 0NL, United Kingdom"
+  "answer": "Medley Footbridge, Medley, Oxford, Oxfordshire, England"
  },
  {
   "id": "3175b011-3edf-470e-ac70-f173ebf0d960",
@@ -1777,7 +1777,7 @@
  },
  {
   "id": "23096a05-1e5b-40e5-ae55-c39f1eaf6e35",
-  "answer": "3 minutes"
+  "answer": "3 minutes per group member."
  },
  {
   "id": "7c5ce1b0-a9a8-4e43-a3ca-862414256fc7",
@@ -1789,11 +1789,11 @@
  },
  {
   "id": "3ec7a4f8-f40d-4ef1-b59d-ebe5fd8cded6",
-  "answer": "Traditional pastries and cakes."
+  "answer": "Traditional pastries and cakes, including 煎饼 (pancakes)."
  },
  {
   "id": "adba611c-74ac-46b9-a9e5-0ddfed3d984d",
-  "answer": "20231214_111031"
+  "answer": "20231214_111031,20231214_114153,20231214_114155"
  },
  {
   "id": "0ffe4a54-1bc4-4eb6-be2c-78efc3916319",
@@ -1809,27 +1809,27 @@
  },
  {
   "id": "e736bee8-630f-49f5-b7ad-4fc18a95ef49",
-  "answer": "Unknown"
+  "answer": "About 4 years (started around April 2021; Duolingo marked a 1-year Duoversary on 2022-04-10)."
  },
  {
   "id": "cfd96fd3-e2e2-4496-874b-88f0d0c60297",
-  "answer": "St Mary's Episcopal Cathedral"
+  "answer": "St Giles' Cathedral"
  },
  {
   "id": "47cb0e4b-9a5f-441f-b14c-16fa66a9808c",
-  "answer": "2025-02-22 17:55:17"
+  "answer": "February 22, 2025 at 17:55:17"
  },
  {
   "id": "06da6482-66a1-4c58-b1ba-335a17205057",
-  "answer": "2024-07-17"
+  "answer": "2024-07-17 10:20:56"
  },
  {
   "id": "959ce2ad-bfdb-43bf-89be-98d370641a84",
-  "answer": "South Shenjiang Road, Xinchang, Pudong, 201314, China"
+  "answer": "South Shenjiang Road, Xinchang, Pudong, Shanghai, 201314, China"
  },
  {
   "id": "bfca4dfc-4d27-4df5-bd61-b3beb479c8e8",
-  "answer": "2023-01-19 13:09:14"
+  "answer": "2023-01-19"
  },
  {
   "id": "ea97b84e-2be5-4394-8b79-491320978eeb",
@@ -1837,7 +1837,7 @@
  },
  {
   "id": "287c9174-fcc3-40dd-93a2-b60341473316",
-  "answer": "February 26th"
+  "answer": "February 26, 2022"
  },
  {
   "id": "d2480d4d-93ee-4b0c-b411-eeaab58b5a35",
@@ -1861,7 +1861,7 @@
  },
  {
   "id": "6dc81109-689e-429f-95dd-1a87fdbe96ad",
-  "answer": "2025-02-22 19:50:34"
+  "answer": "Unknown"
  },
  {
   "id": "f13826b6-18ac-47cd-9192-fc893747dd63",
@@ -1905,15 +1905,15 @@
  },
  {
   "id": "23c264a9-72c3-4bc5-b112-3a84e9fc3dbb",
-  "answer": "1-800-288-8888"
+  "answer": "Unknown"
  },
  {
   "id": "91d18c15-96d8-4a94-9744-ff9762d686cc",
-  "answer": "May 12th from 11 AM to 1 PM, and May 19th from 11 AM to 1 PM."
+  "answer": "May 12th and May 19th, from 11 AM to 1 PM."
  },
  {
   "id": "53bc796b-f853-4070-a12a-d86f9e93cfd4",
-  "answer": "July 4th and 5th, 2024"
+  "answer": "July 4th and 5th, 2024, from 1:00 PM to 4:30 PM."
  },
  {
   "id": "5994feb3-379a-48aa-9c42-9faef1f11586",
@@ -1925,7 +1925,7 @@
  },
  {
   "id": "397c297a-5895-4f25-b7f5-e5fab4e6b01f",
-  "answer": "2024-04-23 20:28:57"
+  "answer": "2024-04-23"
  },
  {
   "id": "d6a1ab8c-2815-4b16-ba24-cb76e2afee1b",
@@ -1969,7 +1969,7 @@
  },
  {
   "id": "93945260-86f0-41c2-966f-8cc5b03e4ad7",
-  "answer": "Doyles, Sydney Fish Market waterfront, Pyrmont, Sydney, Australia"
+  "answer": "At Doyles, Sydney Fish Market waterfront, Pyrmont, Sydney, Australia."
  },
  {
   "id": "83abfb8e-792b-4648-98f6-3ebc7d38c9cb",
@@ -1977,7 +1977,7 @@
  },
  {
   "id": "64339f43-5f9c-498a-a629-61c4e6f52842",
-  "answer": "National Portrait Gallery, Charing Cross Road, Seven Dials, Bloomsbury, London, Greater London, England, WC2H 0HE, United Kingdom"
+  "answer": "National Portrait Gallery, Charing Cross Road, London, England"
  },
  {
   "id": "5f6b3fd5-5ec7-494a-af83-3f870ef9c551",
@@ -1993,7 +1993,7 @@
  },
  {
   "id": "b52e454e-46b1-41e9-b071-6aba61fd9a43",
-  "answer": "2022-12-13 14:24:40+00:00"
+  "answer": "2022-12-13"
  },
  {
   "id": "bddf2d37-ae9a-4e88-aa65-11477b3ac94c",
@@ -2009,11 +2009,11 @@
  },
  {
   "id": "66a11678-d4f2-4ef9-b9a2-4ec8dff5e569",
-  "answer": "Hobbycraft, 6a, Beehive Centre, Romsey, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB1 3ET, United Kingdom"
+  "answer": "Hobbycraft, 6a, Beehive Centre, Romsey, Cambridge, Cambridgeshire, England, CB1 3ET, United Kingdom"
  },
  {
   "id": "ac2f938e-adc6-41c6-a874-750349aae22d",
-  "answer": "Inside"
+  "answer": "Inside — Christmas trees were set up on the grand staircase."
  },
  {
   "id": "19c8face-de4d-420c-8045-63ff7b862382",
@@ -2033,15 +2033,15 @@
  },
  {
   "id": "9a059c7e-f438-48af-ac63-6a700ddbaf7d",
-  "answer": "2022-10-19 13:16:45"
+  "answer": "2022-10-19 at 13:16:45"
  },
  {
   "id": "3d059aab-83bc-4d88-afc5-3e91b678851e",
-  "answer": "May 1, 2025, from 18:00 to 19:30"
+  "answer": "May 1, 2025, from 18:00 to 19:30."
  },
  {
   "id": "318b2ce1-07d0-4996-94f1-b8625e79fcdd",
-  "answer": "20220613_194728,20220613_194745,20220613_194846,20220613_194926,20220613_194937,20220613_194726,20220613_194951"
+  "answer": "20220613_194728, 20220613_194745, 20220613_194846, 20220613_194937, 20220613_194926, 20220613_194951, 20220613_194726"
  },
  {
   "id": "39585008-4341-4b6a-95b0-7294fee0b6e6",
@@ -2053,23 +2053,23 @@
  },
  {
   "id": "2a22220b-0819-4379-8eba-1a83be788fa5",
-  "answer": "1"
- },
- {
-  "id": "64ad571d-2381-4ac7-bf66-3b40ff52be5b",
   "answer": "Unknown"
  },
  {
+  "id": "64ad571d-2381-4ac7-bf66-3b40ff52be5b",
+  "answer": "2025-05-01 06:02:43+00:00"
+ },
+ {
   "id": "a4766861-4827-4b50-bee3-a6b34e9365ce",
-  "answer": "Midday on March 25"
+  "answer": "Midday on March 25."
  },
  {
   "id": "45ead9db-77d2-4f0e-a3e2-1b114a96867c",
-  "answer": "February 7 and February 21, 9-10 AM in LT1"
+  "answer": "Monday, February 7th from 9–10 AM in LT1 (examples paper 1) and Monday, February 21st from 9–10 AM in LT1 (examples paper 2)."
  },
  {
   "id": "c27a7e72-717a-4ce6-8578-1a91c1aa7dbc",
-  "answer": "20240928_181349, 20240928_181135"
+  "answer": "20240928_181349,20240928_181135"
  },
  {
   "id": "2715a57b-601d-45c7-a163-1765a87b16eb",
@@ -2077,7 +2077,7 @@
  },
  {
   "id": "5260db22-54e0-443d-bd30-878535b6d41e",
-  "answer": "Unknown"
+  "answer": "2"
  },
  {
   "id": "f6724758-0dee-4333-8269-a0cf09dc1295",
@@ -2101,15 +2101,15 @@
  },
  {
   "id": "fd4d35f5-519d-4d5c-8232-848371751a81",
-  "answer": "June 7th-8th, 2022"
+  "answer": "June 7th–8th, 2022 (June 7th with potential overflow on June 8th)."
  },
  {
   "id": "70779bb0-e193-47e9-9101-fe1588c9b80b",
-  "answer": "2022-05-08 at 13:52:15, Gloucester Green Bus Station, Bay 14, St Thomas', City Centre, Oxford, Oxfordshire, England, OX1 2BU, United Kingdom."
+  "answer": "2022-05-08 13:52:15 at Gloucester Green Bus Station, Bay 14, St Thomas', City Centre, Oxford, Oxfordshire, England, OX1 2BU, United Kingdom."
  },
  {
   "id": "f7c091d4-be72-44b0-b892-b042b7ec61fb",
-  "answer": "June 15, 2022, from 2:00 pm to 3:00 pm"
+  "answer": "June 15, 2022, from 2:00 pm to 3:00 pm."
  },
  {
   "id": "1e644e18-6645-43fa-bb0c-156d88692427",
@@ -2125,7 +2125,7 @@
  },
  {
   "id": "885525ee-e6f6-49cd-a368-ddacefc6e8bc",
-  "answer": "Queen's Drive, Willowbrae, Edinburgh; also Queen's Drive, Jock's Lodge and St Anthony's Chapel/The Dry Dam in Willowbrae, Edinburgh."
+  "answer": "At Queen’s Drive, Willowbrae — also nearby at Queen’s Drive, Jock’s Lodge, and St Anthony’s Chapel/The Dry Dam in Edinburgh."
  },
  {
   "id": "b6aa7d82-13b5-4fa6-954a-1f939f4ec62e",
@@ -2161,7 +2161,7 @@
  },
  {
   "id": "8b897de2-b41c-4260-a5c3-3d66aec7e781",
-  "answer": "2025-04-29 13:32:50"
+  "answer": "April 29, 2025"
  },
  {
   "id": "b3c42615-b248-44f8-93fe-f0c0ecea17d1",
@@ -2185,7 +2185,7 @@
  },
  {
   "id": "9fc8b08b-fdda-46c4-acca-d8a1df5f921b",
-  "answer": "1 May 2023"
+  "answer": "2023-05-01"
  },
  {
   "id": "64be36d0-6822-44e3-a881-7baa2e5a85a8",
@@ -2217,11 +2217,11 @@
  },
  {
   "id": "d8e498d1-0864-4436-9b40-8c28a61aeea7",
-  "answer": "March 1, 2022"
+  "answer": "March 1st (by the end of February 2022)."
  },
  {
   "id": "c34dc2bb-8994-4c22-8f67-97177f3b400c",
-  "answer": "Dover Pier, New Marina Curve Road, Clarendon, Dover, Kent, England, CT17 9FJ, United Kingdom"
+  "answer": "Dover Pier, Clarendon, Dover, Kent, England, United Kingdom"
  },
  {
   "id": "a535d1bf-b99a-470c-9d19-f7aa0b25e4d2",
@@ -2261,7 +2261,7 @@
  },
  {
   "id": "1f4e4b81-0819-47b4-8087-e0c45e67003e",
-  "answer": "Cénica Porto Hotel, Curio Collection by Hilton; Hilton Porto Gaia"
+  "answer": "Cenica Porto Hotel, Curio Collection by Hilton; Hilton Porto Gaia"
  },
  {
   "id": "bd1f8b3d-f54b-4286-b786-db48323eee28",
@@ -2285,7 +2285,7 @@
  },
  {
   "id": "66c090ad-c104-4beb-aaee-8f17c113af9c",
-  "answer": "Today, April 5, 2022, between 08:17 and 09:17."
+  "answer": "Today, April 5, 2022, between 08:17–09:17."
  },
  {
   "id": "496be01c-dec6-43d5-90fd-83aa3f764291",
@@ -2293,7 +2293,7 @@
  },
  {
   "id": "917f5906-ec01-4c17-9a7f-9460a2904580",
-  "answer": "Sofitel Winter Palace"
+  "answer": "Sofitel Winter Palace (Sofitel Legend Winter Palace Hotel)"
  },
  {
   "id": "aca8d6a0-e757-424a-ae69-c3a33d9b6950",
@@ -2301,7 +2301,7 @@
  },
  {
   "id": "fb138999-5e32-43eb-9222-091a6ff5b174",
-  "answer": "Fried fish and chips with a shrimp and rice bowl."
+  "answer": "Fish and chips with a shrimp and rice bowl."
  },
  {
   "id": "fc4ba55a-77d4-4842-93d9-098887230bb3",
@@ -2313,7 +2313,7 @@
  },
  {
   "id": "9bf2049f-d75c-419f-ad2e-4cb7c1fefb5d",
-  "answer": "April 30, 2023"
+  "answer": "April 30, 2023, at 15:30."
  },
  {
   "id": "2d8032e9-8216-4974-9a04-749a24c24800",
@@ -2321,7 +2321,7 @@
  },
  {
   "id": "3bdc0d79-261f-4ea5-bdca-c1b4ca7bb88e",
-  "answer": "April 2nd from 17:00-18:00 in the CBL seminar room"
+  "answer": "April 2nd from 17:00–18:00 in the CBL seminar room."
  },
  {
   "id": "a80f58aa-fe07-4818-bef1-6032f1686bbb",
@@ -2329,11 +2329,11 @@
  },
  {
   "id": "5703b8c1-2e4f-4a5e-9385-44643f5a33c5",
-  "answer": "2024-07-20"
+  "answer": "2024-09-16"
  },
  {
   "id": "2f21e02f-355b-436d-ac94-b6eb12cf2735",
-  "answer": "May 19th at 11:30 AM in [SENDER]'s room at Trinity Hall."
+  "answer": "11:30 AM in the sender’s room/office at Trinity Hall."
  },
  {
   "id": "2baa9186-100e-46fc-9af1-d8e84a85375e",
@@ -2341,7 +2341,7 @@
  },
  {
   "id": "132cd8db-2cfb-4327-bc8d-a8139aec5821",
-  "answer": "London-Stansted to Porto; 22 February 2025"
+  "answer": "London-Stansted to Porto, 22 February 2025 (22FEB25)."
  },
  {
   "id": "2b6302c7-21e9-4671-9462-078457349d2e",
@@ -2365,7 +2365,7 @@
  },
  {
   "id": "48c9063b-06b2-446c-949e-643052f82910",
-  "answer": "Two steaks"
+  "answer": "Two Côte de Boeuf steaks (two boxes)."
  },
  {
   "id": "42bd0b8f-aaf8-4a3a-bc40-76ca31cfccdc",
@@ -2373,11 +2373,11 @@
  },
  {
   "id": "892e0e11-23dc-48a4-bb3e-ff1856d1450f",
-  "answer": "2024-08-10"
+  "answer": "Unknown"
  },
  {
   "id": "e2c25f36-cc1c-4d39-9055-dc8bcb0c46d1",
-  "answer": "临安路, Lin'an, Jianshui County, Honghe, Yunnan, China"
+  "answer": "Lin'an Road (临安路), Jianshui County, Honghe, Yunnan, China."
  },
  {
   "id": "3a4ee217-5fa3-4fce-bdd7-aa50c30c4060",
@@ -2401,7 +2401,7 @@
  },
  {
   "id": "cc38c9c7-8fe5-42b2-ab13-f8e0e98327d2",
-  "answer": "April 28 to May 2, 2025 (5 days)"
+  "answer": "April 27 to May 2, 2025 — 5 nights."
  },
  {
   "id": "81fd0aa0-35a3-4683-b96a-b50a440a6f31",
@@ -2409,7 +2409,7 @@
  },
  {
   "id": "fa11beae-6e3d-4bed-8ba3-f257e20e04da",
-  "answer": "Laing Art Gallery"
+  "answer": "National Maritime Museum"
  },
  {
   "id": "04bbdfc8-f1e6-4df6-949d-ea141f985f18",
@@ -2429,7 +2429,7 @@
  },
  {
   "id": "7856d07e-f904-40c0-85f3-76875a582ae0",
-  "answer": "寿坛"
+  "answer": "寿坛 (Shou Tan)"
  },
  {
   "id": "aa0942d0-5e56-46d4-b7a9-bf5e4dc80bcc",
@@ -2437,31 +2437,31 @@
  },
  {
   "id": "16480d87-b52b-4b26-a685-42032689b94e",
-  "answer": "Thursday, January 20, 2022, from 12:30 to 13:30 in the Hall."
+  "answer": "Thursday, January 20, 2022, 12:30–13:30"
  },
  {
   "id": "294ba3f3-c8bd-4051-8cd5-48baac8dd4c4",
-  "answer": "May 4th, 2022, from 5:30 p.m. to 7:00 p.m. in the Lubbock Room."
+  "answer": "May 4, 2022, from 5:30 PM to 7:00 PM in the Lubbock Room."
  },
  {
   "id": "c4429687-01c6-4b22-8df1-63e602344761",
-  "answer": "20240217_111908"
+  "answer": "Unknown"
  },
  {
   "id": "9761c97d-a435-4b0c-9dc8-f7e45191c058",
-  "answer": "2022-07-21"
+  "answer": "2022-07-21 12:58:52"
  },
  {
   "id": "b2099518-942a-4a67-a693-f73ea78fab23",
-  "answer": "T3"
+  "answer": "Terminal 3"
  },
  {
   "id": "a8a49ba2-1537-4501-8fa7-50d9968365ce",
-  "answer": "June 26, 2022"
+  "answer": "June 26, 2022."
  },
  {
   "id": "f10e0f3e-bdb9-4111-b571-7d02536eb211",
-  "answer": "Zero-shot Voice Cloning Model"
+  "answer": "Demo 05. Regional English Accent Voice Cloning"
  },
  {
   "id": "af5885c0-d2a4-4b0e-852f-b13a6b475b87",
@@ -2469,7 +2469,7 @@
  },
  {
   "id": "c29610ef-4d1b-4a28-81a7-a9508374bdc3",
-  "answer": "2023-07-26"
+  "answer": "July 26, 2023 (announced as part of completed maintenance)."
  },
  {
   "id": "f943d0bc-a1e2-434a-84c2-a158907008c2",
@@ -2481,11 +2481,11 @@
  },
  {
   "id": "b99e8375-ac89-410c-b2d9-ad69599abc86",
-  "answer": "3:05–3:25 pm CST on December 12, 2023."
+  "answer": "3:05–3:25 PM CST on Tuesday, December 12, in Hall E."
  },
  {
   "id": "3a73ae96-eb80-4c76-81bb-4707ce396082",
-  "answer": "Unknown"
+  "answer": "886.80 EUR"
  },
  {
   "id": "fcf30769-b59c-490d-959d-6c5e9776da1d",
@@ -2521,11 +2521,11 @@
  },
  {
   "id": "ef651ed4-aeb5-4528-9003-ac8be603e263",
-  "answer": "Kornish Al Nil Street, El Sabteya, Al-Sabtiyya, Cairo, 11624, Egypt"
+  "answer": "Kornish Al Nil Street, El Sabteya, Al-Sabtiyya, Cairo, Egypt — the “LONDON” establishment (Evidence 20240730_204703)."
  },
  {
   "id": "8b3586f2-1de2-4193-aa0f-06e6fa5561a8",
-  "answer": "Beisuzhou Road, Sanjiaodi, Beiwaitan, Hongkou District, Shanghai, China (China Post Shanghai Branch)"
+  "answer": "China Post Shanghai Branch (中国邮政上海市分公司), Beisuzhou Road, Sanjiaodi, Beiwaitan, Hongkou District, Shanghai."
  },
  {
   "id": "16bcfad4-acb7-497e-ba62-30f2399aab76",
@@ -2541,7 +2541,7 @@
  },
  {
   "id": "94142dce-5d04-4502-ba5e-f131be5b9269",
-  "answer": "S. Spirito snc, Milan, Italy"
+  "answer": "At the pharmacy S. Spirito snc in Milan."
  },
  {
   "id": "eadcb57e-ec30-4af9-b5ae-a0c80b2cbf0f",
@@ -2553,7 +2553,7 @@
  },
  {
   "id": "4c52cb3b-0402-4f99-9a1c-3845222f5742",
-  "answer": "£29.99"
+  "answer": "£29.99 per day"
  },
  {
   "id": "e2b62b96-b418-450f-b290-2cb7064b2fef",
@@ -2565,11 +2565,11 @@
  },
  {
   "id": "12e84dc3-0e28-4f49-82a1-5b82ffa4bbe6",
-  "answer": "No"
+  "answer": "No."
  },
  {
   "id": "88380a47-cef4-4e67-a989-8ba5dfa4461f",
-  "answer": "Baan Ying Grill, 999/9 Rama I Road, Siam, Pathum Wan District, Bangkok, Thailand"
+  "answer": "Nara Thai Cuisine (Baan Ying Grill), 999/9 Rama I Road, Siam, Pathum Wan, Bangkok, Thailand."
  },
  {
   "id": "43c54918-2f6e-49ca-aa01-98a98992b53a",
@@ -2589,11 +2589,11 @@
  },
  {
   "id": "1a08edf8-1762-43c2-888f-a32df0850c9a",
-  "answer": "Le Rhul"
+  "answer": "Le Ruhl"
  },
  {
   "id": "b3c44210-4824-45fc-9d06-8f0ebf65f0d3",
-  "answer": "June 10, 2022"
+  "answer": "May 29, 2022"
  },
  {
   "id": "6d857c33-c8ff-41be-a3b5-cfb66788fc0a",
@@ -2605,15 +2605,15 @@
  },
  {
   "id": "c4f28cdf-3abc-44dd-8a78-235fa624e456",
-  "answer": "On 2023-03-12, at Buns & Buns, Covent Garden Piazza, Covent Garden, Holborn, City of Westminster, Greater London, England, WC2E 8AA, United Kingdom."
+  "answer": "2023-03-12 at Buns & Buns, Covent Garden Piazza, London."
  },
  {
   "id": "bc0420ca-d640-4bb7-9215-f6ea67564ac4",
-  "answer": "20230418_173049, 20230418_174352"
+  "answer": "20230418_173049,20230418_174352"
  },
  {
   "id": "f4325ae1-76e4-46b5-8860-c9619ce1ea66",
-  "answer": "St Michael's Mount, Marazion, Cornwall, England."
+  "answer": "St Michael’s Mount, Marazion, Cornwall, England."
  },
  {
   "id": "a1d7662a-60db-4e2a-86fb-0d0901be22c5",
@@ -2625,7 +2625,7 @@
  },
  {
   "id": "0d12117f-ae8e-4509-a922-5f1efe933a85",
-  "answer": "Block 2A, 1-39, Eddington Place, Eddington, Cambridge, Cambridgeshire, England, CB3 1AS, United Kingdom"
+  "answer": "Block 2A, 1-39, Eddington Place, Eddington, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB3 1AS, United Kingdom"
  },
  {
   "id": "6f3dbe9a-472e-45fb-9ce0-a34adc27a66b",
@@ -2657,7 +2657,7 @@
  },
  {
   "id": "2ca32c9f-61b4-4077-9b70-829001d2455b",
-  "answer": "Cambridge West, Madingley Road, Eddington, Cambridge, Cambridgeshire, England, CB3 0EX, United Kingdom"
+  "answer": "Cambridge West, Madingley Road, Eddington, Cambridge, England."
  },
  {
   "id": "068c6590-3f04-49ef-a021-691c0967a023",
@@ -2669,15 +2669,15 @@
  },
  {
   "id": "119fd65e-10bc-4339-a419-32b543d19ffc",
-  "answer": "11:33-12:33"
+  "answer": "11:33–12:33"
  },
  {
   "id": "e1d7f193-68d7-4bdb-996b-094b9b01dcea",
-  "answer": "No, it was only available until 06 May."
+  "answer": "No, the Carolina Fried Chicken burger was available only from 02 Apr to 06 May, so it is no longer available on May 10, 2024."
  },
  {
   "id": "13ec73ea-7213-4877-ab16-17211ac39982",
-  "answer": "At a restaurant in The Rocks, Sydney CBD (7-27 Hickson Road), overlooking the Sydney Opera House."
+  "answer": "Hyde Park Inn, Sydney CBD"
  },
  {
   "id": "8976e2c5-ce9e-4b69-9598-106f00e42a95",
@@ -2685,15 +2685,15 @@
  },
  {
   "id": "bd03c436-4698-4baa-8a89-6ae11a72efc9",
-  "answer": "2022-12-11 22:39:53"
+  "answer": "2022-12-11"
  },
  {
   "id": "afc75d33-e3ea-4b12-b0d2-5805be3d0d80",
-  "answer": "Over Haven, Willingham, South Cambridgeshire, England"
+  "answer": "Over Haven, Willingham, Over, South Cambridgeshire, England (CB24 5HG); also a faint aurora was captured at Hatton’s Road, Longstanton, South Cambridgeshire."
  },
  {
   "id": "8f1df1d0-aae9-447d-a18d-b12ad401d7d5",
-  "answer": "Antunes, Rua do Bonjardim, Porto City Centre"
+  "answer": "Antunes, 506 Rua do Bonjardim, Porto City Centre, Porto."
  },
  {
   "id": "695a5390-d65a-4e77-88cd-8ad8d46d12aa",
@@ -2709,7 +2709,7 @@
  },
  {
   "id": "2a3fce70-b412-4ae1-a193-8b87873d4ebf",
-  "answer": "February 12, 2022"
+  "answer": "February 12th, 14:00–16:00, at the Engineering Department."
  },
  {
   "id": "171315b3-d61b-4ad7-9d0d-ecaf0a55262d",
@@ -2717,19 +2717,19 @@
  },
  {
   "id": "da0c2d9e-6b2c-44ce-a4d6-f7ffdfe62326",
-  "answer": "300 Decatur Street, French Quarter, New Orleans, Louisiana"
+  "answer": "At a restaurant on 300 Decatur Street in the French Quarter, New Orleans, Louisiana."
  },
  {
   "id": "7ec421d8-6642-43a7-9ba9-409af3362b33",
-  "answer": "April 4, 2022, 14:00–15:00 BST"
+  "answer": "April 4, 2022, from 14:00 to 15:00 BST."
  },
  {
   "id": "2ce675ce-0de5-4ed8-b3c0-6b97778b42a1",
-  "answer": "Mercator Avenue, Gunwharf Quays, Portsea, Portsmouth, England; a serene evening in July 2022."
+  "answer": "Unknown"
  },
  {
   "id": "d78398bf-8dd0-4145-88aa-0fe9ebc7c101",
-  "answer": "20230322_161504, 20230322_180629, 20230322_180639"
+  "answer": "20230322_180639,20230322_180629,20230322_161504"
  },
  {
   "id": "229ebf9e-2522-416a-83d8-17a88dbec43a",
@@ -2741,7 +2741,7 @@
  },
  {
   "id": "99567b98-3e04-42c1-b928-3084f5984b70",
-  "answer": "November 10th to November 16th (closing at 5 PM)"
+  "answer": "2023: November 10th to November 16th; 2022: until November 17th at 5 PM; 2024: until October 24th."
  },
  {
   "id": "1f52b9d8-7301-4f1c-b626-aa8c8bdacfd3",
@@ -2757,7 +2757,7 @@
  },
  {
   "id": "9d8fd18a-859a-461a-8d73-ae3cc6793043",
-  "answer": "2024-10-20 (around 2:49 PM)"
+  "answer": "October 20, 2024"
  },
  {
   "id": "83f22d3f-5da4-4a1c-b2f4-45b57eceb951",
@@ -2773,7 +2773,7 @@
  },
  {
   "id": "9673a5a9-67f1-42fc-bd22-f9f4b4b9824e",
-  "answer": "Unknown"
+  "answer": "2022-12-12"
  },
  {
   "id": "db6ca563-263c-49a2-b223-f0e1be684cd4",
@@ -2781,7 +2781,7 @@
  },
  {
   "id": "184bbfa7-42c1-43af-afee-5455e7cef625",
-  "answer": "November 18, 2023 at 5:30 p.m. at the Master’s Lodge"
+  "answer": "November 18, 2023 at 5:30 p.m. at the Master’s Lodge."
  },
  {
   "id": "e1b97650-3553-4813-9590-9b79b034d881",
@@ -2805,7 +2805,7 @@
  },
  {
   "id": "2f75e1c9-5be6-41b9-b04e-41edac3047d2",
-  "answer": "Unknown"
+  "answer": "20231213_111231,20231213_111233"
  },
  {
   "id": "7f566777-82ac-4e16-b900-c39d8b3d0f0a",
@@ -2825,7 +2825,7 @@
  },
  {
   "id": "949f1a91-1987-4758-a761-74e1476834d0",
-  "answer": "Unknown"
+  "answer": "Around 7:00 PM on 2022-06-19."
  },
  {
   "id": "398d2edd-bcd8-48b3-9a9f-c7e29d0f3aa2",
@@ -2833,7 +2833,7 @@
  },
  {
   "id": "ba9db9da-f8b8-4edf-bf54-07c5567aad64",
-  "answer": "Book via the Handshake listing and indicate if you plan to join the presentation with the Technical Director."
+  "answer": "Book via the Handshake listing and indicate whether you plan to join the presentation with the Technical Director."
  },
  {
   "id": "270b06d4-c3de-4f6f-83de-f39669d67c1e",
@@ -2845,7 +2845,7 @@
  },
  {
   "id": "90e8e1a4-cae2-4b0e-890d-71f0d39f839e",
-  "answer": "Unknown"
+  "answer": "Fish Market Sushi Bar, Sydney Fish Market waterfront, Pyrmont, Sydney, Australia"
  },
  {
   "id": "043d5fa1-7e51-4fb4-b709-e02478b25f33",
@@ -2857,11 +2857,11 @@
  },
  {
   "id": "724824f3-4dee-4a5d-912b-e244c876f7b5",
-  "answer": "A traditional British roast dinner with Yorkshire pudding, roast beef, roasted potatoes, and broccoli."
+  "answer": "A traditional roast dinner with Yorkshire pudding, roast meat, roasted potatoes, and broccoli."
  },
  {
   "id": "07751b78-9e03-45c3-ba80-a9f14287dcac",
-  "answer": "Scallops with salmon roe, sashimi (tuna and salmon), oysters, and shrimp."
+  "answer": "Scallops (with salmon roe/sea urchin), oysters, shrimp, and sashimi (tuna/salmon)."
  },
  {
   "id": "7262e72b-332d-47e6-8ce4-d9ac827a5518",
@@ -2873,7 +2873,7 @@
  },
  {
   "id": "476df188-9a95-41db-8b9d-aba4eb484903",
-  "answer": "Unknown"
+  "answer": "20230416_145549,20230416_145547,20230416_183708,20230416_183711"
  },
  {
   "id": "42af9d13-a8ce-43ef-bbbc-c5b6b281b6b8",
@@ -2889,7 +2889,7 @@
  },
  {
   "id": "7848ba6f-2842-4b1a-b30e-d6546fd7f39c",
-  "answer": "2023-04-20 14:40"
+  "answer": "2023-04-20 at 17:00"
  },
  {
   "id": "0eb38553-7862-4165-9927-06a1016a5016",
@@ -2909,11 +2909,11 @@
  },
  {
   "id": "98d80fcc-ffc7-4948-a551-a83a076a4693",
-  "answer": "20230127_194458, 20230127_194453"
+  "answer": "Unknown"
  },
  {
   "id": "a15b2686-a200-4f4b-b76b-5560cd40d3bb",
-  "answer": "Salmon with caviar and microgreens"
+  "answer": "Salmon with caviar and microgreens."
  },
  {
   "id": "d107292e-71a7-47e7-9d20-d724563a56f2",
@@ -2921,11 +2921,11 @@
  },
  {
   "id": "cfc9b7ec-1948-4a52-848a-eff9289f0818",
-  "answer": "Jamón (Spanish cured ham)"
+  "answer": "It was a large cured ham (jamón), described as part of a traditional Galician ham display."
  },
  {
   "id": "cf241cdb-f168-44c5-9cb8-55cc011cf310",
-  "answer": "Monday to Friday, 10:00-12:00 and 14:00-16:00."
+  "answer": "Monday to Friday, 10:00–12:00 and 14:00–16:00."
  },
  {
   "id": "c859d902-6772-4fb6-bd04-c921ddd9620a",
@@ -2933,7 +2933,7 @@
  },
  {
   "id": "caec6c16-52cb-4022-928c-2b3e747a9bb4",
-  "answer": "April 20-26, 2022"
+  "answer": "April 20–26, 2022"
  },
  {
   "id": "1c7339be-1b0b-401a-ae43-c5c52133ccc6",
@@ -2957,7 +2957,7 @@
  },
  {
   "id": "baafa0e6-cf63-4453-992b-3e1c8bec9ff9",
-  "answer": "25, Copthall Avenue, Moorgate, City of London, Greater London, England, EC2R 7BP, United Kingdom"
+  "answer": "25 Copthall Avenue, Moorgate, City of London, England"
  },
  {
   "id": "1e847371-9767-431c-9bb9-d7130ba00697",
@@ -2973,7 +2973,7 @@
  },
  {
   "id": "86f78e6e-ace3-4bf2-9a24-3748f02a1d81",
-  "answer": "The hob and fridge"
+  "answer": "The hob and fridge."
  },
  {
   "id": "ec09cd9c-42ba-4fcc-92d9-4a98e5421094",
@@ -2989,11 +2989,11 @@
  },
  {
   "id": "30fbbfb4-6d7d-4ebe-b95f-ccf7093bef13",
-  "answer": "October 28th at 4:30 PM"
+  "answer": "October 28th 2023 (Saturday) at 4:30 PM."
  },
  {
   "id": "9a4d21c1-5733-4fe0-9e07-24a468e54fe3",
-  "answer": "June 26"
+  "answer": "June 26th"
  },
  {
   "id": "7918fbf0-9f1c-4a28-bf96-482dbf73f8d2",
@@ -3001,7 +3001,7 @@
  },
  {
   "id": "7aed35be-eb40-4d82-836c-da226e1486a4",
-  "answer": "20230225_223313, 20230624_220854, 20230131_154119, 20250313_180600, 20230131_154130, 20240511_221336, 20240806_200114, 20240511_231054, 20230922_191312, 20240713_172354, 20230918_192037"
+  "answer": "20230225_223313, 20230624_220854, 20230131_154119, 20250313_180600, 20230131_154130, 20240806_200114, 20240511_231054, 20230922_191312, 20240713_172354, 20230918_192037"
  },
  {
   "id": "8219c170-221b-47cd-8a8b-7ba2431e305a",
@@ -3017,11 +3017,11 @@
  },
  {
   "id": "74e5bc78-af16-4e75-869b-aea32fdc5e21",
-  "answer": "金庸"
+  "answer": "金庸 (Jin Yong)"
  },
  {
   "id": "2fd48b42-bc3a-435e-9d0d-9dc04eed85b6",
-  "answer": "On the night of 2024-08-19 in Guangzhou, you visited the illuminated Big Buddha Temple at dusk. You then had dessert on Dezheng Middle Road: a bowl of milk tea/creamy milky white dessert and a slice of yellow-frosted pastry with a yellow-orange filling. Later that night you ate fried chicken wings with steamed rice/soup, then a clay pot of rice with greens and meat plus a bowl of dark soup. Around 20:58–21:02 you also went to/queued at Baihua Traditional Dessert Shop and a food stall whose menu included “Papaya with Rice Milk.”"
+  "answer": "You visited the illuminated Big Buddha Temple at dusk, then went to Dezheng Middle Road and had dessert—a bowl of milk tea and a slice of yellow-frosted pastry with yellow filling—and later queued at Baihua Traditional Dessert Shop."
  },
  {
   "id": "585bc644-bb88-4671-8aac-c299a5f79acd",
@@ -3033,7 +3033,7 @@
  },
  {
   "id": "7800ac77-92c6-40c7-a0e9-7293e976b8f7",
-  "answer": "Yes. Online check-in for the March 16 flight to Shanghai opened on March 14, 2023, at 13:59 (48 hours before departure)."
+  "answer": "Yes — online check-in opened on March 14, 2023 (about 48 hours before the March 16 departure)."
  },
  {
   "id": "09325332-67e4-49cb-b7df-43c75c2328d5",
@@ -3041,7 +3041,7 @@
  },
  {
   "id": "8ac9782c-1063-4260-ae67-1bb7d80bba83",
-  "answer": "2023-01-15; travel to/from Heathrow Airport/London."
+  "answer": "Unknown"
  },
  {
   "id": "a295b8fd-d1d2-4d7d-b142-4f85b58d126a",
@@ -3053,11 +3053,11 @@
  },
  {
   "id": "9edc402f-d8c6-40ad-8a9c-1412307940eb",
-  "answer": "Heritage Of Scotland, 459-461, Lawnmarket, Abbeyhill, Old Town, City of Edinburgh, Scotland, EH1 2PQ, United Kingdom"
+  "answer": "Heritage Of Scotland, 459-461 Lawnmarket, Abbeyhill, Old Town, City of Edinburgh, Scotland, United Kingdom"
  },
  {
   "id": "3a55ccdf-eeef-4802-bf1b-7b1d749156df",
-  "answer": "Laing Art Gallery, Newcastle upon Tyne, United Kingdom"
+  "answer": "Laing Art Gallery, Newcastle upon Tyne"
  },
  {
   "id": "2af75f61-cd58-43f6-a210-b4f89b182644",
@@ -3065,7 +3065,7 @@
  },
  {
   "id": "f38455dd-f978-4b9f-b0eb-4c55b32e217b",
-  "answer": "20240806_161925, 20240806_161923"
+  "answer": "20240806_161925,20240806_161923"
  },
  {
   "id": "200dcd3f-7392-46ed-bda1-5163fb4856e2",
@@ -3077,7 +3077,7 @@
  },
  {
   "id": "58bbe2ae-13e1-4932-9e50-18f04110b1aa",
-  "answer": "Venison Wellington"
+  "answer": "Unknown"
  },
  {
   "id": "0abadaa5-c3c6-4e06-932e-14a660f0e999",
@@ -3105,7 +3105,7 @@
  },
  {
   "id": "26740b66-cbd6-4072-b9ce-9004f5e8ec64",
-  "answer": "Chelsea Embankment, London, England, United Kingdom"
+  "answer": "Chelsea Embankment, Chelsea, London, England, United Kingdom"
  },
  {
   "id": "b21d400a-8ff5-4839-8b2b-0d83216f8df4",
@@ -3113,7 +3113,7 @@
  },
  {
   "id": "52979cf5-d27a-4721-b82f-2f1c8d8e54a9",
-  "answer": "December 5, 2022"
+  "answer": "12/05/2022"
  },
  {
   "id": "731babb6-9c89-4068-a4c5-32820f38cff3",
@@ -3125,7 +3125,7 @@
  },
  {
   "id": "578449c2-593e-4390-88d0-013306a05913",
-  "answer": "September 29, 2023"
+  "answer": "September 29, 2023."
  },
  {
   "id": "cc1669c4-3598-4ea5-b6dd-31d96ecddc12",
@@ -3141,7 +3141,7 @@
  },
  {
   "id": "d868c4ac-273a-4571-81f5-2b1103044ae9",
-  "answer": "Unknown"
+  "answer": "4982547"
  },
  {
   "id": "b6a0637e-4b78-4d2a-b362-a5442cf92e7c",
@@ -3153,15 +3153,15 @@
  },
  {
   "id": "41e4a473-65d8-4c5b-a73a-27e578157fac",
-  "answer": "2022-12-04 11:18:26"
+  "answer": "Unknown"
  },
  {
   "id": "216b8103-253e-4ba4-b54f-0fc2b6fb8d40",
-  "answer": "December 3rd"
+  "answer": "December 3rd, 2024"
  },
  {
   "id": "d7a19037-3e24-454f-8a4d-3f39502bb71e",
-  "answer": "A whiteboard research note on a graph-based model for “hatefulness” detection, with constraints and a diagram of a node-based system, in the Department of Engineering at the University of Cambridge on 2023-08-04."
+  "answer": "A research note on a graph-based model for “hatefulness” detection / hatefulness-aware embedding, with constraints and a node-based system diagram, at the Department of Engineering, University of Cambridge, on 2023-08-04."
  },
  {
   "id": "e3e98bcf-d3ed-428e-8009-fdac17814978",
@@ -3169,7 +3169,7 @@
  },
  {
   "id": "aa72e364-e695-436c-9641-742338ff96a3",
-  "answer": "20231212_091240"
+  "answer": "20231212_091503"
  },
  {
   "id": "b00921cc-3630-4622-8d5f-4e1f5a1d38b0",
@@ -3185,19 +3185,19 @@
  },
  {
   "id": "60a1779c-8b8c-4ac1-8d5b-04eb55c217f7",
-  "answer": "2022-04-30, at Corpus Christi College (University of Cambridge), Trumpington Street, Cambridge, Cambridgeshire, England (13:49:44)."
+  "answer": "2022-04-30 at Corpus Christi College, Trumpington Street, Cambridge, England."
  },
  {
   "id": "bdd2e038-41bd-4f4c-9769-c4d02b091cd5",
-  "answer": "Rúa Travesa, Santiago de Compostela, Spain"
+  "answer": "Rúa Travesa, Santiago de Compostela, Spain."
  },
  {
   "id": "9ee348c7-9885-4998-8b73-9d6cb660be2f",
-  "answer": "2023-06-26 16:00:54"
+  "answer": "2023-06-26 at 16:00:54"
  },
  {
   "id": "788c9949-a762-4a31-bcd4-33fadbc4f090",
-  "answer": "1, Place de Mexico, Quartier de la Porte-Dauphine, 16th Arrondissement, Paris, Metropolitan France, 75116, France"
+  "answer": "Place de Mexico in the 16th Arrondissement of Paris."
  },
  {
   "id": "09467c0a-5d39-4453-8d24-b7a2b66141c3",
@@ -3213,11 +3213,11 @@
  },
  {
   "id": "50b8de58-4dd1-4e7e-8771-6f522d682c0c",
-  "answer": "Renrui Zhang"
+  "answer": "Hao Sun"
  },
  {
   "id": "e3299ed6-1b1a-42c0-9b01-fd9dfa495385",
-  "answer": "June 3, 2022, at 5:30 pm"
+  "answer": "Friday, June 3, 2022, at 5:30 pm in Peterhouse Chapel."
  },
  {
   "id": "0c1adf70-2ccb-4cbc-8fb2-2cca0b5de1c9",
@@ -3225,11 +3225,11 @@
  },
  {
   "id": "6877e24a-d40b-4c03-8c5c-49d842abe25e",
-  "answer": "EXDISPLAY NZXT Kraken Z53 240mm All-In-One Hydro CPU Cooler"
+  "answer": "NZXT Kraken Z53 240mm All-In-One Hydro CPU Cooler"
  },
  {
   "id": "88abe0d2-02dc-4f5e-acb9-07a26ecb5b52",
-  "answer": "Unknown"
+  "answer": "Palace of Westminster"
  },
  {
   "id": "286dc34e-762a-4d3e-ac95-671c7d810051",
@@ -3245,7 +3245,7 @@
  },
  {
   "id": "e8fd9c8f-bfea-4168-80d6-18af97113d24",
-  "answer": "Wi-Fi name: Hungry Panda (熊猫外卖); password: SKY1849D."
+  "answer": "Wi-Fi name: WBNXCSM/0Q; password: SKY1849D"
  },
  {
   "id": "015762a8-8f72-46f1-8bca-26cdfa5d449e",
@@ -3261,7 +3261,7 @@
  },
  {
   "id": "7a01551a-7798-4b53-a2d1-ee1fa40fb5c5",
-  "answer": "61, Dalry Road, Ardmillan, Gorgie/Dalry, City of Edinburgh, Scotland, EH11 2BZ, United Kingdom"
+  "answer": "61–63 Dalry Road, Ardmillan, Gorgie/Dalry, Edinburgh, Scotland (restaurant name not provided in evidence)."
  },
  {
   "id": "90ba4630-ea18-43b6-bec9-7cd51e42fafe",
@@ -3277,7 +3277,7 @@
  },
  {
   "id": "93def806-a378-465a-aa3f-4dff0adff031",
-  "answer": "Unknown"
+  "answer": "Wood Pizza Bistro and Taphouse, 404 Andrew Higgins Street, Warehouse District, New Orleans, Louisiana."
  },
  {
   "id": "d8aa224e-9c50-44b2-93f7-cf983cb844dc",
@@ -3297,7 +3297,7 @@
  },
  {
   "id": "3a990385-ae14-4b1d-a457-21612e6a6082",
-  "answer": "Monday, 1 July 2024"
+  "answer": "July 1, 2024"
  },
  {
   "id": "60c7ef37-80fc-4f1d-a3cc-593c011a4973",
@@ -3309,11 +3309,11 @@
  },
  {
   "id": "23121d6c-989c-4907-ae90-238872d4f8ec",
-  "answer": "2024-10-20 at 19:45"
+  "answer": "October 20, 2024 at 19:45."
  },
  {
   "id": "dabecd07-c92d-4007-bb74-4ab5702098c8",
-  "answer": "3 days"
+  "answer": "Until 5 pm on Friday, February 4, 2022 (3 days)."
  },
  {
   "id": "c4f8a140-c452-421b-b4f9-6b2149ef943c",
@@ -3321,7 +3321,7 @@
  },
  {
   "id": "599e65ff-1da1-4f19-a478-7abd14747d2d",
-  "answer": "2023-11-07 at 20:45"
+  "answer": "November 7, 2023 at 8:45 PM"
  },
  {
   "id": "4b3a611a-c372-4c64-b59b-1a994241784e",
@@ -3329,7 +3329,7 @@
  },
  {
   "id": "ac513192-d0c0-480e-a6f9-c47f077f5c28",
-  "answer": "2022-10-15 16:55:39"
+  "answer": "15 October 2022"
  },
  {
   "id": "2c794bf0-259c-4369-ae67-93e4e2442eae",
@@ -3341,27 +3341,27 @@
  },
  {
   "id": "e7d53487-3bb8-40b6-969d-544a508b758f",
-  "answer": "2022-05-10 14:03:36"
+  "answer": "10 May 2022"
  },
  {
   "id": "9d332d3e-99cf-4bc3-a74e-fdb995192fc1",
-  "answer": "May 2nd and 3rd during dinner"
+  "answer": "May 2nd and 3rd during dinner."
  },
  {
   "id": "8193bb81-b391-43a3-b208-508c5ccc80cd",
-  "answer": "email202302190006, email202302200003, email202303110005"
+  "answer": "email202302190006, email202302200003, email202303110005, 20230624_122210, 20230630_154802"
  },
  {
   "id": "93fe9c46-adf4-4803-8968-e35523e0bd8a",
-  "answer": "Edgeway Road, Old Marston, Oxford, Oxfordshire, England, OX3 0HG, United Kingdom"
+  "answer": "Edgeway Road, Old Marston, Oxford, Oxfordshire, England, OX3 0HG"
  },
  {
   "id": "32d365b0-c794-4953-a89f-85d2846b4be2",
-  "answer": "Unknown"
+  "answer": "4,95€"
  },
  {
   "id": "fadf2286-8319-4a22-bd20-724a3471afa2",
-  "answer": "65, Shoonah Janoobiyah Sub-District, Shoonah Janoobiyah District, Balqa, Jordan"
+  "answer": "At 65, Shoonah Janoobiyah Sub-District, Shoonah Janoobiyah District, Balqa, Jordan — near the Dead Sea."
  },
  {
   "id": "15488f8c-6514-4d42-ad39-d22cb3d17506",
@@ -3393,19 +3393,19 @@
  },
  {
   "id": "f37ced48-0df4-4bc8-87cc-1ad5033c4d69",
-  "answer": "25, Parkside, The Kite, Petersfield, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB1 1JE, United Kingdom"
+  "answer": "At 25 Parkside, The Kite, Petersfield, Cambridge, Cambridgeshire, England — parked on a wet stone path near a black metal fence (Evidence 3; also seen in Evidence 4)."
  },
  {
   "id": "f8f2f637-f8d3-459d-9df1-7c7db9e2709b",
-  "answer": "St John's College, Cambridge"
+  "answer": "St John’s College, Cambridge (Evidence 16)"
  },
  {
   "id": "b568c9fc-d8c0-49b5-8d00-bd1a974220db",
-  "answer": "May 20th at midday"
+  "answer": "May 20th at midday."
  },
  {
   "id": "03e12392-fdba-400a-945b-fe22b0d16978",
-  "answer": "2023-02-20"
+  "answer": "Unknown"
  },
  {
   "id": "07c18f1c-3317-492a-8a5d-cf3c4dc0ec83",
@@ -3421,11 +3421,11 @@
  },
  {
   "id": "fc1c8922-f3dd-447a-a744-9f8c49050e7b",
-  "answer": "2025-04-29 17:56:20, Nanjing Dumpling (小金陵)"
+  "answer": "2025-04-29; Nanjing Dumpling (小金陵)"
  },
  {
   "id": "d2beb429-0a4e-4f20-a3f9-2047937630fe",
-  "answer": "2022-05-26"
+  "answer": "Unknown"
  },
  {
   "id": "877a0636-3aa1-4093-8b1d-64b79a40c7c6",
@@ -3437,11 +3437,11 @@
  },
  {
   "id": "2d3ba0a9-988f-4190-98e7-a7083f6b3817",
-  "answer": "20240730_205350"
+  "answer": "Unknown"
  },
  {
   "id": "53474a37-9e33-4c83-a5f6-f2cdd4af8799",
-  "answer": "Unknown"
+  "answer": "Not yet assigned"
  },
  {
   "id": "af63700e-091a-474d-be2b-04492bb9696a",
@@ -3457,7 +3457,7 @@
  },
  {
   "id": "2d65589b-c0af-4a85-aa20-d3d42949257f",
-  "answer": "Houston-Bush Intl"
+  "answer": "Houston (Houston-Bush Intl)"
  },
  {
   "id": "0cc05254-1fd9-4b55-8299-c2c8a403ed91",
@@ -3473,7 +3473,7 @@
  },
  {
   "id": "6d60183f-d543-433c-b41a-2f9c97c279df",
-  "answer": "Unknown"
+  "answer": "£50.45"
  },
  {
   "id": "25646d00-9de0-409f-bbad-39e9f7bd1ee3",
@@ -3481,11 +3481,11 @@
  },
  {
   "id": "01f81284-b60e-4fec-af9d-be377eff8b72",
-  "answer": "Unknown"
+  "answer": "Meet in the Middle: A New Pre-training Paradigm"
  },
  {
   "id": "304552d2-952b-4bfa-a3f1-326d5a61ea94",
-  "answer": "20220522_195505"
+  "answer": "20220522_195505,20220522_195503"
  },
  {
   "id": "cd0e4ec5-5748-4b8f-9e2e-2fb796375965",
@@ -3493,15 +3493,15 @@
  },
  {
   "id": "b30cdcf7-dc92-4c7f-b78b-60a874540efa",
-  "answer": "Ames Street, Harlow Square, Cambridge, Middlesex County, Massachusetts, 02142, United States"
+  "answer": "Ames Street, Harlow Square, Cambridge, Massachusetts 02142, United States"
  },
  {
   "id": "e3d0549b-9401-4dd8-94f5-57ea84fc5964",
-  "answer": "2023-04-20"
+  "answer": "2023-04-20, around 14:30–14:45."
  },
  {
   "id": "271a3d52-6f8f-4938-863a-b2f75963d402",
-  "answer": "175"
+  "answer": "175 points"
  },
  {
   "id": "917a9506-0d74-4008-86db-2f069952f931",
@@ -3525,7 +3525,7 @@
  },
  {
   "id": "9d1984a5-8904-453e-be3c-b3915940f54c",
-  "answer": "2022-06-02"
+  "answer": "2nd June 2022"
  },
  {
   "id": "5aa36085-8b55-43ba-9b18-8d028f7464c4",
@@ -3533,11 +3533,11 @@
  },
  {
   "id": "758e2410-769d-4d6c-a20a-16774008bb11",
-  "answer": "Thong Smith Boat Noodles, Bangkok, Thailand"
+  "answer": "Thong Smith Boat Noodles in Bangkok (999/9 Rama I Road, Siam, Pathum Wan)."
  },
  {
   "id": "b23db9fd-f0c4-4740-b057-3a7738c4757f",
-  "answer": "20240812_190838"
+  "answer": "20240615_121011"
  },
  {
   "id": "9c651ca5-5870-4137-a2e0-ff798c95113e",
@@ -3549,7 +3549,7 @@
  },
  {
   "id": "490d4dc7-32f5-4871-8ee3-0206b5233323",
-  "answer": "April 20th and 21st"
+  "answer": "April 20th and 21st."
  },
  {
   "id": "ff58e953-7e07-4b70-bd8d-335cdb268001",
@@ -3561,15 +3561,15 @@
  },
  {
   "id": "99c02b0b-d6b9-4898-9b95-62b4e6f5681c",
-  "answer": "Mediterranea, at City Life Shopping District, Via Anna Castelli Ferrieri, Tre Torri, Municipio 8 di Milano, Milan, Lombardy, 20145, Italy."
+  "answer": "Mediterranea, City Life Shopping District, Milan, Italy"
  },
  {
   "id": "26b00df4-a5bc-40f0-9e04-4d694bab7e3a",
-  "answer": "Thursday, December 12th, 2024, from 2pm to 6pm"
+  "answer": "Thursday, December 12, 2024, from 2pm to 6pm."
  },
  {
   "id": "f98ca920-74d6-4eef-805a-65ca4c9c2d47",
-  "answer": "Cucumber, bean sprouts, and cilantro"
+  "answer": "Cucumber, bean sprouts, and cilantro."
  },
  {
   "id": "66f52978-9b03-41fd-a3a4-2436fe4996a4",
@@ -3577,7 +3577,7 @@
  },
  {
   "id": "cb3761eb-0d8b-43c4-9d12-f6474ef53650",
-  "answer": "Dashatou Road, Dashatou, Baiyun, Yuexiu District, Guangzhou City, Guangdong Province, 510100, China"
+  "answer": "Dishifu Road, Liwan District, Guangzhou City, Guangdong Province (华林街道)"
  },
  {
   "id": "5ce7db83-827b-42d2-9778-7045f062f5d0",
@@ -3593,7 +3593,7 @@
  },
  {
   "id": "cfa294fa-60e6-4594-88ee-fb7e80aa4e2c",
-  "answer": "Godstow Road, Lower Wolvercote, Oxford, Oxfordshire, England, United Kingdom"
+  "answer": "Godstow Road, Lower Wolvercote, Oxford, England."
  },
  {
   "id": "25012e70-fc62-42a7-b5a9-5fd5873457a4",
@@ -3613,7 +3613,7 @@
  },
  {
   "id": "a75e1597-ff57-49e9-8ac4-6ded0b29e7ff",
-  "answer": "Friday 6th and Friday 13th October, 19:30–21:30, University Sports Center Studio 1"
+  "answer": "Friday 6 and Friday 13 October 2023, 19:30–21:30, at the University Sports Center Studio 1 (University of Cambridge Sports Centre), Petersfield, Cambridge."
  },
  {
   "id": "ff317ade-0607-4805-9316-521a7925b64b",
@@ -3625,7 +3625,7 @@
  },
  {
   "id": "fd8adf5b-f861-4069-be5c-8dffd87cfafa",
-  "answer": "Unknown"
+  "answer": "20231210_125339"
  },
  {
   "id": "114ca023-5f81-4e98-8fd8-3cc4433201a3",
@@ -3637,7 +3637,7 @@
  },
  {
   "id": "dfe00e9e-29b8-4d5f-b64c-420c7576e884",
-  "answer": "Mandarin Oriental Hyde Park, 66, Knightsbridge, London, England"
+  "answer": "Mandarin Oriental Hyde Park, Knightsbridge, London"
  },
  {
   "id": "8afcc6ce-d88b-4687-9613-12ef2bd12cd1",
@@ -3653,7 +3653,7 @@
  },
  {
   "id": "bf1b0849-c334-478f-8ca7-f9f131cf52a5",
-  "answer": "April 3rd to April 11th"
+  "answer": "April 3rd to April 11th."
  },
  {
   "id": "b7ff00e3-6bf7-420e-ad15-4201758a836d",
@@ -3661,27 +3661,27 @@
  },
  {
   "id": "5709758c-8656-4b9d-82e8-109c90129619",
-  "answer": "Thursday, July 24th, 2025, at 4:00 PM"
+  "answer": "July 24th, 2025, at 4:00 PM"
  },
  {
   "id": "251347ec-5a73-4810-a87c-af84c8b76dca",
-  "answer": "October 20th at 8:30 PM, theme: Trust."
+  "answer": "October 20th at 8:30 PM, theme: “Trust.”"
  },
  {
   "id": "6faeffe4-3aef-46b2-837d-b7da74612cce",
-  "answer": "July 10th, with pre-drinks at 6:45 PM and dinner at 7:30 PM."
+  "answer": "July 10th"
  },
  {
   "id": "248c7e21-526f-4944-a210-3f6bdeb1f598",
-  "answer": "20240818_191203, 20240818_191543, 20240818_192713, 20240818_192717"
+  "answer": "20230326_192312, 20230326_182935"
  },
  {
   "id": "fcdb1de2-192f-44fb-8c0e-0f778f7a7ccf",
-  "answer": "The presentation was at the Ernest N. Morial Convention Center in New Orleans, Louisiana, on 2023-12-12. The slide titled \"Truth by disagreement\" discussed an approach of distributional truth for assessing reliability of data by harnessing rater disagreement, citing Aroyo, L., & Welty, C. (2014), The Three Sides of CrowdTruth, Human Computation, 1(1)."
+  "answer": "It was a conference presentation at the Ernest N. Morial Convention Center in New Orleans on 2023-12-12. The slide “Truth by disagreement” discussed using rater disagreement to assess data reliability / distributional truth, citing Aroyo & Welty (2014), with a Google logo visible."
  },
  {
   "id": "0eecd1cf-ff54-4433-95ee-3b7e512e935f",
-  "answer": "Gravel Walk, Kingsmead, Bath, Bath and North East Somerset, West of England, England, BA1 2NR, United Kingdom"
+  "answer": "Gravel Walk, Kingsmead, Bath, Bath and North East Somerset, England, United Kingdom"
  },
  {
   "id": "1be52707-7f3e-4ff7-9517-b9658e54b998",
@@ -3689,15 +3689,15 @@
  },
  {
   "id": "e1dfe639-88a0-4829-9b0f-1b6425a8dc9c",
-  "answer": "2024-11-19 16:09:11+00:00"
+  "answer": "2024-11-19"
  },
  {
   "id": "9a319585-7094-46b4-ba68-442ac9b925e2",
-  "answer": "May 18, 2022, from 15:15 to 16:45 BST"
+  "answer": "Wednesday, May 18, 2022, from 15:15 to 16:45 BST"
  },
  {
   "id": "d8e2a44a-9d7a-4028-9295-2ea34b03697d",
-  "answer": "Unknown"
+  "answer": "20241023_221120"
  },
  {
   "id": "a3a33ed8-bf9a-48e2-974a-843b8754231f",
@@ -3705,7 +3705,7 @@
  },
  {
   "id": "398134ad-753c-4fd2-9c90-45577513ce54",
-  "answer": "Unknown"
+  "answer": "20241001_115407"
  },
  {
   "id": "79074c1f-2ae2-4a4c-bf6e-2df7df4103a3",
@@ -3717,7 +3717,7 @@
  },
  {
   "id": "4be897da-a10a-4b92-9716-9d701a427453",
-  "answer": "2024-07-31 10:23:05"
+  "answer": "2024-07-31"
  },
  {
   "id": "0b6a11be-2216-4a40-94e6-58513ab64f82",
@@ -3725,7 +3725,7 @@
  },
  {
   "id": "8915d16e-6c8c-45a7-bced-2590e18e117a",
-  "answer": "One Financial Center, 1 Essex Street, Leather District, Downtown Boston, Boston, Suffolk County, Massachusetts, 02205, United States"
+  "answer": "Downtown Boston, Massachusetts, United States"
  },
  {
   "id": "aee3db7e-c652-456d-a17e-8dda777cfe5e",
@@ -3737,11 +3737,11 @@
  },
  {
   "id": "efc997df-abf5-45e5-afa1-896665ddaef1",
-  "answer": "Parkside, The Kite, Petersfield, Cambridge, Cambridgeshire, England"
+  "answer": "Parkside, The Kite, Petersfield, Cambridge"
  },
  {
   "id": "f1265e6e-90e0-4ae5-921b-de059c4d0db2",
-  "answer": "8:00 AM on Monday, March 13th"
+  "answer": "By 8:00 AM on March 13th."
  },
  {
   "id": "2ff4e5ce-bd5a-4a02-ae3c-58184754a0e4",
@@ -3761,7 +3761,7 @@
  },
  {
   "id": "c51f50e7-c26c-46e8-807c-402d89dd41dd",
-  "answer": "Laing Art Gallery, Newcastle upon Tyne"
+  "answer": "Marine Walk, Roker Marina, Sunderland"
  },
  {
   "id": "6525e4c5-891c-4d84-9854-4af9dc5b181e",
@@ -3793,7 +3793,7 @@
  },
  {
   "id": "92d1a2b6-82ff-440f-9ffc-06388f3cbdf1",
-  "answer": "June 11th-12th"
+  "answer": "June 11th–12th"
  },
  {
   "id": "b7728cea-ab5d-4473-8be1-3b1dc2178eff",
@@ -3805,7 +3805,7 @@
  },
  {
   "id": "ce0a7f98-f6eb-4c54-8e51-8ff8f8af9e53",
-  "answer": "Mushroom Houses in Azheke, Azheke, Aichun, Yuanyang County, Honghe, Yunnan, China"
+  "answer": "At Mushroom Houses in Azheke, Yuanyang County, Honghe, Yunnan, China."
  },
  {
   "id": "055bc2ed-8ac7-43b3-8f29-8a9b393ec5d7",
@@ -3821,7 +3821,7 @@
  },
  {
   "id": "9f98bf39-a49b-4760-86ac-caeae37ebebb",
-  "answer": "Riverview Kitchen"
+  "answer": "Unknown"
  },
  {
   "id": "c7a6a48d-f174-4d08-b8d6-c1702df49db9",
@@ -3837,15 +3837,15 @@
  },
  {
   "id": "61623c88-4ce6-46f2-9a7a-cae6e3a64bf9",
-  "answer": "May 12th"
+  "answer": "Thursday, May 12"
  },
  {
   "id": "b6a2c63d-2938-47e3-8cc7-d43986399206",
-  "answer": "OMFC Patch, Rowland Close, Lower Wolvercote, Wolvercote, Oxford, Oxfordshire, England"
+  "answer": "OMFC Patch, Rowland Close, Lower Wolvercote, Wolvercote, Oxford"
  },
  {
   "id": "99756dc5-3509-4cbd-b068-057dea667dab",
-  "answer": "black tie"
+  "answer": "Black tie"
  },
  {
   "id": "8275d3e3-f9db-44cc-83e8-c1594bece17f",
@@ -3853,7 +3853,7 @@
  },
  {
   "id": "c2658184-5fcd-4c1a-b342-008d4cd44cca",
-  "answer": "May 16, 2025"
+  "answer": "May 16, 2025."
  },
  {
   "id": "05de7c18-17cf-4552-8c02-ebcdff97ec70",
@@ -3861,7 +3861,7 @@
  },
  {
   "id": "ea30ad37-d627-4ad2-870b-688c7e34927f",
-  "answer": "5 days (April 16–20, 2023)"
+  "answer": "From April 16 to April 20, 2023 (5 days)."
  },
  {
   "id": "489e25b0-ab90-4365-98fa-40882bc68740",
@@ -3873,7 +3873,7 @@
  },
  {
   "id": "afe737a7-7387-4515-97ae-2f96904aeff6",
-  "answer": "Unknown"
+  "answer": "Outbound flight: £1,205.70; return flight: £187.90."
  },
  {
   "id": "2314e071-b2b5-4892-a30e-0596c5eafda6",
@@ -3881,11 +3881,11 @@
  },
  {
   "id": "ed583465-4d70-488a-aad1-795b1780df41",
-  "answer": "£23.01"
+  "answer": "£23.01 each"
  },
  {
   "id": "a6ca0fb5-8d6a-4759-927d-de9f8eac276c",
-  "answer": "October 12, 4 pm - 5 pm, at MR5, Center for Mathematical Sciences."
+  "answer": "October 12, 4 pm–5 pm, at MR5, Center for Mathematical Sciences."
  },
  {
   "id": "b36ef189-0fd7-4aa0-8632-ba93fe2eb5a5",
@@ -3893,7 +3893,7 @@
  },
  {
   "id": "d7f7dfc2-8bdf-4462-8723-54ede6363a95",
-  "answer": "National Portrait Gallery, Charing Cross Road, Seven Dials, Bloomsbury, London, Greater London, England, WC2H 0HE, United Kingdom"
+  "answer": "National Portrait Gallery, London"
  },
  {
   "id": "2dce59e1-bf90-44bc-9c49-96a940dc60e5",
@@ -3913,11 +3913,11 @@
  },
  {
   "id": "8b4332f3-bc74-48fb-99c6-0cbd088493a6",
-  "answer": "20230516_121722"
+  "answer": "20230516_121732"
  },
  {
   "id": "f83bc199-9d95-4d09-8af2-cd6e2714a136",
-  "answer": "Marlborough Avenue, Gunwharf Quays, Portsea, Portsmouth"
+  "answer": "Gunwharf Quays (Marlborough Avenue), Portsmouth."
  },
  {
   "id": "7ca44840-b1d0-49e4-bd58-0886998ceb2c",
@@ -3933,7 +3933,7 @@
  },
  {
   "id": "a34d20ab-48e2-4840-bf1c-cbc68d609cac",
-  "answer": "May 27"
+  "answer": "May 2"
  },
  {
   "id": "f98cc2a5-5730-4ac4-a216-a3cdf29cd60a",
@@ -3941,7 +3941,7 @@
  },
  {
   "id": "15077063-2667-4492-ad52-34cb407050f8",
-  "answer": "2024-04-23"
+  "answer": "April 23, 2024"
  },
  {
   "id": "76826a99-72e0-47c9-b174-6d36afb9d5aa",
@@ -3949,11 +3949,11 @@
  },
  {
   "id": "772a6e3c-0a9b-4def-ab97-551b51d41456",
-  "answer": "20230329_164647, 20230329_155908, 20230329_155922, 20230329_142302, 20230329_164652, 20230329_164746, 20230329_142030, 20230329_165017, 20230329_142018, 20230329_140207, 20230329_125602, 20230329_124052, 20230329_140049, 20230329_124125"
+  "answer": "20230329_164647, 20230329_155908, 20230329_155922, 20230329_142302, 20230329_164652, 20230329_164746, 20230329_142030, 20230329_165017, 20230329_140207, 20230329_142018, 20230329_125602, 20230329_124052, 20230329_140049, 20230329_124125"
  },
  {
   "id": "604043a6-d6db-4744-b3aa-d5f0a313a7ac",
-  "answer": "3 hours 56 minutes (10:00 AM to 1:56 PM)."
+  "answer": "Approximately 3 hours 56 minutes (from 10:00 AM to 1:56 PM)."
  },
  {
   "id": "00cd191c-a6c2-454a-a4d1-52188df2633b",
@@ -3961,7 +3961,7 @@
  },
  {
   "id": "83d598ca-d572-41fd-bfe4-44e9a143ee11",
-  "answer": "Cattle watering (lowered bank), The Willows, Chesterton, Cambridge, Cambridgeshire, England, CB4 1BS, United Kingdom"
+  "answer": "Chesterton, Cambridge, Cambridgeshire, England (The Willows, Cattle watering)."
  },
  {
   "id": "a257eaae-7930-4924-879b-0a99d17e1de8",
@@ -3969,7 +3969,7 @@
  },
  {
   "id": "f3a57df4-11a2-46b9-bd34-f44470445910",
-  "answer": "Apply for a Group Dining Permit via the web-based form on the intranet for special occasions/larger groups; otherwise, the limit is two guests per person, so you may need another College member to host the additional guest or cancel the extra ticket."
+  "answer": "You can host up to two guests per College member. For additional guests or larger groups on special occasions, apply for a Group Dining Permit via the web-based form on the intranet; otherwise, cancel the extra ticket or find another College member to host the additional guest. For second-guest invitations, contact the event coordinator by the stated deadline."
  },
  {
   "id": "fd91fe65-c65d-4dc0-bd2d-569e70c2c594",
@@ -3993,27 +3993,27 @@
  },
  {
   "id": "bf7efec6-46a7-4d75-bd97-5d4711adf106",
-  "answer": "Star Wars Day event (Star Wars-themed event at the bar with special drinks and mocktails)"
+  "answer": "A Star Wars-themed event at the bar, with special themed drinks and mocktails."
  },
  {
   "id": "f2b7f207-b3e3-4f37-be12-2dc00e23c967",
-  "answer": "2023-03-17 at Dubai International Airport, Terminal 03 Departure, Concourse B, Dubai, United Arab Emirates"
+  "answer": "2023-03-17 at Concourse B, Terminal 03 Departure, Dubai International Airport, Dubai, United Arab Emirates"
  },
  {
   "id": "8f7717e3-fef1-40a5-9185-5e7ab198151e",
-  "answer": "20250225_150659"
+  "answer": "20250225_142539"
  },
  {
   "id": "59190601-d502-497c-bc0a-e104b7c03670",
-  "answer": "No"
+  "answer": "No."
  },
  {
   "id": "1bb70058-a066-426c-a7d9-0ab24e82e395",
-  "answer": "Saint-Grégoire, Valensole, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France; and Abbaye Notre-Dame de Sénanque, Gordes, Vaucluse, Provence-Alpes-Côte d'Azur, France"
+  "answer": "Saint-Grégoire, Valensole, Alpes-de-Haute-Provence, France; and Abbaye Notre-Dame de Sénanque, Gordes, Vaucluse, France."
  },
  {
   "id": "fa6ae31a-052e-4983-8a7c-1fdf211ab553",
-  "answer": "August 22nd to 24th"
+  "answer": "August 22nd to 24th, 2022."
  },
  {
   "id": "21cfa781-266a-436e-a422-23f3a0db8b3a",
@@ -4033,7 +4033,7 @@
  },
  {
   "id": "93a4a015-4556-4c36-a5e6-b16b95620799",
-  "answer": "June 16th to 21st"
+  "answer": "June 16th to 21st, 2024"
  },
  {
   "id": "fe94d4dd-746d-4fc4-bf12-e0976cf9eeab",
@@ -4041,11 +4041,11 @@
  },
  {
   "id": "472f2dfb-984e-427a-8e40-88d0e212a873",
-  "answer": "Thursday, February 10th, 2022, at 6:30 PM in the Parlour."
+  "answer": "February 10th, 2022, at 6:30 PM"
  },
  {
   "id": "bb0e2639-9d18-4fd8-8a64-527c33f5fa64",
-  "answer": "FORREST GUMP"
+  "answer": "Forrest Gump"
  },
  {
   "id": "80423439-70b2-4a3a-8a58-8356b70a9c19",
