@@ -1,7 +1,7 @@
 {
   "harness": "Rolling-Memory",
   "type": "Memory",
-  "answer_model": "DeepSeek-V4.1-flash (deepseek-flash, DeepSeek official API)",
+  "answer_model": "DeepSeek V4.1 Flash (deepseek-flash, DeepSeek official API)",
   "memory_model": "Qwen3-VL-2B-Instruct",
   "memory_model_note": "Memory input is the benchmark's fixed official Qwen3-VL-2B SGM captions/emails, used unmodified. Zero additional LLM calls at index time: no re-captioning, no card rewriting, no re-scanning of the raw images or videos.",
   "retriever": "Adaptive Self-Information Ranking (0-Vector)",
