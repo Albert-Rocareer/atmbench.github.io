@@ -9,7 +9,7 @@
   "retriever": "Graphon V1"
  },
  "protocol": {
-  "system": "Graphon V1. Graphon uses a set of open source models as one part of a much larger closed source system. At ingest, Graphon processes the benchmark's raw emails, images and videos, and a VLM describes images and video frames; the benchmark's released processed-memory fields for images and videos (captions, OCR text, locations and tags) are kept as file metadata. The answer model below writes the answer from Graphon's retrieved context.",
+  "system": "Graphon V1. Graphon uses a set of open source models as one part of a much larger closed source system. At ingest, Graphon processes the benchmark's raw emails, images and videos, and an undisclosed VLM describes images and video frames; the benchmark's released processed-memory fields for images and videos (captions, OCR text, locations and tags) are kept as file metadata. The answer model below writes the answer from Graphon's retrieved context.",
   "profile": "standard",
   "execution_profile": "medium",
   "execution_profile_note": "API name of the profile; low = fast, medium = standard, high = deep",
@@ -31,7 +31,7 @@
   "retrieval_cutoff": 10,
   "retrieval_determinism": "The answer call does not drive retrieval. Before it, multi-step reasoning picks evidence and may run follow-up searches. The retriever is non-deterministic.",
   "data_access": "Graphon received the raw emails, images and videos and the benchmark's released processed-memory fields for images and videos.",
-  "tuning": "Developed with root-cause analysis on multi-hop questions, including ATM-Bench-Hard: its questions, reference answers and evidence were inspected, and settings and answer rules were chosen from that analysis. Broad questions (lists and aggregates) have more gold memories, so they run a broader search. Some questions use relative dates such as \"yesterday\", so the run sets a reference date. Adds multi-step reasoning for questions that span many memories.",
+  "tuning": "Benchmark-tuned: ATM-Bench-Hard questions, reference answers and gold evidence were inspected during development, and settings and answer rules were chosen from that analysis, so the QS is an optimistic estimate for unseen questions. Broad questions (lists and aggregates) have more gold memories, so they run a broader search. Some questions use relative dates such as \"my recent trip\" with no stated date. The run uses one corpus-level reference date for every question: 2025-07-23, the day after the timestamp of the latest memory in the corpus. It was set by this rule before Hard tuning and was not chosen per question. Adds multi-step reasoning for questions that span many memories.",
   "judge_model": "gpt-5-mini",
   "judge_reasoning_effort": "minimal",
   "evaluator": {
