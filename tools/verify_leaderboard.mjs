@@ -7,6 +7,14 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const html = readFileSync(path.join(root, 'leaderboard.html'), 'utf8');
 const hardSrc = readFileSync(path.join(root, 'static/js/atm_hard_rows.js'), 'utf8');
 
+// Compile every inline page script. Reading TRACKS as data is not enough: a
+// stray backslash before a closing quote can leave the renderer uncompiled and
+// blank every board while the row data still validates.
+const inlineScripts = [...html.matchAll(/<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/gi)];
+for (const [i, match] of inlineScripts.entries()) {
+  new vm.Script(match[1], { filename: `leaderboard-inline-${i + 1}` });
+}
+
 function extractArray(source, marker) {
   const start = source.indexOf(marker);
   if (start < 0) throw new Error(`missing ${marker}`);
@@ -142,6 +150,8 @@ function validateJudgeUsage(name, block) {
   }
   for (const id of verdictIds) assert(loggedIds.has(id), `${name}: verdict ${id} has no logged judge call`);
   for (const id of loggedIds) assert(verdictIds.has(id), `${name}: judge call ${id} has no published verdict`);
+  assert(block.judge_calls === loggedIds.size, `${name}: judge_calls ${block.judge_calls} != logged calls ${loggedIds.size}`);
+  assert(block.judge_calls === verdictIds.size, `${name}: judge_calls ${block.judge_calls} != verdicts ${verdictIds.size}`);
 }
 
 const mainMemexa = row(main, 'Memexa v2');
