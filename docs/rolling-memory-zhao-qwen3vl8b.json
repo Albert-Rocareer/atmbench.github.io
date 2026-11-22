@@ -24,6 +24,8 @@
     "run_selection": "One uninterrupted cold answer run per split (Hard 31, Main 1,013); 0 reused answers. Transport-only retries are attempts inside the same run; the first successful response the harness received is scored and every attempt is published. Judge verdicts come from one full instrumented pass (527 calls); every published verdict has one logged judge call.",
     "retry_policy": "Transport-only retries (empty body, 429/503, connection reset/EOF, client timeout) under the harness budget and the configured per-call deadline. A valid answer is never retried, and attempts are never ranked or selected. The scored answer is the first successful response the harness received for each question; every attempt is published with status, latency and server-reported usage, and system tokens/cost sum all attempts. A question that exhausts retries is an answer_error and aborts the run; the split is re-run from scratch, and no zero or relay-recovered answer is scored.",
     "answer_timeout_sec": 600,
+    "index_time_seconds": 15.902,
+    "index_time_note": "Index time = cold snapshot warmup 14361.73 ms + local SGM ingest 1.54 s (Main) / 1.56 s (Hard) = 15.90 s = 0.0044 h; the board reports 0.004 h. Zero LLM calls at index time; this is distinct from the answer-generation wall time.",
     "memory_mode": "processed_memory (fixed official 2B SGM)",
     "answer_model": "Qwen3-VL-8B-Instruct (Q8_0, local llama.cpp)",
     "answer_model_settings": {
