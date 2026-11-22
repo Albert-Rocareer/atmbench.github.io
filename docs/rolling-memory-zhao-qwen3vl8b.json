@@ -143002,7 +143002,7 @@
       "answer_prompt_k": 10,
       "answer_prompt_cap": 10,
       "delivered_k_note": "delivered_k is the actual answer-prompt item count. The Qwen row caps retrieval at 10 candidates and uses the engine's adaptive delivery within that cap (actual 1-10, median 10); it is not a fixed 10-item list.",
-      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix; R@50/R@64 come from the official retrieval-only 64-deep run (top-10 prefix identical for every question)."
+      "retrieval_depth_note": "R@10 comes from the retrieval-only 64-deep top-10 prefix (identical to the answer run's top-10 for every question); R@50/R@64 come from the official retrieval-only 64-deep run."
     },
     "hard": {
       "questions": 31,
@@ -147412,8 +147412,8 @@
       "answer_timeout_sec": 600,
       "answer_prompt_k": 10,
       "answer_prompt_cap": 10,
-      "delivered_k_note": "delivered_k is the actual answer-prompt item count. The Qwen row caps retrieval at 10 candidates and uses the engine's adaptive delivery within that cap (actual 1-10, median 10); it is not a fixed 10-item list.",
-      "retrieval_depth_note": "R@10 comes from the answer run's top-10 prefix; R@50/R@64 come from the official retrieval-only 64-deep run (top-10 prefix identical for every question)."
+      "delivered_k_note": "delivered_k is the actual answer-prompt item count. The Qwen row caps retrieval at 10 candidates and uses the engine's adaptive delivery within that cap (actual 2-10, median 10); it is not a fixed 10-item list.",
+      "retrieval_depth_note": "R@10 comes from the retrieval-only 64-deep top-10 prefix (identical to the answer run's top-10 for every question); R@50/R@64 come from the official retrieval-only 64-deep run."
     }
   }
 }

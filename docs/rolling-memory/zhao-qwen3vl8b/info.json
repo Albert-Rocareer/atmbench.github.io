@@ -8,5 +8,8 @@
   "organization": "Rocareer & Rolling & PsychologyLake.org.cn",
   "code_available": true,
   "repo": "https://github.com/rocareer/rolling-memory",
-  "engine_codename": "zhao"
+  "engine_codename": "zhao",
+  "model_sha256": "0d264b3941185d00a74f75c4245521dae088ff1efc90ab8d1754e83f5844adb0",
+  "model_quantization": "Q8_0",
+  "server": "llama.cpp"
 }
